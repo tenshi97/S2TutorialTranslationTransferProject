@@ -1,0 +1,772 @@
+1
+00:00:09,770 --> 00:00:12,920
+hello everybody and welcome to part five
+
+2
+00:00:12,920 --> 00:00:14,780
+in this gym I'll do a tutorial series
+
+3
+00:00:14,780 --> 00:00:17,330
+now before we get started I do want to
+
+4
+00:00:17,330 --> 00:00:19,340
+apologize for the lack of videos I have
+
+5
+00:00:19,340 --> 00:00:21,860
+not been feeling too well my mixer broke
+
+6
+00:00:21,860 --> 00:00:23,630
+meaning of my mic quality was just
+
+7
+00:00:23,630 --> 00:00:26,570
+appalling and again I really really
+
+8
+00:00:26,570 --> 00:00:28,849
+apologize for it but nevertheless let's
+
+9
+00:00:28,849 --> 00:00:30,500
+get started so in this video we're gonna
+
+10
+00:00:30,500 --> 00:00:32,659
+be taking a look at running functions on
+
+11
+00:00:32,659 --> 00:00:34,310
+the player which is important for two
+
+12
+00:00:34,310 --> 00:00:35,840
+reasons one is because we need to
+
+13
+00:00:35,840 --> 00:00:38,300
+understand how we can execute Mehta
+
+14
+00:00:38,300 --> 00:00:41,149
+functions on different data types but on
+
+15
+00:00:41,149 --> 00:00:42,829
+top of that we also need to understand
+
+16
+00:00:42,829 --> 00:00:44,899
+how we can get references to players in
+
+17
+00:00:44,899 --> 00:00:47,179
+different situations so what we're gonna
+
+18
+00:00:47,179 --> 00:00:49,699
+do we're gonna stop a single player
+
+19
+00:00:49,699 --> 00:00:51,410
+world if you have not done so already I
+
+20
+00:00:51,410 --> 00:00:53,570
+recommend you do so now then what we're
+
+21
+00:00:53,570 --> 00:00:55,160
+gonna do is we're gonna open up sublime
+
+22
+00:00:55,160 --> 00:00:57,260
+and that Lua file that is in our Garry's
+
+23
+00:00:57,260 --> 00:00:59,210
+Mod directory if you guys remember it
+
+24
+00:00:59,210 --> 00:01:02,210
+from the previous video I think so
+
+25
+00:01:02,210 --> 00:01:03,140
+anyway we're gonna go ahead we're gonna
+
+26
+00:01:03,140 --> 00:01:04,670
+get rid of that and we're gonna get
+
+27
+00:01:04,670 --> 00:01:08,210
+started so if you remember before well
+
+28
+00:01:08,210 --> 00:01:09,620
+actually we're get started first how do
+
+29
+00:01:09,620 --> 00:01:11,750
+we get a reference to the player so I'm
+
+30
+00:01:11,750 --> 00:01:13,970
+gonna open up the gmod wiki and I'm
+
+31
+00:01:13,970 --> 00:01:16,220
+gonna go ahead and search local whoops
+
+32
+00:01:16,220 --> 00:01:19,040
+local player and as you can see on the
+
+33
+00:01:19,040 --> 00:01:20,240
+global there's a function here called
+
+34
+00:01:20,240 --> 00:01:21,710
+local player now you know it's it's
+
+35
+00:01:21,710 --> 00:01:23,210
+orange which means you can only run on
+
+36
+00:01:23,210 --> 00:01:25,490
+the client and the description says that
+
+37
+00:01:25,490 --> 00:01:27,200
+it returns to place object of the
+
+38
+00:01:27,200 --> 00:01:29,030
+current client local player will return
+
+39
+00:01:29,030 --> 00:01:30,560
+no until all entities have been
+
+40
+00:01:30,560 --> 00:01:32,570
+initialized so this part we don't need
+
+41
+00:01:32,570 --> 00:01:34,430
+to worry about for now but this part is
+
+42
+00:01:34,430 --> 00:01:36,729
+important it returns to players object
+
+43
+00:01:36,729 --> 00:01:39,020
+yet the player object of the current
+
+44
+00:01:39,020 --> 00:01:41,450
+client so what that means is it will
+
+45
+00:01:41,450 --> 00:01:44,570
+return the player object itself in the
+
+46
+00:01:44,570 --> 00:01:45,950
+physical world and then we can do
+
+47
+00:01:45,950 --> 00:01:47,149
+whatever we want to it so what we're
+
+48
+00:01:47,149 --> 00:01:48,890
+gonna do is I'm gonna make a local
+
+49
+00:01:48,890 --> 00:01:50,750
+variable call it PRI and I'm gonna set
+
+50
+00:01:50,750 --> 00:01:53,180
+it equal to local player and I'm gonna
+
+51
+00:01:53,180 --> 00:01:54,740
+call that and I do have to call it as a
+
+52
+00:01:54,740 --> 00:01:56,390
+function let me go ahead and change this
+
+53
+00:01:56,390 --> 00:01:58,850
+to G mother there we go I do have to set
+
+54
+00:01:58,850 --> 00:02:00,770
+as a function because that's what it is
+
+55
+00:02:00,770 --> 00:02:03,439
+and now the variable PR y then source of
+
+56
+00:02:03,439 --> 00:02:05,780
+reference to this so just a just a
+
+57
+00:02:05,780 --> 00:02:07,490
+double check I'm gonna do lua underscore
+
+58
+00:02:07,490 --> 00:02:10,220
+whoops newer underscore open script and
+
+59
+00:02:10,220 --> 00:02:12,530
+score CL now you're gonna want to make
+
+60
+00:02:12,530 --> 00:02:14,960
+sure that you run this on the client
+
+61
+00:02:14,960 --> 00:02:16,820
+because local player will not work on
+
+62
+00:02:16,820 --> 00:02:18,290
+the server as we've seen it's a client
+
+63
+00:02:18,290 --> 00:02:20,060
+only function so when we run this as you
+
+64
+00:02:20,060 --> 00:02:22,580
+can see we've got no errors so things
+
+65
+00:02:22,580 --> 00:02:23,370
+are good
+
+66
+00:02:23,370 --> 00:02:25,019
+what can we do with this well let's go
+
+67
+00:02:25,019 --> 00:02:26,760
+ahead and go back to the gmod wiki and
+
+68
+00:02:26,760 --> 00:02:31,379
+search player if you search whoopsie
+
+69
+00:02:31,379 --> 00:02:33,659
+player right and then we're gonna go
+
+70
+00:02:33,659 --> 00:02:38,069
+into the classes section here and you'll
+
+71
+00:02:38,069 --> 00:02:40,560
+see all of these player : and then a ton
+
+72
+00:02:40,560 --> 00:02:42,810
+of these functions right so let's go
+
+73
+00:02:42,810 --> 00:02:46,230
+have a look at alive now this is blue
+
+74
+00:02:46,230 --> 00:02:48,540
+and orange which means it can be used on
+
+75
+00:02:48,540 --> 00:02:51,150
+both client and server now it checks if
+
+76
+00:02:51,150 --> 00:02:52,650
+the player is alive and will return a
+
+77
+00:02:52,650 --> 00:02:54,239
+boolean which is true or false of
+
+78
+00:02:54,239 --> 00:02:55,829
+whether the player is alive or not so
+
+79
+00:02:55,829 --> 00:02:57,569
+now let's say we go back in here we're
+
+80
+00:02:57,569 --> 00:03:00,209
+gonna go ahead and print well first of
+
+81
+00:03:00,209 --> 00:03:01,440
+all we're gonna make available I'm gonna
+
+82
+00:03:01,440 --> 00:03:04,799
+call it is a player alive now the way
+
+83
+00:03:04,799 --> 00:03:06,959
+how we call these functions is kind of
+
+84
+00:03:06,959 --> 00:03:08,519
+exactly what they look like here player
+
+85
+00:03:08,519 --> 00:03:09,930
+would be our reference to the player
+
+86
+00:03:09,930 --> 00:03:12,239
+then we do : and we call the function on
+
+87
+00:03:12,239 --> 00:03:14,579
+the player so in this case we can do PR
+
+88
+00:03:14,579 --> 00:03:18,569
+y : alive now remember that PR y is our
+
+89
+00:03:18,569 --> 00:03:21,870
+reference to our local player and what
+
+90
+00:03:21,870 --> 00:03:22,920
+we're gonna do is we're gonna check if
+
+91
+00:03:22,920 --> 00:03:24,390
+it's alive we're gonna store the value
+
+92
+00:03:24,390 --> 00:03:26,250
+that it returns inside of this is player
+
+93
+00:03:26,250 --> 00:03:26,790
+alive
+
+94
+00:03:26,790 --> 00:03:27,989
+and we're simply gonna go ahead and
+
+95
+00:03:27,989 --> 00:03:30,930
+we're gonna print out is player alive I
+
+96
+00:03:30,930 --> 00:03:32,880
+do apologize for that couch in let me
+
+97
+00:03:32,880 --> 00:03:34,769
+zoom out a bit hey guys so now if I go
+
+98
+00:03:34,769 --> 00:03:37,160
+back into my game and I run the script
+
+99
+00:03:37,160 --> 00:03:39,870
+as you can see it prints out true but if
+
+100
+00:03:39,870 --> 00:03:41,730
+I go ahead and kill myself and I rerun
+
+101
+00:03:41,730 --> 00:03:43,349
+that's good it now prints out false
+
+102
+00:03:43,349 --> 00:03:45,900
+because I am no longer alive so I hope
+
+103
+00:03:45,900 --> 00:03:48,840
+you understand that but on top of that
+
+104
+00:03:48,840 --> 00:03:51,419
+there is many many many things we can do
+
+105
+00:03:51,419 --> 00:03:53,250
+and in case you didn't notice at the
+
+106
+00:03:53,250 --> 00:03:56,819
+wiki there is a lot of things here so
+
+107
+00:03:56,819 --> 00:03:59,459
+let's go ahead and look at a few other
+
+108
+00:03:59,459 --> 00:04:01,410
+one so now the one set of blue for
+
+109
+00:04:01,410 --> 00:04:05,040
+example kill kill can only be called as
+
+110
+00:04:05,040 --> 00:04:07,769
+it says here can only be called because
+
+111
+00:04:07,769 --> 00:04:09,720
+it's blue on the server which means that
+
+112
+00:04:09,720 --> 00:04:12,930
+on the client you cannot kill anybody
+
+113
+00:04:12,930 --> 00:04:14,549
+from the client you can ask the server
+
+114
+00:04:14,549 --> 00:04:16,949
+to kill people but we'll get into that
+
+115
+00:04:16,949 --> 00:04:19,199
+on another date so let's go ahead and
+
+116
+00:04:19,199 --> 00:04:21,539
+take a look at some more some of these
+
+117
+00:04:21,539 --> 00:04:24,690
+being like the orange one we can take a
+
+118
+00:04:24,690 --> 00:04:27,010
+look at is speaking
+
+119
+00:04:27,010 --> 00:04:30,040
+and that is gonna return to a fault of
+
+120
+00:04:30,040 --> 00:04:33,910
+whether the play was speaking we got set
+
+121
+00:04:33,910 --> 00:04:38,350
+muted which would mute a never player on
+
+122
+00:04:38,350 --> 00:04:41,710
+the server so as long as you had this
+
+123
+00:04:41,710 --> 00:04:43,240
+would be the the other play on the
+
+124
+00:04:43,240 --> 00:04:45,340
+server then you could have a reference
+
+125
+00:04:45,340 --> 00:04:47,110
+to them set them to meet it and set to
+
+126
+00:04:47,110 --> 00:04:49,930
+meet it to true but yeah we're gonna go
+
+127
+00:04:49,930 --> 00:04:51,610
+ahead and take a look at Frank's
+
+128
+00:04:51,610 --> 00:04:54,160
+so basically frags is kills and as you
+
+129
+00:04:54,160 --> 00:04:56,950
+can see my Frank's right now is going to
+
+130
+00:04:56,950 --> 00:04:58,870
+be zero because on the scoreboard wait
+
+131
+00:04:58,870 --> 00:05:00,790
+my fact is negative one actually because
+
+132
+00:05:00,790 --> 00:05:02,890
+I killed myself but we'll go ahead and
+
+133
+00:05:02,890 --> 00:05:05,440
+we'll store frags in there instead of
+
+134
+00:05:05,440 --> 00:05:11,530
+we'll just name this two kills and let's
+
+135
+00:05:11,530 --> 00:05:13,810
+go ahead and simply print that out now
+
+136
+00:05:13,810 --> 00:05:16,030
+let's go ahead and run our script and as
+
+137
+00:05:16,030 --> 00:05:17,440
+you can see it prints out negative one
+
+138
+00:05:17,440 --> 00:05:20,470
+but let's say I go to the NPC section
+
+139
+00:05:20,470 --> 00:05:24,160
+here and I just couldn't go to a weapon
+
+140
+00:05:24,160 --> 00:05:28,930
+and grab something now all of these are
+
+141
+00:05:28,930 --> 00:05:31,510
+obviously account if it kills and as you
+
+142
+00:05:31,510 --> 00:05:34,510
+can see oops on the scoreboard I oh I
+
+143
+00:05:34,510 --> 00:05:35,380
+guess not
+
+144
+00:05:35,380 --> 00:05:37,750
+I thought that the NPC's Candida skills
+
+145
+00:05:37,750 --> 00:05:40,510
+but clearly not so I'm still gonna be on
+
+146
+00:05:40,510 --> 00:05:42,490
+negative one but what we can do is we
+
+147
+00:05:42,490 --> 00:05:45,190
+can also get my deaths now I know this
+
+148
+00:05:45,190 --> 00:05:46,630
+may seem a bit repetitive but I'm just
+
+149
+00:05:46,630 --> 00:05:47,980
+trying to make sure that you understand
+
+150
+00:05:47,980 --> 00:05:49,300
+the point of this now as you can see
+
+151
+00:05:49,300 --> 00:05:50,980
+I've died once I do it again I've died
+
+152
+00:05:50,980 --> 00:05:53,830
+two times and I couldn't die again for
+
+153
+00:05:53,830 --> 00:05:57,280
+whoops I can die no I've got it there we
+
+154
+00:05:57,280 --> 00:05:57,550
+go
+
+155
+00:05:57,550 --> 00:06:00,570
+I can die again for the third time now I
+
+156
+00:06:00,570 --> 00:06:04,540
+hope this makes sense but yeah and the
+
+157
+00:06:04,540 --> 00:06:06,910
+actually will do it this video you guys
+
+158
+00:06:06,910 --> 00:06:08,440
+seem to like longer videos so we'll do
+
+159
+00:06:08,440 --> 00:06:11,800
+this one so now we can do that actually
+
+160
+00:06:11,800 --> 00:06:13,510
+nest now I do I do apologize I will
+
+161
+00:06:13,510 --> 00:06:14,800
+leave that to the next video because it
+
+162
+00:06:14,800 --> 00:06:17,170
+is gonna be a little longer but yeah I
+
+163
+00:06:17,170 --> 00:06:19,060
+hope you guys learn something I hope you
+
+164
+00:06:19,060 --> 00:06:21,280
+understood some some stuff but yeah
+
+165
+00:06:21,280 --> 00:06:23,320
+that's how we can execute information on
+
+166
+00:06:23,320 --> 00:06:26,620
+the player now retrieving a specific
+
+167
+00:06:26,620 --> 00:06:28,210
+player on the server is different which
+
+168
+00:06:28,210 --> 00:06:29,890
+is why we haven't gone into the server
+
+169
+00:06:29,890 --> 00:06:32,710
+side yet but for the client you can get
+
+170
+00:06:32,710 --> 00:06:35,170
+the the client player which is the the
+
+171
+00:06:35,170 --> 00:06:36,670
+person's game who it is you can get
+
+172
+00:06:36,670 --> 00:06:38,380
+their client their player
+
+173
+00:06:38,380 --> 00:06:40,210
+and we store it in the variable player
+
+174
+00:06:40,210 --> 00:06:42,250
+which is our reference to it and then we
+
+175
+00:06:42,250 --> 00:06:44,950
+call on that variable the function depth
+
+176
+00:06:44,950 --> 00:06:46,450
+which will return the number of deaths
+
+177
+00:06:46,450 --> 00:06:48,670
+that players had then we simply go ahead
+
+178
+00:06:48,670 --> 00:06:50,080
+and we print that out so I hope that
+
+179
+00:06:50,080 --> 00:06:52,450
+makes sense to you in the next video
+
+180
+00:06:52,450 --> 00:06:54,850
+we'll go ahead and we'll do a little bit
+
+181
+00:06:54,850 --> 00:06:56,290
+more complicated again and I do
+
+182
+00:06:56,290 --> 00:06:58,210
+apologize for those of you who find this
+
+183
+00:06:58,210 --> 00:07:01,300
+series very simple it will grow very
+
+184
+00:07:01,300 --> 00:07:04,300
+fine complexity but to begin with for
+
+185
+00:07:04,300 --> 00:07:05,470
+people who are new they've got to
+
+186
+00:07:05,470 --> 00:07:07,120
+understand these basics and and even
+
+187
+00:07:07,120 --> 00:07:08,650
+though you may think I'm never gonna use
+
+188
+00:07:08,650 --> 00:07:11,020
+this in my script you will they are the
+
+189
+00:07:11,020 --> 00:07:13,420
+fundamentals of coding for gmod so again
+
+190
+00:07:13,420 --> 00:07:16,120
+I hope you learned something and I will
+
+191
+00:07:16,120 --> 00:07:18,100
+see you all in the next video hope you
+
+192
+00:07:18,100 --> 00:07:20,460
+enjoyed it
+
+193
+00:07:25,210 --> 00:07:27,270
+you
+

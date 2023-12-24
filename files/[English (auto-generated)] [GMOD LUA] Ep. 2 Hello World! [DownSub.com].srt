@@ -1,0 +1,400 @@
+1
+00:00:10,300 --> 00:00:13,730
+hello everybody and welcome to part two
+
+2
+00:00:13,730 --> 00:00:17,119
+in this gmod people do it saucers now in
+
+3
+00:00:17,119 --> 00:00:19,400
+this video again we're not gonna be
+
+4
+00:00:19,400 --> 00:00:21,140
+learning too much but what we will be
+
+5
+00:00:21,140 --> 00:00:23,860
+doing is we will be showing you how to
+
+6
+00:00:23,860 --> 00:00:26,689
+basically run a script inside of Garry's
+
+7
+00:00:26,689 --> 00:00:29,810
+Mod so what I'm gonna do is I'm gonna go
+
+8
+00:00:29,810 --> 00:00:33,860
+ahead and I will open up sublime I'm
+
+9
+00:00:33,860 --> 00:00:36,920
+gonna go to file new file just like
+
+10
+00:00:36,920 --> 00:00:37,879
+normal
+
+11
+00:00:37,879 --> 00:00:40,280
+remember based on whichever text editor
+
+12
+00:00:40,280 --> 00:00:41,900
+you're using this may be different but
+
+13
+00:00:41,900 --> 00:00:44,329
+normally it's the same for all I'm just
+
+14
+00:00:44,329 --> 00:00:45,739
+gonna go ahead and hit ctrl s to save
+
+15
+00:00:45,739 --> 00:00:51,800
+I'm then gonna go over to where garry's
+
+16
+00:00:51,800 --> 00:00:53,270
+mod is installed steam library steam
+
+17
+00:00:53,270 --> 00:00:56,270
+apps common Garry's Mod then go to
+
+18
+00:00:56,270 --> 00:00:59,180
+Garry's Mod again and then go ahead and
+
+19
+00:00:59,180 --> 00:01:04,610
+go into newer sorry and then here is
+
+20
+00:01:04,610 --> 00:01:05,899
+where you're gonna want to save it so
+
+21
+00:01:05,899 --> 00:01:07,759
+for example I'm just gonna save this as
+
+22
+00:01:07,759 --> 00:01:11,270
+test dot lower now remember it's got to
+
+23
+00:01:11,270 --> 00:01:13,070
+be a Lua file so if we go ahead and say
+
+24
+00:01:13,070 --> 00:01:17,720
+that now you can get the gmod low Alexa
+
+25
+00:01:17,720 --> 00:01:21,349
+which is done by F jpg I remember his
+
+26
+00:01:21,349 --> 00:01:23,270
+name there will be a link in the
+
+27
+00:01:23,270 --> 00:01:24,500
+description to that that's if you're
+
+28
+00:01:24,500 --> 00:01:26,119
+using sublime but I know there is also
+
+29
+00:01:26,119 --> 00:01:29,240
+one for Adam and notepad plus plus so if
+
+30
+00:01:29,240 --> 00:01:30,800
+you using even one of those it will also
+
+31
+00:01:30,800 --> 00:01:32,990
+work now in here we're gonna write our
+
+32
+00:01:32,990 --> 00:01:34,520
+script I was good it's gonna be very
+
+33
+00:01:34,520 --> 00:01:36,459
+simple it's just gonna simply be print
+
+34
+00:01:36,459 --> 00:01:40,039
+hello world just like that now you'll
+
+35
+00:01:40,039 --> 00:01:42,020
+notice how we don't have the i/o dot
+
+36
+00:01:42,020 --> 00:01:45,020
+read on here which we did in my lure
+
+37
+00:01:45,020 --> 00:01:46,880
+tutorial series and that's because
+
+38
+00:01:46,880 --> 00:01:48,830
+Garry's Mod is is running this as the
+
+39
+00:01:48,830 --> 00:01:50,330
+environment meaning if our script gets
+
+40
+00:01:50,330 --> 00:01:51,860
+to the end of the code Garry's Mod it's
+
+41
+00:01:51,860 --> 00:01:53,720
+still gonna be running so it doesn't
+
+42
+00:01:53,720 --> 00:01:57,140
+close so IO doc read it's not needed
+
+43
+00:01:57,140 --> 00:01:58,910
+anymore just simply print hello world so
+
+44
+00:01:58,910 --> 00:02:01,099
+let's then go into a gmod will then
+
+45
+00:02:01,099 --> 00:02:03,410
+start up a single-player game and once
+
+46
+00:02:03,410 --> 00:02:05,030
+we're in the game there we go we're
+
+47
+00:02:05,030 --> 00:02:06,080
+gonna go ahead and we're gonna go into
+
+48
+00:02:06,080 --> 00:02:08,179
+our console I'm will type Lua and the
+
+49
+00:02:08,179 --> 00:02:11,360
+score open open script and there's
+
+50
+00:02:11,360 --> 00:02:13,879
+called CL and then you simply start type
+
+51
+00:02:13,879 --> 00:02:15,379
+in the name of your script in this case
+
+52
+00:02:15,379 --> 00:02:17,180
+ours was test a lure we do that we hit
+
+53
+00:02:17,180 --> 00:02:19,130
+enter and as you can see it says it's
+
+54
+00:02:19,130 --> 00:02:20,540
+running the script and then it says
+
+55
+00:02:20,540 --> 00:02:22,010
+hello world so the first thing you'll
+
+56
+00:02:22,010 --> 00:02:23,780
+notice is that this is now our
+
+57
+00:02:23,780 --> 00:02:26,660
+so with before we had the e terminal on
+
+58
+00:02:26,660 --> 00:02:30,640
+Windows this is now our console so yeah
+
+59
+00:02:30,640 --> 00:02:33,650
+that's pretty much that we can also do
+
+60
+00:02:33,650 --> 00:02:36,200
+Lua underscore open scripts and instead
+
+61
+00:02:36,200 --> 00:02:38,930
+of doing an underscore CL we just simply
+
+62
+00:02:38,930 --> 00:02:40,640
+type open script and type of test and as
+
+63
+00:02:40,640 --> 00:02:42,260
+you can see it did the exact same except
+
+64
+00:02:42,260 --> 00:02:44,390
+this time our text was in blue and if
+
+65
+00:02:44,390 --> 00:02:45,680
+you remember our client and server
+
+66
+00:02:45,680 --> 00:02:49,970
+tutorial I said the orange was client
+
+67
+00:02:49,970 --> 00:02:52,700
+and blue was the server so when we went
+
+68
+00:02:52,700 --> 00:02:54,050
+on our client you'll notice how the text
+
+69
+00:02:54,050 --> 00:02:56,030
+is orange moving around on the server
+
+70
+00:02:56,030 --> 00:02:57,920
+our text is blue and as I've already
+
+71
+00:02:57,920 --> 00:03:00,980
+stated in that video there is a client
+
+72
+00:03:00,980 --> 00:03:02,420
+and server even though I'm on single
+
+73
+00:03:02,420 --> 00:03:04,880
+player there is basically a server with
+
+74
+00:03:04,880 --> 00:03:07,370
+one slot for you to join that is not
+
+75
+00:03:07,370 --> 00:03:09,170
+hosted on the internet but on your local
+
+76
+00:03:09,170 --> 00:03:11,810
+game so again there is still a client on
+
+77
+00:03:11,810 --> 00:03:13,819
+the server now I hope that really makes
+
+78
+00:03:13,819 --> 00:03:15,560
+sense to you again I know this is
+
+79
+00:03:15,560 --> 00:03:17,330
+another short video but the idea of this
+
+80
+00:03:17,330 --> 00:03:18,560
+video is just to give you a name
+
+81
+00:03:18,560 --> 00:03:21,489
+explanation on how we can go ahead and
+
+82
+00:03:21,489 --> 00:03:24,680
+write and execute scripts now one thing
+
+83
+00:03:24,680 --> 00:03:27,410
+to know is that for now we're gonna be
+
+84
+00:03:27,410 --> 00:03:29,360
+doing all of our work inside of that Lua
+
+85
+00:03:29,360 --> 00:03:33,040
+folder that I told you to save in now
+
+86
+00:03:33,040 --> 00:03:35,269
+once we obviously get a bit further on
+
+87
+00:03:35,269 --> 00:03:36,290
+we're gonna go ahead and we're gonna
+
+88
+00:03:36,290 --> 00:03:37,910
+convert those into add-ons rather than
+
+89
+00:03:37,910 --> 00:03:39,470
+having to place them into the newer
+
+90
+00:03:39,470 --> 00:03:42,260
+folder but yeah I hope you learned
+
+91
+00:03:42,260 --> 00:03:44,030
+something and again I do apologize for
+
+92
+00:03:44,030 --> 00:03:46,489
+it be in such a short video these are
+
+93
+00:03:46,489 --> 00:03:48,049
+just designed to give you the
+
+94
+00:03:48,049 --> 00:03:49,880
+introductory of what we need to get
+
+95
+00:03:49,880 --> 00:03:51,530
+started so again if you have any
+
+96
+00:03:51,530 --> 00:03:53,180
+questions leave a comment I hope you
+
+97
+00:03:53,180 --> 00:03:54,739
+learned something I hope you enjoyed
+
+98
+00:03:54,739 --> 00:03:57,049
+watching and I'll see you in the next
+
+99
+00:03:57,049 --> 00:03:59,260
+video
+
+100
+00:04:04,880 --> 00:04:06,940
+you
+
