@@ -1,0 +1,320 @@
+[
+  {
+    "key": "1_00:00:10,179_00:00:13,809",
+    "original": "hello everybody and welcome to our for",
+    "translation": "大家好，欢迎来到我们第四期的",
+    "stage": 1
+  },
+  {
+    "key": "2_00:00:13,809_00:00:16,599",
+    "original": "GMOD LUA tutorial series now in this",
+    "translation": "GMOD LUA教程，这一期",
+    "stage": 1
+  },
+  {
+    "key": "3_00:00:16,599_00:00:18,039",
+    "original": "video again we're not gonna be going too",
+    "translation": "我们同样不会涉及到太多",
+    "stage": 1
+  },
+  {
+    "key": "4_00:00:18,039_00:00:19,779",
+    "original": "much into scripting and I do apologize",
+    "translation": "直接编写代码的工作，再次",
+    "stage": 1
+  },
+  {
+    "key": "5_00:00:19,779_00:00:21,730",
+    "original": "for guys who want to really get into the",
+    "translation": "对那些想要直接上手搞一些",
+    "stage": 1
+  },
+  {
+    "key": "6_00:00:21,730_00:00:24,009",
+    "original": "more advanced stuff but I just need to",
+    "translation": "很高端的东西的观众说声抱歉，因为我需要",
+    "stage": 1
+  },
+  {
+    "key": "7_00:00:24,009_00:00:25,239",
+    "original": "make sure that people who are new",
+    "translation": "确保那些编程新手",
+    "stage": 1
+  },
+  {
+    "key": "8_00:00:25,239_00:00:27,630",
+    "original": "understand the these fundamental things",
+    "translation": "理解一些至关重要的基础内容",
+    "stage": 1
+  },
+  {
+    "key": "9_00:00:27,630_00:00:30,460",
+    "original": "so in this video I'm gonna explain some",
+    "translation": "这一期视频里，我将讲解一些",
+    "stage": 1
+  },
+  {
+    "key": "10_00:00:30,460_00:00:32,439",
+    "original": "things about data types now we're in in",
+    "translation": "关于数据类型的知识，在此前的",
+    "stage": 1
+  },
+  {
+    "key": "11_00:00:32,439_00:00:34,210",
+    "original": "my lua tutorial series if you've ever",
+    "translation": "LUA教程系列里，如果你看过的话",
+    "stage": 1
+  },
+  {
+    "key": "12_00:00:34,210_00:00:36,160",
+    "original": "watched it we went over some data types",
+    "translation": "我们曾经过了一遍基础的数据类型",
+    "stage": 1
+  },
+  {
+    "key": "13_00:00:36,160_00:00:40,050",
+    "original": "and some of those were pools numbers",
+    "translation": "其中有bool型,数字型",
+    "stage": 1
+  },
+  {
+    "key": "14_00:00:40,050_00:00:42,790",
+    "original": "strings you know there was a few data",
+    "translation": " 字符型，还有诸如",
+    "stage": 1
+  },
+  {
+    "key": "15_00:00:42,790_00:00:46,030",
+    "original": "types like their tables now in Garry's",
+    "translation": "table(表)这样的类型，在Garry's Mod里",
+    "stage": 1
+  },
+  {
+    "key": "16_00:00:46,030_00:00:47,589",
+    "original": "Mod we're gonna be using more of these",
+    "translation": "我们将会使用更多的类型",
+    "stage": 1
+  },
+  {
+    "key": "17_00:00:47,589_00:00:49,900",
+    "original": "and some of these will include player",
+    "translation": "其中就包括Player(玩家)数据类型",
+    "stage": 1
+  },
+  {
+    "key": "18_00:00:49,900_00:00:53,920",
+    "original": "data types entity data types let's go",
+    "translation": "entity(实体)数据类型，还有",
+    "stage": 1
+  },
+  {
+    "key": "19_00:00:53,920_00:00:58,960",
+    "original": "over some more metadata or metatables",
+    "translation": "更多像metadata或者metatable这样的类型",
+    "stage": 1
+  },
+  {
+    "key": "20_00:00:58,960_00:01:01,720",
+    "original": "as well that's just a few there will be",
+    "translation": "这只是其中一小部分",
+    "stage": 1
+  },
+  {
+    "key": "21_00:01:01,720_00:01:03,939",
+    "original": "a lot more um so what I'm gonna do here",
+    "translation": "还有更多的类型，所以",
+    "stage": 1
+  },
+  {
+    "key": "22_00:01:03,939_00:01:05,438",
+    "original": "is I'm gonna go ahead and bring up the",
+    "translation": "我将要做的就是打开",
+    "stage": 1
+  },
+  {
+    "key": "23_00:01:05,438_00:01:14,350",
+    "original": "wiki for Garry's Mod now on the wiki if",
+    "translation": "Garry's Mod的wiki。现在看,wiki上",
+    "stage": 1
+  },
+  {
+    "key": "24_00:01:14,350_00:01:17,500",
+    "original": "you go to classes here you can see all",
+    "translation": "你可以展开左侧的类型(classes)栏目，你就可以看到",
+    "stage": 1
+  },
+  {
+    "key": "25_00:01:17,500_00:01:19,390",
+    "original": "of the different basically data types or",
+    "translation": "所有基础的数据类型，亦或是",
+    "stage": 1
+  },
+  {
+    "key": "26_00:01:19,390_00:01:20,620",
+    "original": "classes that we're gonna be working with",
+    "translation": "高级的\"类\"，这些就是我们将要用到的",
+    "stage": 1
+  },
+  {
+    "key": "27_00:01:20,620_00:01:22,480",
+    "original": "and you can see player is one of them",
+    "translation": "你可以看到Player类就是其中之一",
+    "stage": 1
+  },
+  {
+    "key": "28_00:01:22,480_00:01:25,900",
+    "original": "now I don't expect you to be using all",
+    "translation": "我并没有指望你用上所有",
+    "stage": 1
+  },
+  {
+    "key": "29_00:01:25,900_00:01:27,700",
+    "original": "of these but fundamental ones like",
+    "translation": "这些类型，而是要了解一些基础的类型",
+    "stage": 1
+  },
+  {
+    "key": "30_00:01:27,700_00:01:30,010",
+    "original": "player and entities are ones that we're",
+    "translation": "像是玩家(Player)或者实体(Entities)类，这些是我们",
+    "stage": 1
+  },
+  {
+    "key": "31_00:01:30,010_00:01:33,640",
+    "original": "gonna be using so when when I'm storing",
+    "translation": "经常用到的。当我把一些东西",
+    "stage": 1
+  },
+  {
+    "key": "32_00:01:33,640_00:01:35,590",
+    "original": "something in a variable like if I did",
+    "translation": "储存到一个变量里的时候，例如我",
+    "stage": 1
+  },
+  {
+    "key": "33_00:01:35,590_00:01:37,060",
+    "original": "something like test is equal to localplayer()",
+    "translation": "让一个名为test的变量等于一个localplayer()",
+    "stage": 1
+  },
+  {
+    "key": "34_00:01:37,060_00:01:38,290",
+    "original": "which again doesn't make sense to",
+    "translation": "可能现在对你来说这句话还没有什么清晰的意义",
+    "stage": 1
+  },
+  {
+    "key": "35_00:01:38,290_00:01:40,570",
+    "original": "you now but well soon you may be",
+    "translation": "但很快你一定会开始想",
+    "stage": 1
+  },
+  {
+    "key": "36_00:01:40,570_00:01:42,280",
+    "original": "wondering well what this test hold does",
+    "translation": "这个test变量究竟存了些什么",
+    "stage": 1
+  },
+  {
+    "key": "37_00:01:42,280_00:01:43,570",
+    "original": "it hold the number does it hold the",
+    "translation": "存的是数字，还是",
+    "stage": 1
+  },
+  {
+    "key": "38_00:01:43,570_00:01:45,760",
+    "original": "string does it hold the pool well no it",
+    "translation": "字符串，还是bool值，实际上它存的是",
+    "stage": 1
+  },
+  {
+    "key": "39_00:01:45,760_00:01:50,080",
+    "original": "holds the metadata for the player now as",
+    "translation": "玩家的metadata，正如我说的",
+    "stage": 1
+  },
+  {
+    "key": "40_00:01:50,080_00:01:52,300",
+    "original": "I said there is a few of these we will",
+    "translation": "这些数据类型都是我们将要用到的，我们将会",
+    "stage": 1
+  },
+  {
+    "key": "41_00:01:52,300_00:01:55,270",
+    "original": "be going over them and yeah so I just",
+    "translation": "在之后的视频区了解，所以现在我只是",
+    "stage": 1
+  },
+  {
+    "key": "42_00:01:55,270_00:01:56,799",
+    "original": "wanted to make sure that you understand",
+    "translation": "想让你理解",
+    "stage": 1
+  },
+  {
+    "key": "43_00:01:56,799_00:01:59,770",
+    "original": "that when I refer to playa de Ayer or",
+    "translation": "当我提到playerdata或者",
+    "stage": 1
+  },
+  {
+    "key": "44_00:01:59,770_00:02:02,200",
+    "original": "NPC Day or anything like that that's",
+    "translation": "npcdata的时候，或者类似的东西的时候",
+    "stage": 1
+  },
+  {
+    "key": "45_00:02:02,200_00:02:03,549",
+    "original": "what we're gonna be referring to again I",
+    "translation": "我们是指代一种数据类型",
+    "stage": 1
+  },
+  {
+    "key": "46_00:02:03,549_00:02:06,190",
+    "original": "apologize a short video but in the next",
+    "translation": "很抱歉这几期比较短没有什么干货，但在下一期视频里",
+    "stage": 1
+  },
+  {
+    "key": "47_00:02:06,190_00:02:08,080",
+    "original": "one we should actually be getting",
+    "translation": "我们就要做一些",
+    "stage": 1
+  },
+  {
+    "key": "48_00:02:08,080_00:02:10,840",
+    "original": "started on some code in and running some",
+    "translation": "实际能在游戏里运行的脚本了",
+    "stage": 1
+  },
+  {
+    "key": "49_00:02:10,840_00:02:12,430",
+    "original": "functions so I hope you enjoyed the",
+    "translation": "希望你看的愉快",
+    "stage": 1
+  },
+  {
+    "key": "50_00:02:12,430_00:02:14,080",
+    "original": "video I hope you learned something and",
+    "translation": "也学到了一些东西",
+    "stage": 1
+  },
+  {
+    "key": "51_00:02:14,080_00:02:16,150",
+    "original": "I'll see you in the next video thanks",
+    "translation": "我们下期视频再见",
+    "stage": 1
+  },
+  {
+    "key": "52_00:02:16,150_00:02:18,330",
+    "original": "for watching",
+    "translation": "感谢收看",
+    "stage": 1
+  },
+  {
+    "key": "53_00:02:23,670_00:02:25,730",
+    "original": "字幕翻译By:Rainsfield.SK",
+    "translation": "1",
+    "stage": 1
+  }
+]

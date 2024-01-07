@@ -1,0 +1,329 @@
+1
+00:00:10,300 --> 00:00:13,730
+hello everybody and welcome to part two
+各位你们好，欢迎来到本教程的
+
+2
+00:00:13,730 --> 00:00:17,119
+in this gmod people do it saucers now in
+第二部分，现在
+
+3
+00:00:17,119 --> 00:00:19,400
+this video again we're not gonna be
+在这一期视频里，我们不会
+
+4
+00:00:19,400 --> 00:00:21,140
+learning too much but what we will be
+学习太多内容，但我们要做的
+
+5
+00:00:21,140 --> 00:00:23,860
+doing is we will be showing you how to
+是向你展示如何
+
+6
+00:00:23,860 --> 00:00:26,689
+basically run a script inside of Garry's
+在GMOD里运行一些最基本的脚本
+
+7
+00:00:26,689 --> 00:00:29,810
+Mod so what I'm gonna do is I'm gonna go
+接下来我会继续我们的主题
+
+8
+00:00:29,810 --> 00:00:33,860
+ahead and I will open up sublime I'm
+我要打开Sublime(译者注:现在更推荐使用VSCode+Lua+Glua插件)
+
+9
+00:00:33,860 --> 00:00:36,920
+gonna go to file new file just like
+然后点击文件选项，创建新文件，就像
+
+10
+00:00:36,920 --> 00:00:37,879
+normal
+平常一样
+
+11
+00:00:37,879 --> 00:00:40,280
+remember based on whichever text editor
+请记住由于你用的编辑器不同
+
+12
+00:00:40,280 --> 00:00:41,900
+you're using this may be different but
+这一步可能是不同的，但
+
+13
+00:00:41,900 --> 00:00:44,329
+normally it's the same for all I'm just
+大体上都是相似的，好那么
+
+14
+00:00:44,329 --> 00:00:45,739
+gonna go ahead and hit ctrl s to save
+我继续，按下ctrl+S组合键保存文件
+
+15
+00:00:45,739 --> 00:00:51,800
+I'm then gonna go over to where garry's
+然后我将打开GMOD
+
+16
+00:00:51,800 --> 00:00:53,270
+mod is installed steam library steam
+在STEAM库下的安装路径
+
+17
+00:00:53,270 --> 00:00:56,270
+apps common Garry's Mod then go to
+这一般在SteamLibrary/common/apps/Garry's Mod这个路径下
+
+18
+00:00:56,270 --> 00:00:59,180
+Garry's Mod again and then go ahead and
+然后继续打开
+
+19
+00:00:59,180 --> 00:01:04,610
+go into lua sorry and then here is
+LUA文件夹。 这里就是
+
+20
+00:01:04,610 --> 00:01:05,899
+where you're gonna want to save it so
+你保存你的LUA代码的地方
+
+21
+00:01:05,899 --> 00:01:07,759
+for example I'm just gonna save this as
+在这次演示里我会把这个文件保存为
+
+22
+00:01:07,759 --> 00:01:11,270
+test dot lower now remember it's got to
+test.lua，请记住你必须
+
+23
+00:01:11,270 --> 00:01:13,070
+be a Lua file so if we go ahead and say
+把文件保存为lua后缀，接着我们继续
+
+24
+00:01:13,070 --> 00:01:17,720
+that now you can get the gmod lua Alexa
+现在你可以打开GMOD LUA语法高亮
+
+25
+00:01:17,720 --> 00:01:21,349
+which is done by F jpg I remember his
+这个是由FJPG...我不记得他的名字了
+
+26
+00:01:21,349 --> 00:01:23,270
+name there will be a link in the
+语法高亮插件链接我会
+
+27
+00:01:23,270 --> 00:01:24,500
+description to that that's if you're
+放在简介里
+
+28
+00:01:24,500 --> 00:01:26,119
+using sublime but I know there is also
+如果你使用的是sublime的话对你很有帮助，我知道也有
+
+29
+00:01:26,119 --> 00:01:29,240
+one for Atom and notepad plus plus so if
+给Atom和NP++制作的
+
+30
+00:01:29,240 --> 00:01:30,800
+you using even one of those it will also
+如果你在用这些编辑器的话也可以使用
+
+31
+00:01:30,800 --> 00:01:32,990
+work now in here we're gonna write our
+这些插件。（再次安利VSCODE，只要在扩展商店里搜索Glua即可） 现在我们
+
+32
+00:01:32,990 --> 00:01:34,520
+script I was good it's gonna be very
+要开始写第一个脚本了，这会非常
+
+33
+00:01:34,520 --> 00:01:36,459
+simple it's just gonna simply be print
+简单，就是像我写的这样，一句
+
+34
+00:01:36,459 --> 00:01:40,039
+hello world just like that now you'll
+print("hello,world")完事，你会注意到
+
+35
+00:01:40,039 --> 00:01:42,020
+notice how we don't have the i/o dot
+注意到我们并没有写什么io.read
+
+36
+00:01:42,020 --> 00:01:45,020
+read on here which we did in my lua
+尽管我们在lua系列教程里
+
+37
+00:01:45,020 --> 00:01:46,880
+tutorial series and that's because
+是这样做的，因为（注:这里是在讨论为何不用打开lua文件的问题，初学者可以略过）
+
+38
+00:01:46,880 --> 00:01:48,830
+Garry's Mod is is running this as the
+GMOD把这些载入的LUA作为环境运行了
+
+39
+00:01:48,830 --> 00:01:50,330
+environment meaning if our script gets
+这意味着即使我们的脚本
+
+40
+00:01:50,330 --> 00:01:51,860
+to the end of the code Garry's Mod it's
+被执行到了最后一行代码，GMOD
+
+41
+00:01:51,860 --> 00:01:53,720
+still gonna be running so it doesn't
+仍然在运行，所以这个脚本文件
+
+42
+00:01:53,720 --> 00:01:57,140
+close so IO doc read it's not needed
+不需要关闭，所以IO.read()并不需要
+
+43
+00:01:57,140 --> 00:01:58,910
+anymore just simply print hello world so
+只需要简单的打印hello world就行
+
+44
+00:01:58,910 --> 00:02:01,099
+let's then go into a gmod will then
+然后我们打开GMOD，接着
+
+45
+00:02:01,099 --> 00:02:03,410
+start up a single-player game and once
+启动单人游戏
+
+46
+00:02:03,410 --> 00:02:05,030
+we're in the game there we go we're
+然后我们继续
+
+47
+00:02:05,030 --> 00:02:06,080
+gonna go ahead and we're gonna go into
+接着我们打开(默认按~键，请注意是否启用控制台)控制台
+
+48
+00:02:06,080 --> 00:02:08,179
+our console I'm will type lua_
+接着输入lua_openscript_cl
+
+49
+00:02:08,179 --> 00:02:11,360
+_openscript
+(lua_openscript_cl)
+
+50
+00:02:11,360 --> 00:02:13,879
+_cl and then you simply start type
+接下来你只需要输入
+
+51
+00:02:13,879 --> 00:02:15,379
+in the name of your script in this case
+你脚本的文件名，在我这里
+
+52
+00:02:15,379 --> 00:02:17,180
+ours was test a lure we do that we hit
+是test.lua，然后我们敲下
+
+53
+00:02:17,180 --> 00:02:19,130
+enter and as you can see it says it's
+回车键，接下来正如你所看到的
+
+54
+00:02:19,130 --> 00:02:20,540
+running the script and then it says
+脚本运行了，然后它打印了一句
+
+55
+00:02:20,540 --> 00:02:22,010
+hello world so the first thing you'll
+hello world，你会注意到第一件事
+
+56
+00:02:22,010 --> 00:02:23,780
+notice is that this is now our
+这是运行在控制台里的
+
+57
+00:02:23,780 --> 00:02:26,660
+so with before we had the e terminal on
+在我们有图形化界面终端之前
+
+58
+00:02:26,660 --> 00:02:30,640
+Windows this is now our console so yeah
+我们的代码是跑在这个控制台里的
+
+59
+00:02:30,640 --> 00:02:33,650
+that's pretty much that we can also do
+说得太多了，接下来我们可以
+
+60
+00:02:33,650 --> 00:02:36,200
+Lua underscore open scripts and instead
+输入lua_openscript，没有后面的
+
+61
+00:02:36,200 --> 00:02:38,930
+of doing an underscore CL we just simply
+_cl，我们只是
+
+62
+00:02:38,930 --> 00:02:40,640
+type open script and type of test and as
+输入lua_openscript，然后空一格输入test.lua
+
+63
+00:02:40,640 --> 00:02:42,260
+you can see it did the exact same except
+接下来你会看到结果基本一致，除了
+
+64
+00:02:42,260 --> 00:02:44,390
+this time our text was in blue and if
+这次我们打印出的文本是蓝色的
+
+65
+00:02:44,390 --> 00:02:45,680
+you remember our client and server
+如果你还对上节关于客户端和服务端的内容有印象的话
+
+66
+00:02:45,680 --> 00:02:49,970
+tutorial I said the orange was client
+你应该记得我说过，橙色代表客户端

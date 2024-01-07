@@ -1,0 +1,356 @@
+[
+  {
+    "key": "1_00:00:10,289_00:00:13,450",
+    "original": "hello everybody and welcome to part 3 in",
+    "translation": "大家好，欢迎来到GMOD LUA教程系列",
+    "stage": 1
+  },
+  {
+    "key": "2_00:00:13,450_00:00:16,779",
+    "original": "the gmod Louis series now in this video",
+    "translation": "第三部分，这期视频",
+    "stage": 1
+  },
+  {
+    "key": "3_00:00:16,779_00:00:18,460",
+    "original": "it's gonna be pretty short I do",
+    "translation": "这期视频非常的短",
+    "stage": 1
+  },
+  {
+    "key": "4_00:00:18,460_00:00:20,230",
+    "original": "apologize and there is a game gonna be",
+    "translation": "很惭愧这期视频内",
+    "stage": 1
+  },
+  {
+    "key": "5_00:00:20,230_00:00:23,349",
+    "original": "no programming or scripting but that is",
+    "translation": "不会有直接编程或脚本相关的内容",
+    "stage": 1
+  },
+  {
+    "key": "6_00:00:23,349_00:00:24,880",
+    "original": "because there is something that I can't",
+    "translation": "这是因为有一个东西",
+    "stage": 1
+  },
+  {
+    "key": "7_00:00:24,880_00:00:26,199",
+    "original": "stress enough and I want to make sure",
+    "translation": "我无论如何也要给大家强调",
+    "stage": 1
+  },
+  {
+    "key": "8_00:00:26,199_00:00:28,779",
+    "original": "you understand and that is the Garry's",
+    "translation": "也希望大家知晓的，那就是",
+    "stage": 1
+  },
+  {
+    "key": "9_00:00:28,779_00:00:31,210",
+    "original": "Mod wiki this is the most important",
+    "translation": "Garry's Mod的wiki百科，这是我能给你的",
+    "stage": 1
+  },
+  {
+    "key": "10_00:00:31,210_00:00:34,809",
+    "original": "thing I can give you now anything you",
+    "translation": "最宝贵的礼物，你写代码所需要",
+    "stage": 1
+  },
+  {
+    "key": "11_00:00:34,809_00:00:37,510",
+    "original": "will ever need is on this wiki and if I",
+    "translation": "参考的一切都在这个额wiki上",
+    "stage": 1
+  },
+  {
+    "key": "12_00:00:37,510_00:00:39,280",
+    "original": "explain to something to you that you",
+    "translation": "如果我给你介绍的东西",
+    "stage": 1
+  },
+  {
+    "key": "13_00:00:39,280_00:00:41,620",
+    "original": "don't fully understand then you can go",
+    "translation": "你感到困惑的话，你可以打开",
+    "stage": 1
+  },
+  {
+    "key": "14_00:00:41,620_00:00:43,270",
+    "original": "ahead and look it up on here and",
+    "translation": "Wiki的网站，然后参阅那里面的相关资料",
+    "stage": 1
+  },
+  {
+    "key": "15_00:00:43,270_00:00:44,649",
+    "original": "there'll be all of the information you",
+    "translation": "那里有你需要的一切信息",
+    "stage": 1
+  },
+  {
+    "key": "16_00:00:44,649_00:00:48,160",
+    "original": "need on here now let's say for example",
+    "translation": "现在我们举个栗子吧",
+    "stage": 1
+  },
+  {
+    "key": "17_00:00:48,160_00:00:49,510",
+    "original": "this search feature here let's say I",
+    "translation": "这里有个搜索功能，如果我",
+    "stage": 1
+  },
+  {
+    "key": "18_00:00:49,510_00:00:50,649",
+    "original": "want to know how to kill a player I",
+    "translation": "想知道怎样杀死一个玩家",
+    "stage": 1
+  },
+  {
+    "key": "19_00:00:50,649_00:00:52,000",
+    "original": "might search kill and I'll see you",
+    "translation": "我可以搜索关键词kill，然后我可以看到/",
+    "stage": 1
+  },
+  {
+    "key": "20_00:00:52,000_00:00:54,670",
+    "original": "player kill over here now as you can see",
+    "translation": "左边出现了Player:Kill条目，如你所见",
+    "stage": 1
+  },
+  {
+    "key": "21_00:00:54,670_00:00:57,010",
+    "original": "it tells me the function name I will",
+    "translation": "它告诉了我这个函数的名字，我会",
+    "stage": 1
+  },
+  {
+    "key": "22_00:00:57,010_00:00:58,690",
+    "original": "explain what this is in in another",
+    "translation": "在另一篇教程里解释这个函数名的含义",
+    "stage": 1
+  },
+  {
+    "key": "23_00:00:58,690_00:01:00,579",
+    "original": "tutorial and it tells me that it kills",
+    "translation": "它告诉我这个函数会杀死",
+    "stage": 1
+  },
+  {
+    "key": "24_00:01:00,579_00:01:02,739",
+    "original": "the player and cause GM played F again I",
+    "translation": "玩家，然后引发GM:PlayerDeath事件",
+    "stage": 1
+  },
+  {
+    "key": "25_00:01:02,739_00:01:04,119",
+    "original": "don't expect you to understand this",
+    "translation": "再次说明一下，我不是要你立刻理解这些全部内容",
+    "stage": 1
+  },
+  {
+    "key": "26_00:01:04,119_00:01:06,280",
+    "original": "right now but once we get over the",
+    "translation": "不过当我们把基础知识全部过了一遍之后",
+    "stage": 1
+  },
+  {
+    "key": "27_00:01:06,280_00:01:08,860",
+    "original": "basics this is gonna be your your main",
+    "translation": "WIKI就成了你最主要的",
+    "stage": 1
+  },
+  {
+    "key": "28_00:01:08,860_00:01:10,270",
+    "original": "place to hang out whenever you're",
+    "translation": "参考资料，无论何时你在编写脚本的时候",
+    "stage": 1
+  },
+  {
+    "key": "29_00:01:10,270_00:01:11,800",
+    "original": "scripting you'll pretty much always have",
+    "translation": "你都需要经常打开wiki",
+    "stage": 1
+  },
+  {
+    "key": "30_00:01:11,800_00:01:15,640",
+    "original": "the wiki open now just because you use",
+    "translation": "这是因为，你开着wiki写代码",
+    "stage": 1
+  },
+  {
+    "key": "31_00:01:15,640_00:01:16,959",
+    "original": "the wiki it doesn't mean you're a bad",
+    "translation": "并不意味着你很菜",
+    "stage": 1
+  },
+  {
+    "key": "32_00:01:16,959_00:01:19,599",
+    "original": "coder you can go ahead and find the best",
+    "translation": "你可以去问问那些顶尖的开发者",
+    "stage": 1
+  },
+  {
+    "key": "33_00:01:19,599_00:01:21,340",
+    "original": "coder out there and I guarantee you",
+    "translation": "我向你保证",
+    "stage": 1
+  },
+  {
+    "key": "34_00:01:21,340_00:01:23,140",
+    "original": "they'll be like well yeah I use the wiki",
+    "translation": "他们也和我一样一直在使用wiki",
+    "stage": 1
+  },
+  {
+    "key": "35_00:01:23,140_00:01:25,119",
+    "original": "for the most of my things because it's",
+    "translation": "去做大部分的工作，因为",
+    "stage": 1
+  },
+  {
+    "key": "36_00:01:25,119_00:01:27,009",
+    "original": "not something that anybody can remember",
+    "translation": "很显然没有人有那么好的记忆力",
+    "stage": 1
+  },
+  {
+    "key": "37_00:01:27,009_00:01:29,200",
+    "original": "there is just so much information here",
+    "translation": "这个游戏有太多的信息了",
+    "stage": 1
+  },
+  {
+    "key": "38_00:01:29,200_00:01:32,110",
+    "original": "that just simply a single person could",
+    "translation": "一个人显然很难记住",
+    "stage": 1
+  },
+  {
+    "key": "39_00:01:32,110_00:01:34,300",
+    "original": "not memorize it all there is just too",
+    "translation": "全部的信息",
+    "stage": 1
+  },
+  {
+    "key": "40_00:01:34,300_00:01:37,509",
+    "original": "much so again there will be a link to",
+    "translation": "所以在简介里我会放上",
+    "stage": 1
+  },
+  {
+    "key": "41_00:01:37,509_00:01:40,750",
+    "original": "the wiki in the description make sure",
+    "translation": "wiki的链接，请确保你",
+    "stage": 1
+  },
+  {
+    "key": "42_00:01:40,750_00:01:42,190",
+    "original": "you always have it on backup if you're",
+    "translation": "在收看我的视频的时候",
+    "stage": 1
+  },
+  {
+    "key": "43_00:01:42,190_00:01:43,840",
+    "original": "watching my videos just open this in the",
+    "translation": "在后台开着wiki的网页",
+    "stage": 1
+  },
+  {
+    "key": "44_00:01:43,840_00:01:45,220",
+    "original": "background and if I say something that",
+    "translation": "如果我在视频里介绍了什么",
+    "stage": 1
+  },
+  {
+    "key": "45_00:01:45,220_00:01:47,560",
+    "original": "you're not too sure on just go ahead and",
+    "translation": "你不太懂的东西，你可以立刻打开wiki",
+    "stage": 1
+  },
+  {
+    "key": "46_00:01:47,560_00:01:48,819",
+    "original": "look it up on the wiki and there'll be",
+    "translation": "然后搜索相关内容",
+    "stage": 1
+  },
+  {
+    "key": "47_00:01:48,819_00:01:50,709",
+    "original": "all the information you need on it on",
+    "translation": "那里会有你需要的一切信息",
+    "stage": 1
+  },
+  {
+    "key": "48_00:01:50,709_00:01:52,509",
+    "original": "there now again once we get a few videos",
+    "translation": "当你继续收看几期视频之后",
+    "stage": 1
+  },
+  {
+    "key": "49_00:01:52,509_00:01:54,489",
+    "original": "in you will also begin to understand how",
+    "translation": "你也会逐渐理解",
+    "stage": 1
+  },
+  {
+    "key": "50_00:01:54,489_00:01:56,259",
+    "original": "the wiki works because we'll go into",
+    "translation": "wiki对你有怎样的帮助，因为接下来我们将",
+    "stage": 1
+  },
+  {
+    "key": "51_00:01:56,259_00:01:59,200",
+    "original": "more depth as we go on and with that",
+    "translation": "进一步的学习GMOD的脚本开发",
+    "stage": 1
+  },
+  {
+    "key": "52_00:01:59,200_00:02:01,379",
+    "original": "you'll be able to create cool things and",
+    "translation": "这意味着你能做一些更cool的东西",
+    "stage": 1
+  },
+  {
+    "key": "53_00:02:01,379_00:02:03,489",
+    "original": "figure out what these functions do and",
+    "translation": "同时你也需要理解这些函数的功能",
+    "stage": 1
+  },
+  {
+    "key": "54_00:02:03,489_00:02:06,280",
+    "original": "use them to your own advantage so again",
+    "translation": "并利用他们做出你想要的效果",
+    "stage": 1
+  },
+  {
+    "key": "55_00:02:06,280_00:02:09,818",
+    "original": "I apologize for a short video but if you",
+    "translation": "很抱歉视频还是很短",
+    "stage": 1
+  },
+  {
+    "key": "56_00:02:09,818_00:02:11,379",
+    "original": "have any questions leave a comment below",
+    "translation": "不过如果你还有什么疑问的话可以在评论区里留言",
+    "stage": 1
+  },
+  {
+    "key": "57_00:02:11,379_00:02:14,050",
+    "original": "I hope you enjoyed watching and I'll see",
+    "translation": "希望你看的高兴",
+    "stage": 1
+  },
+  {
+    "key": "58_00:02:14,050_00:02:16,950",
+    "original": "you in the next video",
+    "translation": "我们下个视频再见",
+    "stage": 1
+  },
+  {
+    "key": "59_00:02:23,190_00:02:25,250",
+    "original": "you",
+    "translation": "1",
+    "stage": 1
+  }
+]

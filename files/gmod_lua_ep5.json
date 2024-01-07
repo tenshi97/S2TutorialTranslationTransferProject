@@ -1,0 +1,1160 @@
+[
+  {
+    "key": "1_00:00:09,770_00:00:12,920",
+    "original": "hello everybody and welcome to part five",
+    "translation": "大家好，欢迎收看",
+    "stage": 1
+  },
+  {
+    "key": "2_00:00:12,920_00:00:14,780",
+    "original": "in this gym I'll do a tutorial series",
+    "translation": "GMOD LUA系列教程第五期",
+    "stage": 1
+  },
+  {
+    "key": "3_00:00:14,780_00:00:17,330",
+    "original": "now before we get started I do want to",
+    "translation": "在开始之前先向各位",
+    "stage": 1
+  },
+  {
+    "key": "4_00:00:17,330_00:00:19,340",
+    "original": "apologize for the lack of videos I have",
+    "translation": "诚恳道歉，最近更新的并不勤快",
+    "stage": 1
+  },
+  {
+    "key": "5_00:00:19,340_00:00:21,860",
+    "original": "not been feeling too well my mixer broke",
+    "translation": "我感觉很不好，因为我的混音器坏了",
+    "stage": 1
+  },
+  {
+    "key": "6_00:00:21,860_00:00:23,630",
+    "original": "meaning of my mic quality was just",
+    "translation": "这意味着我的麦克风音质",
+    "stage": 1
+  },
+  {
+    "key": "7_00:00:23,630_00:00:26,570",
+    "original": "appalling and again I really really",
+    "translation": "会非常差，我非常非常",
+    "stage": 1
+  },
+  {
+    "key": "8_00:00:26,570_00:00:28,849",
+    "original": "apologize for it but nevertheless let's",
+    "translation": "抱歉，不过还是",
+    "stage": 1
+  },
+  {
+    "key": "9_00:00:28,849_00:00:30,500",
+    "original": "get started so in this video we're gonna",
+    "translation": "让我们开始吧。在这期视频里",
+    "stage": 1
+  },
+  {
+    "key": "10_00:00:30,500_00:00:32,659",
+    "original": "be taking a look at running functions on",
+    "translation": "我们要在玩家身上",
+    "stage": 1
+  },
+  {
+    "key": "11_00:00:32,659_00:00:34,310",
+    "original": "the player which is important for two",
+    "translation": "运行一些函数，有两个原因使得这件事很重要",
+    "stage": 1
+  },
+  {
+    "key": "12_00:00:34,310_00:00:35,840",
+    "original": "reasons one is because we need to",
+    "translation": "其中之一是我们需要",
+    "stage": 1
+  },
+  {
+    "key": "13_00:00:35,840_00:00:38,300",
+    "original": "understand how we can execute Mehta",
+    "translation": "去理解怎样在不同的数据类型上",
+    "stage": 1
+  },
+  {
+    "key": "14_00:00:38,300_00:00:41,149",
+    "original": "functions on different data types but on",
+    "translation": "执行meta函数",
+    "stage": 1
+  },
+  {
+    "key": "15_00:00:41,149_00:00:42,829",
+    "original": "top of that we also need to understand",
+    "translation": "除此以外我们也需要理解",
+    "stage": 1
+  },
+  {
+    "key": "16_00:00:42,829_00:00:44,899",
+    "original": "how we can get references to players in",
+    "translation": "怎样在不同的情况下获得对玩家的引用",
+    "stage": 1
+  },
+  {
+    "key": "17_00:00:44,899_00:00:47,179",
+    "original": "different situations so what we're gonna",
+    "translation": "我们要做的是",
+    "stage": 1
+  },
+  {
+    "key": "18_00:00:47,179_00:00:49,699",
+    "original": "do we're gonna stop a single player",
+    "translation": "开启单人游戏",
+    "stage": 1
+  },
+  {
+    "key": "19_00:00:49,699_00:00:51,410",
+    "original": "world if you have not done so already I",
+    "translation": "如果你还没打开的话",
+    "stage": 1
+  },
+  {
+    "key": "20_00:00:51,410_00:00:53,570",
+    "original": "recommend you do so now then what we're",
+    "translation": "我建议你赶紧跟上，然后",
+    "stage": 1
+  },
+  {
+    "key": "21_00:00:53,570_00:00:55,160",
+    "original": "gonna do is we're gonna open up sublime",
+    "translation": "我们打开sublime（你自己的编辑器也可以）",
+    "stage": 1
+  },
+  {
+    "key": "22_00:00:55,160_00:00:57,260",
+    "original": "and that Lua file that is in our Garry's",
+    "translation": "然后打开之前那期视频的lua文件，它保存在",
+    "stage": 1
+  },
+  {
+    "key": "23_00:00:57,260_00:00:59,210",
+    "original": "Mod directory if you guys remember it",
+    "translation": "我们GMOD主目录的lua文件夹下",
+    "stage": 1
+  },
+  {
+    "key": "24_00:00:59,210_00:01:02,210",
+    "original": "from the previous video I think so",
+    "translation": "如果你们还记得的话",
+    "stage": 1
+  },
+  {
+    "key": "25_00:01:02,210_00:01:03,140",
+    "original": "anyway we're gonna go ahead we're gonna",
+    "translation": "总之让我们继续",
+    "stage": 1
+  },
+  {
+    "key": "26_00:01:03,140_00:01:04,670",
+    "original": "get rid of that and we're gonna get",
+    "translation": "不谈前面的了，我们现在就开始",
+    "stage": 1
+  },
+  {
+    "key": "27_00:01:04,670_00:01:08,210",
+    "original": "started so if you remember before well",
+    "translation": "(又是一段废话)",
+    "stage": 1
+  },
+  {
+    "key": "28_00:01:08,210_00:01:09,620",
+    "original": "actually we're get started first how do",
+    "translation": "首先，我们怎样",
+    "stage": 1
+  },
+  {
+    "key": "29_00:01:09,620_00:01:11,750",
+    "original": "we get a reference to the player so I'm",
+    "translation": "去获取一个玩家的引用呢",
+    "stage": 1
+  },
+  {
+    "key": "30_00:01:11,750_00:01:13,970",
+    "original": "gonna open up the gmod wiki and I'm",
+    "translation": "首先我会打开GMOD WIKI",
+    "stage": 1
+  },
+  {
+    "key": "31_00:01:13,970_00:01:16,220",
+    "original": "gonna go ahead and search local whoops",
+    "translation": "然后搜索local，哦",
+    "stage": 1
+  },
+  {
+    "key": "32_00:01:16,220_00:01:19,040",
+    "original": "local player and as you can see on the",
+    "translation": "Localplayer，然后你可以看到",
+    "stage": 1
+  },
+  {
+    "key": "33_00:01:19,040_00:01:20,240",
+    "original": "global there's a function here called",
+    "translation": "在global底下有个函数",
+    "stage": 1
+  },
+  {
+    "key": "34_00:01:20,240_00:01:21,710",
+    "original": "local player now you know it's it's",
+    "translation": "叫localplayer()，注意到",
+    "stage": 1
+  },
+  {
+    "key": "35_00:01:21,710_00:01:23,210",
+    "original": "orange which means you can only run on",
+    "translation": "这个函数是橙色的，意味着你只能在",
+    "stage": 1
+  },
+  {
+    "key": "36_00:01:23,210_00:01:25,490",
+    "original": "the client and the description says that",
+    "translation": "客户端执行这个函数，描述中说这个函数",
+    "stage": 1
+  },
+  {
+    "key": "37_00:01:25,490_00:01:27,200",
+    "original": "it returns to place object of the",
+    "translation": "它会返回执行函数的当前客户端对应的",
+    "stage": 1
+  },
+  {
+    "key": "38_00:01:27,200_00:01:29,030",
+    "original": "current client local player will return",
+    "translation": "玩家对象，并且这个函数在",
+    "stage": 1
+  },
+  {
+    "key": "39_00:01:29,030_00:01:30,560",
+    "original": "no until all entities have been",
+    "translation": "所有实体都被初始化以前，只会返回空(NULL)",
+    "stage": 1
+  },
+  {
+    "key": "40_00:01:30,560_00:01:32,570",
+    "original": "initialized so this part we don't need",
+    "translation": "在这一期里我们倒是不用",
+    "stage": 1
+  },
+  {
+    "key": "41_00:01:32,570_00:01:34,430",
+    "original": "to worry about for now but this part is",
+    "translation": "担心这个，上面这句话更重要的",
+    "stage": 1
+  },
+  {
+    "key": "42_00:01:34,430_00:01:36,729",
+    "original": "important it returns to players object",
+    "translation": "这个函数能返回玩家对象",
+    "stage": 1
+  },
+  {
+    "key": "43_00:01:36,729_00:01:39,020",
+    "original": "yet the player object of the current",
+    "translation": "yes,执行函数的客户端对应的玩家对象",
+    "stage": 1
+  },
+  {
+    "key": "44_00:01:39,020_00:01:41,450",
+    "original": "client so what that means is it will",
+    "translation": "这意味着",
+    "stage": 1
+  },
+  {
+    "key": "45_00:01:41,450_00:01:44,570",
+    "original": "return the player object itself in the",
+    "translation": "它能够返回游戏世界里的",
+    "stage": 1
+  },
+  {
+    "key": "46_00:01:44,570_00:01:45,950",
+    "original": "physical world and then we can do",
+    "translation": "玩家本体，我们可以借此",
+    "stage": 1
+  },
+  {
+    "key": "47_00:01:45,950_00:01:47,149",
+    "original": "whatever we want to it so what we're",
+    "translation": "对玩家做出一系列我们想做的操作，我们现在",
+    "stage": 1
+  },
+  {
+    "key": "48_00:01:47,149_00:01:48,890",
+    "original": "gonna do is I'm gonna make a local",
+    "translation": "创建一个本地变量",
+    "stage": 1
+  },
+  {
+    "key": "49_00:01:48,890_00:01:50,750",
+    "original": "variable call it PRI and I'm gonna set",
+    "translation": "叫做ply，令它等于",
+    "stage": 1
+  },
+  {
+    "key": "50_00:01:50,750_00:01:53,180",
+    "original": "it equal to local player and I'm gonna",
+    "translation": "LocalPlayer()",
+    "stage": 1
+  },
+  {
+    "key": "51_00:01:53,180_00:01:54,740",
+    "original": "call that and I do have to call it as a",
+    "translation": "注意后面要加上()，因为这是唤起一个函数",
+    "stage": 1
+  },
+  {
+    "key": "52_00:01:54,740_00:01:56,390",
+    "original": "function let me go ahead and change this",
+    "translation": "注意把GMOD",
+    "stage": 1
+  },
+  {
+    "key": "53_00:01:56,390_00:01:58,850",
+    "original": "to G mother there we go I do have to set",
+    "translation": "语法高亮打开",
+    "stage": 1
+  },
+  {
+    "key": "54_00:01:58,850_00:02:00,770",
+    "original": "as a function because that's what it is",
+    "translation": "(再次废话一下这个是函数，要加())",
+    "stage": 1
+  },
+  {
+    "key": "55_00:02:00,770_00:02:03,439",
+    "original": "and now the variable PR y then source of",
+    "translation": "现在ply就成了",
+    "stage": 1
+  },
+  {
+    "key": "56_00:02:03,439_00:02:05,780",
+    "original": "reference to this so just a just a",
+    "translation": "对玩家的一个引用",
+    "stage": 1
+  },
+  {
+    "key": "57_00:02:05,780_00:02:07,490",
+    "original": "double check I'm gonna do lua underscore",
+    "translation": "然后我们再检测一下，打开控制台输入lua_",
+    "stage": 1
+  },
+  {
+    "key": "58_00:02:07,490_00:02:10,220",
+    "original": "whoops newer underscore open script and",
+    "translation": "哦,lua_openscript_cl",
+    "stage": 1
+  },
+  {
+    "key": "59_00:02:10,220_00:02:12,530",
+    "original": "score CL now you're gonna want to make",
+    "translation": "注意了请确保你",
+    "stage": 1
+  },
+  {
+    "key": "60_00:02:12,530_00:02:14,960",
+    "original": "sure that you run this on the client",
+    "translation": "是在客户端运行的(要加_cl)",
+    "stage": 1
+  },
+  {
+    "key": "61_00:02:14,960_00:02:16,820",
+    "original": "because local player will not work on",
+    "translation": "因为localplayer()这个函数",
+    "stage": 1
+  },
+  {
+    "key": "62_00:02:16,820_00:02:18,290",
+    "original": "the server as we've seen it's a client",
+    "translation": "不能再服务端执行，我们之前看到了它是个",
+    "stage": 1
+  },
+  {
+    "key": "63_00:02:18,290_00:02:20,060",
+    "original": "only function so when we run this as you",
+    "translation": "只能在客户端运行的函数，接着我们运行",
+    "stage": 1
+  },
+  {
+    "key": "64_00:02:20,060_00:02:22,580",
+    "original": "can see we've got no errors so things",
+    "translation": "你会发现没有任何错误",
+    "stage": 1
+  },
+  {
+    "key": "65_00:02:22,580_00:02:23,370",
+    "original": "are good",
+    "translation": "这很好",
+    "stage": 1
+  },
+  {
+    "key": "66_00:02:23,370_00:02:25,019",
+    "original": "what can we do with this well let's go",
+    "translation": "然后我们能用它来做什么呢？",
+    "stage": 1
+  },
+  {
+    "key": "67_00:02:25,019_00:02:26,760",
+    "original": "ahead and go back to the gmod wiki and",
+    "translation": "让我们回到GMOD WIKI，然后",
+    "stage": 1
+  },
+  {
+    "key": "68_00:02:26,760_00:02:31,379",
+    "original": "search player if you search whoopsie",
+    "translation": "搜索player:,哦，是player",
+    "stage": 1
+  },
+  {
+    "key": "69_00:02:31,379_00:02:33,659",
+    "original": "player right and then we're gonna go",
+    "translation": "然后我们可以",
+    "stage": 1
+  },
+  {
+    "key": "70_00:02:33,659_00:02:38,069",
+    "original": "into the classes section here and you'll",
+    "translation": "点击到classuanxiangka1，然后你能看到",
+    "stage": 1
+  },
+  {
+    "key": "71_00:02:38,069_00:02:40,560",
+    "original": "see all of these player : and then a ton",
+    "translation": "这一系列以Player:(注意冒号)开头的",
+    "stage": 1
+  },
+  {
+    "key": "72_00:02:40,560_00:02:42,810",
+    "original": "of these functions right so let's go",
+    "translation": "一大堆函数(译者注:或者说Player类的方法)，让我们",
+    "stage": 1
+  },
+  {
+    "key": "73_00:02:42,810_00:02:46,230",
+    "original": "have a look at alive now this is blue",
+    "translation": "看一个这个Player:Alive函数函数，这个函数被",
+    "stage": 1
+  },
+  {
+    "key": "74_00:02:46,230_00:02:48,540",
+    "original": "and orange which means it can be used on",
+    "translation": "标记为蓝色和橙色，意味着",
+    "stage": 1
+  },
+  {
+    "key": "75_00:02:48,540_00:02:51,150",
+    "original": "both client and server now it checks if",
+    "translation": "服务端和客户端都能执行它，它的作用是检测",
+    "stage": 1
+  },
+  {
+    "key": "76_00:02:51,150_00:02:52,650",
+    "original": "the player is alive and will return a",
+    "translation": "一个玩家是否还活着，并返回一个",
+    "stage": 1
+  },
+  {
+    "key": "77_00:02:52,650_00:02:54,239",
+    "original": "boolean which is true or false of",
+    "translation": "Boolean类型的结果，值为true(真)或false(假)",
+    "stage": 1
+  },
+  {
+    "key": "78_00:02:54,239_00:02:55,829",
+    "original": "whether the player is alive or not so",
+    "translation": "表示对应的玩家是活着或死了",
+    "stage": 1
+  },
+  {
+    "key": "79_00:02:55,829_00:02:57,569",
+    "original": "now let's say we go back in here we're",
+    "translation": "让我们回到我们的脚本，我们",
+    "stage": 1
+  },
+  {
+    "key": "80_00:02:57,569_00:03:00,209",
+    "original": "gonna go ahead and print well first of",
+    "translation": "继续另起一行，写下print，哦我们首先",
+    "stage": 1
+  },
+  {
+    "key": "81_00:03:00,209_00:03:01,440",
+    "original": "all we're gonna make available I'm gonna",
+    "translation": "还是新建一个变量，我给它命名为",
+    "stage": 1
+  },
+  {
+    "key": "82_00:03:01,440_00:03:04,799",
+    "original": "call it is a player alive now the way",
+    "translation": "isPlayerAlive，我们唤起",
+    "stage": 1
+  },
+  {
+    "key": "83_00:03:04,799_00:03:06,959",
+    "original": "how we call these functions is kind of",
+    "translation": "这个函数的方式",
+    "stage": 1
+  },
+  {
+    "key": "84_00:03:06,959_00:03:08,519",
+    "original": "exactly what they look like here player",
+    "translation": "就像wiki上写的那样，把冒号前的",
+    "stage": 1
+  },
+  {
+    "key": "85_00:03:08,519_00:03:09,930",
+    "original": "would be our reference to the player",
+    "translation": "Player，换成你想要检测的玩家的引用",
+    "stage": 1
+  },
+  {
+    "key": "86_00:03:09,930_00:03:12,239",
+    "original": "then we do : and we call the function on",
+    "translation": "然后写下冒号，再写下函数名Alive()对玩家",
+    "stage": 1
+  },
+  {
+    "key": "87_00:03:12,239_00:03:14,579",
+    "original": "the player so in this case we can do PR",
+    "translation": "执行函数，在我们这个脚本里，我们要写",
+    "stage": 1
+  },
+  {
+    "key": "88_00:03:14,579_00:03:18,569",
+    "original": "y : alive now remember that PR y is our",
+    "translation": "ply:Alive()，请记住，ply是我们获取到的",
+    "stage": 1
+  },
+  {
+    "key": "89_00:03:18,569_00:03:21,870",
+    "original": "reference to our local player and what",
+    "translation": "对客户端本地玩家的一个引用",
+    "stage": 1
+  },
+  {
+    "key": "90_00:03:21,870_00:03:22,920",
+    "original": "we're gonna do is we're gonna check if",
+    "translation": "我们要做的是检测",
+    "stage": 1
+  },
+  {
+    "key": "91_00:03:22,920_00:03:24,390",
+    "original": "it's alive we're gonna store the value",
+    "translation": "他是否还活着，并把返回的结果",
+    "stage": 1
+  },
+  {
+    "key": "92_00:03:24,390_00:03:26,250",
+    "original": "that it returns inside of this is player",
+    "translation": "存储到isPlayerAlive变量里",
+    "stage": 1
+  },
+  {
+    "key": "93_00:03:26,250_00:03:26,790",
+    "original": "alive",
+    "translation": "----------",
+    "stage": 1
+  },
+  {
+    "key": "94_00:03:26,790_00:03:27,989",
+    "original": "and we're simply gonna go ahead and",
+    "translation": "我们就这样继续",
+    "stage": 1
+  },
+  {
+    "key": "95_00:03:27,989_00:03:30,930",
+    "original": "we're gonna print out is player alive I",
+    "translation": "然后把isPlayerAlive这个变量",
+    "stage": 1
+  },
+  {
+    "key": "96_00:03:30,930_00:03:32,880",
+    "original": "do apologize for that couch in let me",
+    "translation": "打印出来，哦不好意思手滑了",
+    "stage": 1
+  },
+  {
+    "key": "97_00:03:32,880_00:03:34,769",
+    "original": "zoom out a bit hey guys so now if I go",
+    "translation": "我把界面缩小一下，好现在",
+    "stage": 1
+  },
+  {
+    "key": "98_00:03:34,769_00:03:37,160",
+    "original": "back into my game and I run the script",
+    "translation": "我调回游戏界面，再次执行这个脚本",
+    "stage": 1
+  },
+  {
+    "key": "99_00:03:37,160_00:03:39,870",
+    "original": "as you can see it prints out true but if",
+    "translation": "你可以看到控制台打印了true",
+    "stage": 1
+  },
+  {
+    "key": "100_00:03:39,870_00:03:41,730",
+    "original": "I go ahead and kill myself and I rerun",
+    "translation": "但是如果我把自己处死之后再次执行脚本",
+    "stage": 1
+  },
+  {
+    "key": "101_00:03:41,730_00:03:43,349",
+    "original": "that's good it now prints out false",
+    "translation": "对了，打印出来的是false",
+    "stage": 1
+  },
+  {
+    "key": "102_00:03:43,349_00:03:45,900",
+    "original": "because I am no longer alive so I hope",
+    "translation": "因为我现在挂了，我希望你理解",
+    "stage": 1
+  },
+  {
+    "key": "103_00:03:45,900_00:03:48,840",
+    "original": "you understand that but on top of that",
+    "translation": "不过除此以外",
+    "stage": 1
+  },
+  {
+    "key": "104_00:03:48,840_00:03:51,419",
+    "original": "there is many many many things we can do",
+    "translation": "我们还可以做很多很多很多事情",
+    "stage": 1
+  },
+  {
+    "key": "105_00:03:51,419_00:03:53,250",
+    "original": "and in case you didn't notice at the",
+    "translation": "别忘了wiki上",
+    "stage": 1
+  },
+  {
+    "key": "106_00:03:53,250_00:03:56,819",
+    "original": "wiki there is a lot of things here so",
+    "translation": "还有好多东西呢",
+    "stage": 1
+  },
+  {
+    "key": "107_00:03:56,819_00:03:59,459",
+    "original": "let's go ahead and look at a few other",
+    "translation": "我们继续去看一看其他的函数吧",
+    "stage": 1
+  },
+  {
+    "key": "108_00:03:59,459_00:04:01,410",
+    "original": "one so now the one set of blue for",
+    "translation": "比如这个蓝色的",
+    "stage": 1
+  },
+  {
+    "key": "109_00:04:01,410_00:04:05,040",
+    "original": "example kill kill can only be called as",
+    "translation": "kill函数，kill函数只能被",
+    "stage": 1
+  },
+  {
+    "key": "110_00:04:05,040_00:04:07,769",
+    "original": "it says here can only be called because",
+    "translation": "就像这蓝色表明的，它只能",
+    "stage": 1
+  },
+  {
+    "key": "111_00:04:07,769_00:04:09,720",
+    "original": "it's blue on the server which means that",
+    "translation": "被服务端唤起，这意味着",
+    "stage": 1
+  },
+  {
+    "key": "112_00:04:09,720_00:04:12,930",
+    "original": "on the client you cannot kill anybody",
+    "translation": "在客户端，你不能强制处死任何人",
+    "stage": 1
+  },
+  {
+    "key": "113_00:04:12,930_00:04:14,549",
+    "original": "from the client you can ask the server",
+    "translation": "从客户端你只能去向服务端发送请求",
+    "stage": 1
+  },
+  {
+    "key": "114_00:04:14,549_00:04:16,949",
+    "original": "to kill people but we'll get into that",
+    "translation": "去处死某人，不过这个机制我们会在",
+    "stage": 1
+  },
+  {
+    "key": "115_00:04:16,949_00:04:19,199",
+    "original": "on another date so let's go ahead and",
+    "translation": "之后的节目里讲到，现在我们要做的是",
+    "stage": 1
+  },
+  {
+    "key": "116_00:04:19,199_00:04:21,539",
+    "original": "take a look at some more some of these",
+    "translation": "让我们继续看看其他的",
+    "stage": 1
+  },
+  {
+    "key": "117_00:04:21,539_00:04:24,690",
+    "original": "being like the orange one we can take a",
+    "translation": "带橙色的函数，比如",
+    "stage": 1
+  },
+  {
+    "key": "118_00:04:24,690_00:04:27,010",
+    "original": "look at is speaking",
+    "translation": "这个IsSpeaking函数",
+    "stage": 1
+  },
+  {
+    "key": "119_00:04:27,010_00:04:30,040",
+    "original": "and that is gonna return to a fault of",
+    "translation": "它会返回一个true或false的boolean",
+    "stage": 1
+  },
+  {
+    "key": "120_00:04:30,040_00:04:33,910",
+    "original": "whether the play was speaking we got set",
+    "translation": "表示这个玩家是否在开麦克风",
+    "stage": 1
+  },
+  {
+    "key": "121_00:04:33,910_00:04:38,350",
+    "original": "muted which would mute a never player on",
+    "translation": "我们再看看这个setmuted函数，这个函数能在服务端上",
+    "stage": 1
+  },
+  {
+    "key": "122_00:04:38,350_00:04:41,710",
+    "original": "the server so as long as you had this",
+    "translation": "让特定玩家禁言，只要你有...",
+    "stage": 1
+  },
+  {
+    "key": "123_00:04:41,710_00:04:43,240",
+    "original": "would be the the other play on the",
+    "translation": "呃，也可以让其他玩家禁言，只要你有",
+    "stage": 1
+  },
+  {
+    "key": "124_00:04:43,240_00:04:45,340",
+    "original": "server then you could have a reference",
+    "translation": "那个玩家对象的引用就行",
+    "stage": 1
+  },
+  {
+    "key": "125_00:04:45,340_00:04:47,110",
+    "original": "to them set them to meet it and set to",
+    "translation": "然后你就可以对他执行setmute函数，并",
+    "stage": 1
+  },
+  {
+    "key": "126_00:04:47,110_00:04:49,930",
+    "original": "meet it to true but yeah we're gonna go",
+    "translation": "传递一个true参数，我们接着看看",
+    "stage": 1
+  },
+  {
+    "key": "127_00:04:49,930_00:04:51,610",
+    "original": "ahead and take a look at Frank's",
+    "translation": "Frags这个函数",
+    "stage": 1
+  },
+  {
+    "key": "128_00:04:51,610_00:04:54,160",
+    "original": "so basically frags is kills and as you",
+    "translation": "基本上来说frags就是杀敌数，正如你看到的",
+    "stage": 1
+  },
+  {
+    "key": "129_00:04:54,160_00:04:56,950",
+    "original": "can see my Frank's right now is going to",
+    "translation": "我的frags应该是",
+    "stage": 1
+  },
+  {
+    "key": "130_00:04:56,950_00:04:58,870",
+    "original": "be zero because on the scoreboard wait",
+    "translation": "0，因为计分板上。。。等等",
+    "stage": 1
+  },
+  {
+    "key": "131_00:04:58,870_00:05:00,790",
+    "original": "my fact is negative one actually because",
+    "translation": "我的frag是-1，因为我",
+    "stage": 1
+  },
+  {
+    "key": "132_00:05:00,790_00:05:02,890",
+    "original": "I killed myself but we'll go ahead and",
+    "translation": "刚刚自杀了一次，我们继续",
+    "stage": 1
+  },
+  {
+    "key": "133_00:05:02,890_00:05:05,440",
+    "original": "we'll store frags in there instead of",
+    "translation": "我们把frags存储在这里，然后",
+    "stage": 1
+  },
+  {
+    "key": "134_00:05:05,440_00:05:11,530",
+    "original": "we'll just name this two kills and let's",
+    "translation": "把变量命名为kills,然后",
+    "stage": 1
+  },
+  {
+    "key": "135_00:05:11,530_00:05:13,810",
+    "original": "go ahead and simply print that out now",
+    "translation": "继续把这个变量打印出来",
+    "stage": 1
+  },
+  {
+    "key": "136_00:05:13,810_00:05:16,030",
+    "original": "let's go ahead and run our script and as",
+    "translation": "然后我们执行这个脚本",
+    "stage": 1
+  },
+  {
+    "key": "137_00:05:16,030_00:05:17,440",
+    "original": "you can see it prints out negative one",
+    "translation": "你可以看到打印的结果是-1",
+    "stage": 1
+  },
+  {
+    "key": "138_00:05:17,440_00:05:20,470",
+    "original": "but let's say I go to the NPC section",
+    "translation": "我们打开NPC选项卡",
+    "stage": 1
+  },
+  {
+    "key": "139_00:05:20,470_00:05:24,160",
+    "original": "here and I just couldn't go to a weapon",
+    "translation": "然后我们切到武器选项卡",
+    "stage": 1
+  },
+  {
+    "key": "140_00:05:24,160_00:05:28,930",
+    "original": "and grab something now all of these are",
+    "translation": "拿一把武器，然后我们把这些",
+    "stage": 1
+  },
+  {
+    "key": "141_00:05:28,930_00:05:31,510",
+    "original": "obviously account if it kills and as you",
+    "translation": "NPC都图了，然后你可以看到",
+    "stage": 1
+  },
+  {
+    "key": "142_00:05:31,510_00:05:34,510",
+    "original": "can see oops on the scoreboard I oh I",
+    "translation": "计分板上，哦不",
+    "stage": 1
+  },
+  {
+    "key": "143_00:05:34,510_00:05:35,380",
+    "original": "guess not",
+    "translation": "我想的不对",
+    "stage": 1
+  },
+  {
+    "key": "144_00:05:35,380_00:05:37,750",
+    "original": "I thought that the NPC's Candida skills",
+    "translation": "我以为击杀NPC能够增加击杀数",
+    "stage": 1
+  },
+  {
+    "key": "145_00:05:37,750_00:05:40,510",
+    "original": "but clearly not so I'm still gonna be on",
+    "translation": "但显然不是这样，所以我还是",
+    "stage": 1
+  },
+  {
+    "key": "146_00:05:40,510_00:05:42,490",
+    "original": "negative one but what we can do is we",
+    "translation": "\\-1分，不过我们还可以",
+    "stage": 1
+  },
+  {
+    "key": "147_00:05:42,490_00:05:45,190",
+    "original": "can also get my deaths now I know this",
+    "translation": "获取我的死亡数，我知道这看起来",
+    "stage": 1
+  },
+  {
+    "key": "148_00:05:45,190_00:05:46,630",
+    "original": "may seem a bit repetitive but I'm just",
+    "translation": "有点无聊，但我还是",
+    "stage": 1
+  },
+  {
+    "key": "149_00:05:46,630_00:05:47,980",
+    "original": "trying to make sure that you understand",
+    "translation": "想要确保你能理解",
+    "stage": 1
+  },
+  {
+    "key": "150_00:05:47,980_00:05:49,300",
+    "original": "the point of this now as you can see",
+    "translation": "这一期视频的主旨",
+    "stage": 1
+  },
+  {
+    "key": "151_00:05:49,300_00:05:50,980",
+    "original": "I've died once I do it again I've died",
+    "translation": "我之前死了一次，让我们再死一次",
+    "stage": 1
+  },
+  {
+    "key": "152_00:05:50,980_00:05:53,830",
+    "original": "two times and I couldn't die again for",
+    "translation": "现在我死了两次，然后我还可以……",
+    "stage": 1
+  },
+  {
+    "key": "153_00:05:53,830_00:05:57,280",
+    "original": "whoops I can die no I've got it there we",
+    "translation": "哦，我还可以，哦不",
+    "stage": 1
+  },
+  {
+    "key": "154_00:05:57,280_00:05:57,550",
+    "original": "go",
+    "translation": "继续",
+    "stage": 1
+  },
+  {
+    "key": "155_00:05:57,550_00:06:00,570",
+    "original": "I can die again for the third time now I",
+    "translation": "我现在死了三次(你可以看到脚本输出的也是3)",
+    "stage": 1
+  },
+  {
+    "key": "156_00:06:00,570_00:06:04,540",
+    "original": "hope this makes sense but yeah and the",
+    "translation": "希望这些对你有用",
+    "stage": 1
+  },
+  {
+    "key": "157_00:06:04,540_00:06:06,910",
+    "original": "actually will do it this video you guys",
+    "translation": "这期视频大概就到这里了",
+    "stage": 1
+  },
+  {
+    "key": "158_00:06:06,910_00:06:08,440",
+    "original": "seem to like longer videos so we'll do",
+    "translation": "似乎你们更喜欢长一点的视频",
+    "stage": 1
+  },
+  {
+    "key": "159_00:06:08,440_00:06:11,800",
+    "original": "this one so now we can do that actually",
+    "translation": "所以我就做的稍微长了些，还有一些内容",
+    "stage": 1
+  },
+  {
+    "key": "160_00:06:11,800_00:06:13,510",
+    "original": "nest now I do I do apologize I will",
+    "translation": "我们下期再说吧，我很抱歉",
+    "stage": 1
+  },
+  {
+    "key": "161_00:06:13,510_00:06:14,800",
+    "original": "leave that to the next video because it",
+    "translation": "把这些内容留到下期，否则",
+    "stage": 1
+  },
+  {
+    "key": "162_00:06:14,800_00:06:17,170",
+    "original": "is gonna be a little longer but yeah I",
+    "translation": "这个视频就太长了",
+    "stage": 1
+  },
+  {
+    "key": "163_00:06:17,170_00:06:19,060",
+    "original": "hope you guys learn something I hope you",
+    "translation": "希望你们能学到",
+    "stage": 1
+  },
+  {
+    "key": "164_00:06:19,060_00:06:21,280",
+    "original": "understood some some stuff but yeah",
+    "translation": "并且理解这些内容",
+    "stage": 1
+  },
+  {
+    "key": "165_00:06:21,280_00:06:23,320",
+    "original": "that's how we can execute information on",
+    "translation": "让我们复习一下，本期我们学习了处理",
+    "stage": 1
+  },
+  {
+    "key": "166_00:06:23,320_00:06:26,620",
+    "original": "the player now retrieving a specific",
+    "translation": "玩家信息的方法，不过在服务端",
+    "stage": 1
+  },
+  {
+    "key": "167_00:06:26,620_00:06:28,210",
+    "original": "player on the server is different which",
+    "translation": "检测玩家是不太一样的",
+    "stage": 1
+  },
+  {
+    "key": "168_00:06:28,210_00:06:29,890",
+    "original": "is why we haven't gone into the server",
+    "translation": "这就是为什么这期没有做服务端的脚本",
+    "stage": 1
+  },
+  {
+    "key": "169_00:06:29,890_00:06:32,710",
+    "original": "side yet but for the client you can get",
+    "translation": "不过在客户端你就能轻松",
+    "stage": 1
+  },
+  {
+    "key": "170_00:06:32,710_00:06:35,170",
+    "original": "the the client player which is the the",
+    "translation": "获取客户端对应的玩家",
+    "stage": 1
+  },
+  {
+    "key": "171_00:06:35,170_00:06:36,670",
+    "original": "person's game who it is you can get",
+    "translation": "谁开着游戏执行了这个脚本，谁就是",
+    "stage": 1
+  },
+  {
+    "key": "172_00:06:36,670_00:06:38,380",
+    "original": "their client their player",
+    "translation": "客户端对应的玩家",
+    "stage": 1
+  },
+  {
+    "key": "173_00:06:38,380_00:06:40,210",
+    "original": "and we store it in the variable player",
+    "translation": "然后我们把它存储在玩家变量(ply)里",
+    "stage": 1
+  },
+  {
+    "key": "174_00:06:40,210_00:06:42,250",
+    "original": "which is our reference to it and then we",
+    "translation": "这就建立了一个对该玩家的应用，接着",
+    "stage": 1
+  },
+  {
+    "key": "175_00:06:42,250_00:06:44,950",
+    "original": "call on that variable the function depth",
+    "translation": "我们用这个变量呼叫函数Death()",
+    "stage": 1
+  },
+  {
+    "key": "176_00:06:44,950_00:06:46,450",
+    "original": "which will return the number of deaths",
+    "translation": "它将会返回玩家的",
+    "stage": 1
+  },
+  {
+    "key": "177_00:06:46,450_00:06:48,670",
+    "original": "that players had then we simply go ahead",
+    "translation": "死亡次数，获取到之后",
+    "stage": 1
+  },
+  {
+    "key": "178_00:06:48,670_00:06:50,080",
+    "original": "and we print that out so I hope that",
+    "translation": "我们就直接答应出来",
+    "stage": 1
+  },
+  {
+    "key": "179_00:06:50,080_00:06:52,450",
+    "original": "makes sense to you in the next video",
+    "translation": "希望这些对你有所帮助，下一期视频",
+    "stage": 1
+  },
+  {
+    "key": "180_00:06:52,450_00:06:54,850",
+    "original": "we'll go ahead and we'll do a little bit",
+    "translation": "我们将会做一些",
+    "stage": 1
+  },
+  {
+    "key": "181_00:06:54,850_00:06:56,290",
+    "original": "more complicated again and I do",
+    "translation": "更复杂的脚本",
+    "stage": 1
+  },
+  {
+    "key": "182_00:06:56,290_00:06:58,210",
+    "original": "apologize for those of you who find this",
+    "translation": "我再次对觉得这个系列视频太简单的观众",
+    "stage": 1
+  },
+  {
+    "key": "183_00:06:58,210_00:07:01,300",
+    "original": "series very simple it will grow very",
+    "translation": "说一声抱歉，因为视频内容",
+    "stage": 1
+  },
+  {
+    "key": "184_00:07:01,300_00:07:04,300",
+    "original": "fine complexity but to begin with for",
+    "translation": "会逐渐变复杂，但对于新人来说",
+    "stage": 1
+  },
+  {
+    "key": "185_00:07:04,300_00:07:05,470",
+    "original": "people who are new they've got to",
+    "translation": "在视频的开头，最好还是",
+    "stage": 1
+  },
+  {
+    "key": "186_00:07:05,470_00:07:07,120",
+    "original": "understand these basics and and even",
+    "translation": "讲清楚最基础的内容",
+    "stage": 1
+  },
+  {
+    "key": "187_00:07:07,120_00:07:08,650",
+    "original": "though you may think I'm never gonna use",
+    "translation": "尽管你可能觉得这些内容我永远都不会用到",
+    "stage": 1
+  },
+  {
+    "key": "188_00:07:08,650_00:07:11,020",
+    "original": "this in my script you will they are the",
+    "translation": "但这些内容是",
+    "stage": 1
+  },
+  {
+    "key": "189_00:07:11,020_00:07:13,420",
+    "original": "fundamentals of coding for gmod so again",
+    "translation": "GMOD编程的重要基础，所以",
+    "stage": 1
+  },
+  {
+    "key": "190_00:07:13,420_00:07:16,120",
+    "original": "I hope you learned something and I will",
+    "translation": "我希望你能从中学到一些东西",
+    "stage": 1
+  },
+  {
+    "key": "191_00:07:16,120_00:07:18,100",
+    "original": "see you all in the next video hope you",
+    "translation": "我们下期视频再见，希望",
+    "stage": 1
+  },
+  {
+    "key": "192_00:07:18,100_00:07:20,460",
+    "original": "enjoyed it",
+    "translation": "你看的愉快",
+    "stage": 1
+  },
+  {
+    "key": "193_00:07:25,210_00:07:27,270",
+    "original": "you",
+    "translation": "1",
+    "stage": 1
+  }
+]

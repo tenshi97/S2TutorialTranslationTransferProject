@@ -5,8 +5,9 @@
 import os
 import json
 path = "F:\\cs2dev\\TranslationTransferProject\\files\\"
-filename = "cs2_ma_ep1.srt"
+filename = "simple_zh.lua"
 dict_srt = {}
+dict_lua = {}
 file_type = filename.split(".")[1]
 file_name = filename.split(".")[0]
 if(file_type == "srt"):
@@ -31,6 +32,35 @@ if(file_type == "srt"):
         temp=lines.strip()
     json_str = json.dumps(dict_srt,indent=4)
     jsonfile.write(json_str)
+if(file_type == "lua"):
+    new_filename = path+file_name+".json"
+    luafile = open(path+filename,mode='r',encoding='utf-8')
+    jsonfile = open(new_filename,mode='w',encoding='utf-8')
+    flag = 0
+    for lines in luafile:
+        print(lines)
+        if(lines.find("--")==0):
+            continue
+        if(lines.find("=")!=-1):
+            if(lines.find("[[")!=-1):
+                key = lines.split("=")[0].strip()
+                val = lines.split("=")[1]
+                flag = 1
+            else:
+                key = lines.split("=")[0].strip()
+                val = lines.split("=")[1].strip()
+                dict_lua[key]=val
+            continue
+        if(flag==1):
+            val+=lines
+            if(lines.find("]]")!=-1):
+                flag=0
+                dict_lua[key]=val
+    json_str = json.dumps(dict_lua,indent=4,ensure_ascii=False)
+    jsonfile.write(json_str)
+
+
+
 
 
 

@@ -1,0 +1,602 @@
+[
+  {
+    "key": "1_00:00:10,300_00:00:13,730",
+    "original": "hello everybody and welcome to part two",
+    "translation": "各位你们好，欢迎来到本教程的",
+    "stage": 1
+  },
+  {
+    "key": "2_00:00:13,730_00:00:17,119",
+    "original": "in this gmod people do it saucers now in",
+    "translation": "第二部分，现在",
+    "stage": 1
+  },
+  {
+    "key": "3_00:00:17,119_00:00:19,400",
+    "original": "this video again we're not gonna be",
+    "translation": "在这一期视频里，我们不会",
+    "stage": 1
+  },
+  {
+    "key": "4_00:00:19,400_00:00:21,140",
+    "original": "learning too much but what we will be",
+    "translation": "学习太多内容，但我们要做的",
+    "stage": 1
+  },
+  {
+    "key": "5_00:00:21,140_00:00:23,860",
+    "original": "doing is we will be showing you how to",
+    "translation": "是向你展示如何",
+    "stage": 1
+  },
+  {
+    "key": "6_00:00:23,860_00:00:26,689",
+    "original": "basically run a script inside of Garry's",
+    "translation": "在GMOD里运行一些最基本的脚本",
+    "stage": 1
+  },
+  {
+    "key": "7_00:00:26,689_00:00:29,810",
+    "original": "Mod so what I'm gonna do is I'm gonna go",
+    "translation": "接下来我会继续我们的主题",
+    "stage": 1
+  },
+  {
+    "key": "8_00:00:29,810_00:00:33,860",
+    "original": "ahead and I will open up sublime I'm",
+    "translation": "我要打开Sublime(译者注:现在更推荐使用VSCode+Lua+Glua插件)",
+    "stage": 1
+  },
+  {
+    "key": "9_00:00:33,860_00:00:36,920",
+    "original": "gonna go to file new file just like",
+    "translation": "然后点击文件选项，创建新文件，就像",
+    "stage": 1
+  },
+  {
+    "key": "10_00:00:36,920_00:00:37,879",
+    "original": "normal",
+    "translation": "平常一样",
+    "stage": 1
+  },
+  {
+    "key": "11_00:00:37,879_00:00:40,280",
+    "original": "remember based on whichever text editor",
+    "translation": "请记住由于你用的编辑器不同",
+    "stage": 1
+  },
+  {
+    "key": "12_00:00:40,280_00:00:41,900",
+    "original": "you're using this may be different but",
+    "translation": "这一步可能是不同的，但",
+    "stage": 1
+  },
+  {
+    "key": "13_00:00:41,900_00:00:44,329",
+    "original": "normally it's the same for all I'm just",
+    "translation": "大体上都是相似的，好那么",
+    "stage": 1
+  },
+  {
+    "key": "14_00:00:44,329_00:00:45,739",
+    "original": "gonna go ahead and hit ctrl s to save",
+    "translation": "我继续，按下ctrl+S组合键保存文件",
+    "stage": 1
+  },
+  {
+    "key": "15_00:00:45,739_00:00:51,800",
+    "original": "I'm then gonna go over to where garry's",
+    "translation": "然后我将打开GMOD",
+    "stage": 1
+  },
+  {
+    "key": "16_00:00:51,800_00:00:53,270",
+    "original": "mod is installed steam library steam",
+    "translation": "在STEAM库下的安装路径",
+    "stage": 1
+  },
+  {
+    "key": "17_00:00:53,270_00:00:56,270",
+    "original": "apps common Garry's Mod then go to",
+    "translation": "这一般在SteamLibrary/common/apps/Garry's Mod这个路径下",
+    "stage": 1
+  },
+  {
+    "key": "18_00:00:56,270_00:00:59,180",
+    "original": "Garry's Mod again and then go ahead and",
+    "translation": "然后继续打开",
+    "stage": 1
+  },
+  {
+    "key": "19_00:00:59,180_00:01:04,610",
+    "original": "go into newer sorry and then here is",
+    "translation": "LUA文件夹。 这里就是_",
+    "stage": 1
+  },
+  {
+    "key": "20_00:01:04,610_00:01:05,899",
+    "original": "where you're gonna want to save it so",
+    "translation": "你保存你的LUA代码的地方",
+    "stage": 1
+  },
+  {
+    "key": "21_00:01:05,899_00:01:07,759",
+    "original": "for example I'm just gonna save this as",
+    "translation": "在这次演示里我会把这个文件保存为",
+    "stage": 1
+  },
+  {
+    "key": "22_00:01:07,759_00:01:11,270",
+    "original": "test dot lower now remember it's got to",
+    "translation": "test.lua，请记住你必须",
+    "stage": 1
+  },
+  {
+    "key": "23_00:01:11,270_00:01:13,070",
+    "original": "be a Lua file so if we go ahead and say",
+    "translation": "把文件保存为lua后缀，接着我们继续",
+    "stage": 1
+  },
+  {
+    "key": "24_00:01:13,070_00:01:17,720",
+    "original": "that now you can get the gmod low Alexa",
+    "translation": "现在你可以打开GMOD LUA语法高亮",
+    "stage": 1
+  },
+  {
+    "key": "25_00:01:17,720_00:01:21,349",
+    "original": "which is done by F jpg I remember his",
+    "translation": "这个是由FJPG...我不记得他的名字了",
+    "stage": 1
+  },
+  {
+    "key": "26_00:01:21,349_00:01:23,270",
+    "original": "name there will be a link in the",
+    "translation": "语法高亮插件链接我会",
+    "stage": 1
+  },
+  {
+    "key": "27_00:01:23,270_00:01:24,500",
+    "original": "description to that that's if you're",
+    "translation": "放在简介里",
+    "stage": 1
+  },
+  {
+    "key": "28_00:01:24,500_00:01:26,119",
+    "original": "using sublime but I know there is also",
+    "translation": "如果你使用的是sublime的话对你很有帮助，我知道也有",
+    "stage": 1
+  },
+  {
+    "key": "29_00:01:26,119_00:01:29,240",
+    "original": "one for Adam and notepad plus plus so if",
+    "translation": "给Atom和NP++制作的_",
+    "stage": 1
+  },
+  {
+    "key": "30_00:01:29,240_00:01:30,800",
+    "original": "you using even one of those it will also",
+    "translation": "如果你在用这些编辑器的话也可以使用",
+    "stage": 1
+  },
+  {
+    "key": "31_00:01:30,800_00:01:32,990",
+    "original": "work now in here we're gonna write our",
+    "translation": "这些插件。（再次安利VSCODE，只要在扩展商店里搜索Glua即可） 现在我们",
+    "stage": 1
+  },
+  {
+    "key": "32_00:01:32,990_00:01:34,520",
+    "original": "script I was good it's gonna be very",
+    "translation": "要开始写第一个脚本了，这会非常",
+    "stage": 1
+  },
+  {
+    "key": "33_00:01:34,520_00:01:36,459",
+    "original": "simple it's just gonna simply be print",
+    "translation": "简单，就是像我写的这样，一句",
+    "stage": 1
+  },
+  {
+    "key": "34_00:01:36,459_00:01:40,039",
+    "original": "hello world just like that now you'll",
+    "translation": "print(\"hello,world\")完事，你会注意到",
+    "stage": 1
+  },
+  {
+    "key": "35_00:01:40,039_00:01:42,020",
+    "original": "notice how we don't have the i/o dot",
+    "translation": "注意到我们并没有写什么io.read",
+    "stage": 1
+  },
+  {
+    "key": "36_00:01:42,020_00:01:45,020",
+    "original": "read on here which we did in my lure",
+    "translation": "尽管我们在lua系列教程里_",
+    "stage": 1
+  },
+  {
+    "key": "37_00:01:45,020_00:01:46,880",
+    "original": "tutorial series and that's because",
+    "translation": "是这样做的，因为（注:这里是在讨论为何不用打开lua文件的问题，初学者可以略过）",
+    "stage": 1
+  },
+  {
+    "key": "38_00:01:46,880_00:01:48,830",
+    "original": "Garry's Mod is is running this as the",
+    "translation": "GMOD把这些载入的LUA作为环境运行了",
+    "stage": 1
+  },
+  {
+    "key": "39_00:01:48,830_00:01:50,330",
+    "original": "environment meaning if our script gets",
+    "translation": "这意味着即使我们的脚本",
+    "stage": 1
+  },
+  {
+    "key": "40_00:01:50,330_00:01:51,860",
+    "original": "to the end of the code Garry's Mod it's",
+    "translation": "被执行到了最后一行代码，GMOD",
+    "stage": 1
+  },
+  {
+    "key": "41_00:01:51,860_00:01:53,720",
+    "original": "still gonna be running so it doesn't",
+    "translation": "仍然在运行，所以这个脚本文件",
+    "stage": 1
+  },
+  {
+    "key": "42_00:01:53,720_00:01:57,140",
+    "original": "close so IO doc read it's not needed",
+    "translation": "不需要关闭，所以IO.read()并不需要",
+    "stage": 1
+  },
+  {
+    "key": "43_00:01:57,140_00:01:58,910",
+    "original": "anymore just simply print hello world so",
+    "translation": "只需要简单的打印hello world就行",
+    "stage": 1
+  },
+  {
+    "key": "44_00:01:58,910_00:02:01,099",
+    "original": "let's then go into a gmod will then",
+    "translation": "然后我们打开GMOD，接着",
+    "stage": 1
+  },
+  {
+    "key": "45_00:02:01,099_00:02:03,410",
+    "original": "start up a single-player game and once",
+    "translation": "启动单人游戏",
+    "stage": 1
+  },
+  {
+    "key": "46_00:02:03,410_00:02:05,030",
+    "original": "we're in the game there we go we're",
+    "translation": "然后我们继续",
+    "stage": 1
+  },
+  {
+    "key": "47_00:02:05,030_00:02:06,080",
+    "original": "gonna go ahead and we're gonna go into",
+    "translation": "接着我们打开(默认按~键，请注意是否启用控制台)控制台",
+    "stage": 1
+  },
+  {
+    "key": "48_00:02:06,080_00:02:08,179",
+    "original": "our console I'm will type Lua and the",
+    "translation": "接着输入lua_openscript_cl",
+    "stage": 1
+  },
+  {
+    "key": "49_00:02:08,179_00:02:11,360",
+    "original": "score open open script and there's",
+    "translation": "1",
+    "stage": 1
+  },
+  {
+    "key": "50_00:02:11,360_00:02:13,879",
+    "original": "called CL and then you simply start type",
+    "translation": "接下来你只需要输入",
+    "stage": 1
+  },
+  {
+    "key": "51_00:02:13,879_00:02:15,379",
+    "original": "in the name of your script in this case",
+    "translation": "你脚本的文件名，在我这里",
+    "stage": 1
+  },
+  {
+    "key": "52_00:02:15,379_00:02:17,180",
+    "original": "ours was test a lure we do that we hit",
+    "translation": "是test.lua，然后我们敲下",
+    "stage": 1
+  },
+  {
+    "key": "53_00:02:17,180_00:02:19,130",
+    "original": "enter and as you can see it says it's",
+    "translation": "回车键，接下来正如你所看到的",
+    "stage": 1
+  },
+  {
+    "key": "54_00:02:19,130_00:02:20,540",
+    "original": "running the script and then it says",
+    "translation": "脚本运行了，然后它打印了一句",
+    "stage": 1
+  },
+  {
+    "key": "55_00:02:20,540_00:02:22,010",
+    "original": "hello world so the first thing you'll",
+    "translation": "hello world，你会注意到第一件事",
+    "stage": 1
+  },
+  {
+    "key": "56_00:02:22,010_00:02:23,780",
+    "original": "notice is that this is now our",
+    "translation": "这是运行在控制台里的",
+    "stage": 1
+  },
+  {
+    "key": "57_00:02:23,780_00:02:26,660",
+    "original": "so with before we had the e terminal on",
+    "translation": "在我们有图形化界面终端之前",
+    "stage": 1
+  },
+  {
+    "key": "58_00:02:26,660_00:02:30,640",
+    "original": "Windows this is now our console so yeah",
+    "translation": "我们的代码是跑在这个控制台里的",
+    "stage": 1
+  },
+  {
+    "key": "59_00:02:30,640_00:02:33,650",
+    "original": "that's pretty much that we can also do",
+    "translation": "说得太多了，接下来我们可以",
+    "stage": 1
+  },
+  {
+    "key": "60_00:02:33,650_00:02:36,200",
+    "original": "Lua underscore open scripts and instead",
+    "translation": "输入lua_openscript，没有后面的",
+    "stage": 1
+  },
+  {
+    "key": "61_00:02:36,200_00:02:38,930",
+    "original": "of doing an underscore CL we just simply",
+    "translation": "_cl，我们只是",
+    "stage": 1
+  },
+  {
+    "key": "62_00:02:38,930_00:02:40,640",
+    "original": "type open script and type of test and as",
+    "translation": "输入lua_openscript，然后空一格输入test.lua",
+    "stage": 1
+  },
+  {
+    "key": "63_00:02:40,640_00:02:42,260",
+    "original": "you can see it did the exact same except",
+    "translation": "接下来你会看到结果基本一致，除了",
+    "stage": 1
+  },
+  {
+    "key": "64_00:02:42,260_00:02:44,390",
+    "original": "this time our text was in blue and if",
+    "translation": "这次我们打印出的文本是蓝色的",
+    "stage": 1
+  },
+  {
+    "key": "65_00:02:44,390_00:02:45,680",
+    "original": "you remember our client and server",
+    "translation": "如果你还对上节关于客户端和服务端的内容有印象的话",
+    "stage": 1
+  },
+  {
+    "key": "66_00:02:45,680_00:02:49,970",
+    "original": "tutorial I said the orange was client",
+    "translation": "你应该记得我说过，橙色代表客户端",
+    "stage": 1
+  },
+  {
+    "key": "67_00:02:49,970_00:02:52,700",
+    "original": "and blue was the server so when we went",
+    "translation": "而蓝色代表服务端，所以如果我们在客户端上执行的话",
+    "stage": 1
+  },
+  {
+    "key": "68_00:02:52,700_00:02:54,050",
+    "original": "on our client you'll notice how the text",
+    "translation": "也就是用lua_openscript_cl，你会发现",
+    "stage": 1
+  },
+  {
+    "key": "69_00:02:54,050_00:02:56,030",
+    "original": "is orange moving around on the server",
+    "translation": "文本是橙色的，如果在服务端执行的话",
+    "stage": 1
+  },
+  {
+    "key": "70_00:02:56,030_00:02:57,920",
+    "original": "our text is blue and as I've already",
+    "translation": "得到的就是蓝色的，就像我此前说过的",
+    "stage": 1
+  },
+  {
+    "key": "71_00:02:57,920_00:03:00,980",
+    "original": "stated in that video there is a client",
+    "translation": "即使是在一个单人模式的游戏里",
+    "stage": 1
+  },
+  {
+    "key": "72_00:03:00,980_00:03:02,420",
+    "original": "and server even though I'm on single",
+    "translation": "依然有客户端和服务端的概念",
+    "stage": 1
+  },
+  {
+    "key": "73_00:03:02,420_00:03:04,880",
+    "original": "player there is basically a server with",
+    "translation": "游戏会建立一个只有一个玩家位置的",
+    "stage": 1
+  },
+  {
+    "key": "74_00:03:04,880_00:03:07,370",
+    "original": "one slot for you to join that is not",
+    "translation": "服务器来给你加入，这个服务器并没有",
+    "stage": 1
+  },
+  {
+    "key": "75_00:03:07,370_00:03:09,170",
+    "original": "hosted on the internet but on your local",
+    "translation": "搭建在互联网上，而是建立在",
+    "stage": 1
+  },
+  {
+    "key": "76_00:03:09,170_00:03:11,810",
+    "original": "game so again there is still a client on",
+    "translation": "你本地的游戏上，所以在强调一次永远都有客户端和",
+    "stage": 1
+  },
+  {
+    "key": "77_00:03:11,810_00:03:13,819",
+    "original": "the server now I hope that really makes",
+    "translation": "服务端的概念，希望你能记住",
+    "stage": 1
+  },
+  {
+    "key": "78_00:03:13,819_00:03:15,560",
+    "original": "sense to you again I know this is",
+    "translation": "这很重要。我知道这已经不是上一期了",
+    "stage": 1
+  },
+  {
+    "key": "79_00:03:15,560_00:03:17,330",
+    "original": "another short video but the idea of this",
+    "translation": "这一期的视频是想教会你",
+    "stage": 1
+  },
+  {
+    "key": "80_00:03:17,330_00:03:18,560",
+    "original": "video is just to give you a name",
+    "translation": "只是想给你一个简单的说明",
+    "stage": 1
+  },
+  {
+    "key": "81_00:03:18,560_00:03:21,489",
+    "original": "explanation on how we can go ahead and",
+    "translation": "来展示我们接下来将怎样",
+    "stage": 1
+  },
+  {
+    "key": "82_00:03:21,489_00:03:24,680",
+    "original": "write and execute scripts now one thing",
+    "translation": "编写和执行脚本，现在还有一件",
+    "stage": 1
+  },
+  {
+    "key": "83_00:03:24,680_00:03:27,410",
+    "original": "to know is that for now we're gonna be",
+    "translation": "你需要知道的事情是，我们接下来",
+    "stage": 1
+  },
+  {
+    "key": "84_00:03:27,410_00:03:29,360",
+    "original": "doing all of our work inside of that Lua",
+    "translation": "所做的一切都是在lua文件夹下",
+    "stage": 1
+  },
+  {
+    "key": "85_00:03:29,360_00:03:33,040",
+    "original": "folder that I told you to save in now",
+    "translation": "就像我之前让你保存的地方一样",
+    "stage": 1
+  },
+  {
+    "key": "86_00:03:33,040_00:03:35,269",
+    "original": "once we obviously get a bit further on",
+    "translation": "当我们更深入的学习的时候",
+    "stage": 1
+  },
+  {
+    "key": "87_00:03:35,269_00:03:36,290",
+    "original": "we're gonna go ahead and we're gonna",
+    "translation": "我们将会进一步",
+    "stage": 1
+  },
+  {
+    "key": "88_00:03:36,290_00:03:37,910",
+    "original": "convert those into add-ons rather than",
+    "translation": "把我们的脚本转换为插件(add-ons)并放在addons文件夹下",
+    "stage": 1
+  },
+  {
+    "key": "89_00:03:37,910_00:03:39,470",
+    "original": "having to place them into the newer",
+    "translation": "而不是放在lua文件夹下",
+    "stage": 1
+  },
+  {
+    "key": "90_00:03:39,470_00:03:42,260",
+    "original": "folder but yeah I hope you learned",
+    "translation": "希望你从这简短的视频里",
+    "stage": 1
+  },
+  {
+    "key": "91_00:03:42,260_00:03:44,030",
+    "original": "something and again I do apologize for",
+    "translation": "有所收获，我很抱歉",
+    "stage": 1
+  },
+  {
+    "key": "92_00:03:44,030_00:03:46,489",
+    "original": "it be in such a short video these are",
+    "translation": "这期视频如此简短",
+    "stage": 1
+  },
+  {
+    "key": "93_00:03:46,489_00:03:48,049",
+    "original": "just designed to give you the",
+    "translation": "这是为了能够",
+    "stage": 1
+  },
+  {
+    "key": "94_00:03:48,049_00:03:49,880",
+    "original": "introductory of what we need to get",
+    "translation": "让你循序渐进的学习",
+    "stage": 1
+  },
+  {
+    "key": "95_00:03:49,880_00:03:51,530",
+    "original": "started so again if you have any",
+    "translation": "然后，再说一次，如果你有任何",
+    "stage": 1
+  },
+  {
+    "key": "96_00:03:51,530_00:03:53,180",
+    "original": "questions leave a comment I hope you",
+    "translation": "疑问的话，可以在评论区留下你的评论（译者注:我也会尽力解答的）",
+    "stage": 1
+  },
+  {
+    "key": "97_00:03:53,180_00:03:54,739",
+    "original": "learned something I hope you enjoyed",
+    "translation": "希望你学到一些东西，并且很愉快的看完了",
+    "stage": 1
+  },
+  {
+    "key": "98_00:03:54,739_00:03:57,049",
+    "original": "watching and I'll see you in the next",
+    "translation": "这期视频，让我们下期见",
+    "stage": 1
+  },
+  {
+    "key": "99_00:03:57,049_00:03:59,260",
+    "original": "video",
+    "translation": "1",
+    "stage": 1
+  },
+  {
+    "key": "100_00:04:04,880_00:04:06,940",
+    "original": "you",
+    "translation": "1",
+    "stage": 1
+  }
+]

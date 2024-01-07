@@ -1,0 +1,2390 @@
+[
+  {
+    "key": "LANGUAGE.minute_points_added",
+    "original": "\"No damage received for a whole minute! Added %d points.\"",
+    "translation": "整整一分钟没有受到任何伤害! 给予 %d 点数.",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.infliction_reached_class_unlocked",
+    "original": "\"%d%% infliction has been reached! %s unlocked!\"",
+    "translation": "\"%d%% 伤害达成! %s unlocked!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.infliction_reached",
+    "original": "\"%d%% of humans have died!\"",
+    "translation": "%d%% 的人类已经死亡!",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_unlocked",
+    "original": "\"%s unlocked!\"",
+    "translation": "\"%s 已解锁!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.disconnect_killed",
+    "original": "\"%s was disconnect killed by %s.\"",
+    "translation": "%s 已断开连接，被 %s 杀死",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.nail_removed_by",
+    "original": "\"%s removed a nail belonging to %s.\"",
+    "translation": "\"%s 移除了属于%s 的钉子\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.banned_for_life_warning",
+    "original": "\"You have the Banned for Life skill active so you can't purchase anything!\"",
+    "translation": "\"你激活了终身无法购买物品，所以你什么都买不了!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.late_buyer_warning",
+    "original": "\"You have the Late Buyer skill active so you can't purchase anything until the second half!\"",
+    "translation": "\"你激活了迟到买家技能，所以你要到下半局才能购买任何东西!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.late_buyer_finished",
+    "original": "\"The late buyer period has finished. You can now purchase items from the arsenal.\"",
+    "translation": "\"迟到买家已经结束.你现在可以从武器库购买物品.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.need_to_be_near_arsenal_crate",
+    "original": "\"You need to be near an Arsenal Crate to purchase items!\"",
+    "translation": "\"你需要在水晶印记附近才能购买物品!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.need_to_be_near_remantler",
+    "original": "\"You need to be near a Remantler!\"",
+    "translation": "\"你必许靠近升级机!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.cant_purchase_right_now",
+    "original": "\"You can't purchase anything right now.\"",
+    "translation": "\"你现在不能购买任何东西\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.dont_have_enough_points",
+    "original": "\"You don't have enough points.\"",
+    "translation": "\"你没有足够的点数.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.need_to_have_enough_scrap",
+    "original": "\"You don't have enough scrap.\"",
+    "translation": "\"你没有足够的零件.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.cannot_dismantle",
+    "original": "\"You cannot dismantle this item.\"",
+    "translation": "\"你不能分解这个道具.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.prepare_yourself",
+    "original": "\"Prepare yourself...\"",
+    "translation": "\"做好准备...\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.purchased_x_for_y_points",
+    "original": "\"Purchased %s for %d points!\"",
+    "translation": "\"购买 %s 使用 %d 分数!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.created_x_for_y_scrap",
+    "original": "\"Created %s for %d scrap!\"",
+    "translation": "“合成 %s 使用 %d 零件!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.give_time_before_suicide",
+    "original": "\"Give others time to spawn before suiciding.\"",
+    "translation": "”自杀前请给别人复活时间.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.no_spare_ammo_to_give",
+    "original": "\"No spare ammo to give!\"",
+    "translation": "\"没有弹药可以使用!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.no_person_in_range",
+    "original": "\"No person in range!\"",
+    "translation": "\"范围内没有目标!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.that_life",
+    "original": "\"That life...\"",
+    "translation": "\"那条生命...\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_damage_to_barricades",
+    "original": "\"%d damage to barricades\"",
+    "translation": "\"对建筑物造成 %d 伤害\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_damage_to_humans",
+    "original": "\"%d damage to humans\"",
+    "translation": "\"对人类造成 %d 伤害\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_brains_eaten",
+    "original": "\"%d brains eaten\"",
+    "translation": "\"吃了 %d 个脑子\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_jump_to_free_roam",
+    "original": "\"Press JUMP to free roam\"",
+    "translation": "\"按下 跳跃键 随机复活到巢穴\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_rmb_to_cycle_targets",
+    "original": "\"Press RMB to cycle targets\"",
+    "translation": "\"按下 鼠标右键 循环目标\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_lmb_to_spawn_on_them",
+    "original": "\"Press LMB to spawn on them\"",
+    "translation": "\"按下 鼠标左键 在这个巢穴复活\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_lmb_to_spawn",
+    "original": "\"Press LMB to spawn randomly\"",
+    "translation": "\"按下 鼠标左键 在随机巢穴复活\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_reload_to_spawn_far",
+    "original": "\"Press RELOAD to spawn far away from survivors\"",
+    "translation": "\"按下 换弹键 复活在远离幸存者的巢穴\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_alt_nest_menu",
+    "original": "\"Press ALT to open the nest menu/spawn on minions\"",
+    "translation": "\"按下 ALT 打开巢穴菜单\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_reload_to_spawn_at_normal_point",
+    "original": "\"Press RELOAD to spawn at a normal spawn point\"",
+    "translation": "\"按下 换弹键 在绿雾中重生\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_walk_to_spawn_as_x",
+    "original": "\"Press %s to spawn as a %s\"",
+    "translation": "\"按下 %s 复活为 %s\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_rmb_to_spawn_close",
+    "original": "\"Press RMB to spawn close to survivors\"",
+    "translation": "\"按下 鼠标右键 复活在靠近人类的巢穴\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_left_and_right_to_cycle_targets",
+    "original": "\"Press STRAFE LEFT and STRAFE RIGHT to cycle targets\"",
+    "translation": "\"按下 左平移 和 右平移 循环目标\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.observing_x",
+    "original": "\"Observing %s (%d)\"",
+    "translation": "\"观察 %s (%d)\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.observing_x_simple",
+    "original": "\"Observing %s\"",
+    "translation": "\"观察 %s\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.waiting_for_next_wave",
+    "original": "\"Waiting for the next wave to begin...\"",
+    "translation": "\"等待下一波开始...\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.impossible",
+    "original": "\"Impossible.\"",
+    "translation": "\"难以置信.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.trying_to_put_nails_in_glass",
+    "original": "\"Trying to put nails in glass is a silly thing to do.\"",
+    "translation": "\"把钉子钉在玻璃上是个愚蠢的事情.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.boss_class_select",
+    "original": "\"You will be %s the next time you're a boss zombie.\"",
+    "translation": "\"当你下次成为僵尸BOSS时你会成为 %s .\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.person_has_weapon",
+    "original": "\"They already have that weapon.\"",
+    "translation": "\"他们已经有这个武器了.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.cant_do_that_in_classic_mode",
+    "original": "\"You can't do that in Classic Mode.\"",
+    "translation": "\"在经典模式中你不能这么做.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.cant_use_x_in_classic_mode",
+    "original": "\"You can't use %s in Classic Mode.\"",
+    "translation": "\"在经典模式中你不能使用 %s.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.cant_use_x_in_zombie_escape",
+    "original": "\"You can't use %s in Zombie Escape.\"",
+    "translation": "\"在僵尸逃跑模式中你不能使用 %s.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.no_class_switch_in_this_mode",
+    "original": "\"The current mode doesn't allow you to switch classes.\"",
+    "translation": "\"当前模式不允许切换僵尸类型.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_sprint_to_get_up",
+    "original": "\"Press SPRINT to get up\"",
+    "translation": "\"按下 冲刺键 站起来\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.zombie_escape",
+    "original": "\"Zombie Escape!\"",
+    "translation": "\"僵尸逃跑!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.nothing_for_this_ammo",
+    "original": "\"You don't have anything that uses this type of ammo.\"",
+    "translation": "\"你没有使用这种弹药的武器.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_decide_to_leave_some",
+    "original": "\"You decide to leave some for your team.\"",
+    "translation": "\"你决定留下一些给你的团队.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_cant_purchase_now",
+    "original": "\"You can't purchase items right now.\"",
+    "translation": "\"你现在不能够买道具.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.no_ammo_here",
+    "original": "\"There's no ammo here right now.\"",
+    "translation": "\"现在这里没有弹药.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_redeemed",
+    "original": "\"You have redeemed!\"",
+    "translation": "\"你复活了!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_redeemed",
+    "original": "\"%s has redeemed!\"",
+    "translation": "\"%s 已经复活!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.kill_the_last_human",
+    "original": "\"Kill the last human!\"",
+    "translation": "\"干掉那个想SOLO的孤儿!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.kick_the_last_human",
+    "original": "\"Kick the last human!\"",
+    "translation": "\"踢爆最后一个幸存者的菊花!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_are_the_last_human",
+    "original": "\"YOU ARE THE LAST HUMAN!\"",
+    "translation": " \"你是最后一个幸存者!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_zombies_out_to_get_you",
+    "original": "\"%d ZOMBIES ARE OUT TO GET YOU!\"",
+    "translation": "\"%d个僵尸正在接近!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_pants_out_to_get_you",
+    "original": "\"%d PANTS ARE OUT TO GET YOU!\"",
+    "translation": "\"%d个爆菊大腿来踢爆你的菊花了!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_have_died",
+    "original": "\"You have died.\"",
+    "translation": "\"你死了.:\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_were_killed_by_x",
+    "original": "\"You were killed by %s\"",
+    "translation": "\"你被 %s 杀死了\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_were_kicked_by_x",
+    "original": "\"You were kicked in the shins by %s\"",
+    "translation": "\"你被 %s 爆菊了\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.arsenal_upgraded",
+    "original": "\"Arsenal Upgraded\"",
+    "translation": "\"武器升级\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.final_wave",
+    "original": "\"THE FINAL WAVE HAS BEGUN!\"",
+    "translation": "\"最终波开始!!!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.final_wave_sub",
+    "original": "\"ALL classes unlocked and the chance for redemption has ended!\"",
+    "translation": "\"所以僵尸种类解锁，获得救赎的机会已经结束!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.wave_x_has_begun",
+    "original": "\"Wave %d has begun!\"",
+    "translation": "\"第 %d 波开始!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.wave_x_is_over",
+    "original": "\"Wave %d is over!\"",
+    "translation": "\"第 %d 波已经结束!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.wave_x_is_over_sub",
+    "original": "\"The Undead have stopped rising.\"",
+    "translation": "\"僵尸停止复活.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.points_for_surviving",
+    "original": "\"You've gained %d points for surviving.\"",
+    "translation": "\"你因存活获得了 %d 点数\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.scrap_for_surviving",
+    "original": "\"You've gained %d scrap for surviving.\"",
+    "translation": "\"你因存活获得了 %d 零件\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_are_x",
+    "original": "\"You are %s!\"",
+    "translation": "\"你是 %s !\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_has_risen_as_y",
+    "original": "\"%s has risen as %s!!\"",
+    "translation": "\" %s 已成为 %s !!!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_has_risen",
+    "original": "\"A boss zombie has risen!\"",
+    "translation": "\"一个僵尸BOSS出现!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_has_been_slain_as_y",
+    "original": "\"%s has been slain as %s!\"",
+    "translation": "\" %s 已被杀死,击杀者是 %s !\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.cant_use_worth_anymore",
+    "original": "\"You can't use the Worth menu any more!\"",
+    "translation": "\"你不能再使用开局菜单了!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.class_not_unlocked_will_be_unlocked_x",
+    "original": "\"That class is not unlocked yet. It will be unlocked at the start of wave %d.\"",
+    "translation": "\"这个僵尸类型未解锁,它将在 %d 波解锁.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_are_already_a_x",
+    "original": "\"You are already a %s.\"",
+    "translation": "\"你已经是 %s .\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_will_spawn_as_a_x",
+    "original": "\"You will spawn as a %s.\"",
+    "translation": "\"你将以 %s 复活.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.crafting_successful",
+    "original": "\"Crafting successful!\"",
+    "translation": "\"制作成功!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_crafted_y",
+    "original": "\"%s crafted %s.\"",
+    "translation": "\" %s 制作的 %s .\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.escape_from_the_zombies",
+    "original": "\"Escape from the zombies!\"",
+    "translation": "\"从僵尸的魔爪中逃脱!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.too_close_to_another_nail",
+    "original": "\"Too close to another nail.\"",
+    "translation": "\"太靠近另一个钉子.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.object_too_damaged_to_be_used",
+    "original": "\"That object is too damaged to be used anymore.\"",
+    "translation": "\"那个物体已经坏到无法使用了.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.thanks_for_being_a_fan_of_zs",
+    "original": "\"Thanks for being a fan of Zombie Survival!\"",
+    "translation": "\"感谢你成为僵尸生存的粉丝!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.cant_remove_nails_of_superior_player",
+    "original": "\"You can't remove the nails of a player with the barricade expert skill because you don't also have the skill.\"",
+    "translation": "\"你不能用建筑物专家技能去除玩家的钉子,因为你没有这个技能.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_turned_on_noclip",
+    "original": "\"%s turned on noclip.\"",
+    "translation": "\" %s 启用飞行模式.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_turned_off_noclip",
+    "original": "\"%s turned off noclip.\"",
+    "translation": "\" %s 关闭飞行模式.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.unlocked_on_wave_x",
+    "original": "\"Unlocked on wave %d\"",
+    "translation": "\"在第 %d 波解锁\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.brains_eaten_x",
+    "original": "\"Brains eaten: %s\"",
+    "translation": "\"食用脑子: %s\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.points_x",
+    "original": "\"Points: %s\"",
+    "translation": "点数: %s\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.next_wave_in_x",
+    "original": "\"Next wave in %s\"",
+    "translation": "\"下一波在 %s 后开始\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.wave_ends_in_x",
+    "original": "\"Wave ends in %s\"",
+    "translation": "\"本波结束在 %s \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.wave_x_of_y",
+    "original": "\"Wave %d of %d\"",
+    "translation": "\"波次:%d/%d\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.round_x_of_y",
+    "original": "\"Round %d of %d\"",
+    "translation": "\"回合:%d/%d\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.zombie_invasion_in_x",
+    "original": "\"Zombie invasion in %s\"",
+    "translation": "\"僵尸于 %s 入侵\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.intermission",
+    "original": "\"Intermission\"",
+    "translation": "\"等待下一波开始\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_f2_for_the_points_shop",
+    "original": "\"Press F2 for the Points Shop!\"",
+    "translation": "\"按下 F2 打开点数商店!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.breath",
+    "original": "\"Breath\"",
+    "translation": "\"呼吸\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.zombie_volunteers",
+    "original": "\"Zombie Volunteers\"",
+    "translation": "\"善意尸变\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_will_be_y_soon",
+    "original": "\"%s will become %s soon!\"",
+    "translation": "\" %s 将以 %s 出现!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_will_be_x_soon",
+    "original": "\"You will become %s soon!\"",
+    "translation": "\"你将成为 %s !\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_discount_for_buying_between_waves",
+    "original": "\"%d%% discount for buying between waves!\"",
+    "translation": "\" 波间隔购买可享受%d%%优惠!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.number_of_initial_zombies_this_game",
+    "original": "\"Number of initial zombies this game (%d%%): %d\"",
+    "translation": "\"本局游戏的初始僵尸数量 (%d%%): %d \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.humans_closest_to_spawns_are_zombies",
+    "original": "\"The humans closest to the zombie spawns will start as zombies.\"",
+    "translation": "\"最靠近僵尸出生点的人类将被选为僵尸.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.waiting_for_players",
+    "original": "\"Waiting for players...\"",
+    "translation": "\"等待玩家\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.requires_x_people",
+    "original": "\"Requires %d people\"",
+    "translation": "\"需要 %d 人\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.packing_others_object",
+    "original": "\"Packing other person's object\"",
+    "translation": "\"打包他人的物品\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.packing",
+    "original": "\"Packing\"",
+    "translation": "\"打包中\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.ze_humans_are_frozen_until_x",
+    "original": "\"Humans are frozen until %d seconds before the round starts.\"",
+    "translation": "\"人类被冻结,直到回合开始前 %d 秒.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.loading",
+    "original": "\"Loading...\"",
+    "translation": "‘’正在加载...\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.next_round_in_x",
+    "original": "\"Next round in: %s\"",
+    "translation": "\"下回合开始在 %s \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.warning",
+    "original": "\"Warning!\"",
+    "translation": "\"注意!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.ready",
+    "original": "\"Ready\"",
+    "translation": "\"准备\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.ok_and_no_reminder",
+    "original": "\"OK and don't pop this message up anymore\"",
+    "translation": "\" 好的,不再弹出此信息\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.classic_mode_warning",
+    "original": "\"This server is running Zombie Survival in 'Classic Mode'\\nClassic Mode is a setting which greatly alters gameplay. Things that are changed:\\n* No selection of zombie classes. Everyone uses the Classic Zombie class\\n* No barricading tools such as nailing or turrets\\n* More but faster waves\\n\\nThis is NOT original Zombie Survival!\\n\\n-- Servers which run classic mode will display CLASSIC MODE in the bottom left of the screen --\"",
+    "translation": "\"此服务器正在经典模式下运行僵尸生存'\\n经典模式会很大的修改游戏体验的设置.三思而后行\\n* 没有僵尸种类的选择.每个人都使用普通僵尸\\n* 没有建筑工具,如钉子或炮塔\\n* 更多的波数和更快的节奏\\n\\n* 这不是原版的僵尸生存!\\n\\n--运行经典模式的服务器将在屏幕左下角显示经典模式--\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.classic_mode",
+    "original": "\"CLASSIC MODE\"",
+    "translation": "\"经典模式\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.resist_x",
+    "original": "\"Resist: %d%%\"",
+    "translation": "\"抗性: %d%%\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.right_click_to_hammer_nail",
+    "original": "\"Right click to hammer in a nail.\"",
+    "translation": "\"单击右键敲入钉子\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.nails_x",
+    "original": "\"Nails: %d\"",
+    "translation": "\"钉子: %d \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.resupply_box",
+    "original": "\"Resupply Box\"",
+    "translation": "\"弹药箱\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.purchase_now",
+    "original": "\"Purchase now!\"",
+    "translation": "\"现在购买!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.integrity_x",
+    "original": "\"Integrity: %d%%\"",
+    "translation": "\"完整度: %d%% \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.empty",
+    "original": "\"EMPTY\"",
+    "translation": "\"空的\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.manual_control",
+    "original": "\"MANUAL CONTROL\"",
+    "translation": "\"手动操作\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.arsenal_crate",
+    "original": "\"Arsenal Crate\"",
+    "translation": "\"军火箱\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.not_enough_room_for_a_nest",
+    "original": "\"Not enough room here for a nest!\"",
+    "translation": "\"这里没有足够的空间筑巢! \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.too_close_to_another_nest",
+    "original": "\"Too close to another nest!\"",
+    "translation": "\"太靠近另一个巢穴了!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.nest_created",
+    "original": "\"Nest created! Finish building to enable spawning here.\"",
+    "translation": "\"巢已创建!完成构建以在此处复活僵尸.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.nest_built_by_x",
+    "original": "\"A Flesh Creeper nest has been built by %s and is now a spawn point.\"",
+    "translation": "\" %s 已经建造了一个巢穴,现在是一个复活点.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.nest_destroyed",
+    "original": "\"A Flesh Creeper nest has been destroyed.\"",
+    "translation": "\"一个巢穴已被摧毁.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.wait_x_seconds_before_making_a_new_nest",
+    "original": "\"You must wait %d more seconds before creating a new nest.\"",
+    "translation": "\"在创建新巢穴之前,必须再等待 %d 秒.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.too_close_to_a_human",
+    "original": "\"Too close to a human!\"",
+    "translation": "\"太靠近人类!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.too_close_to_a_spawn",
+    "original": "\"Too close to a zombie spawn!\"",
+    "translation": "\"太靠近僵尸出生点!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.too_close_to_uncorrupt",
+    "original": "\"Too close to an uncorrupted sigil!\"",
+    "translation": "\"太靠近一个未被摧毁的水晶!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_has_built_this_nest_and_is_still_around",
+    "original": "\"%s has built this nest and is still around, so you can't demolish it.\"",
+    "translation": "\" %s 已经建造了这个巢穴,而且还在附近,所以你不能拆除它.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.no_other_nests",
+    "original": "\"You can't destroy a nest if only one remains.\"",
+    "translation": "\"如果只剩下一个巢穴,你就无法摧毁它.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.there_are_too_many_nests",
+    "original": "\"There are too many nests so you can't build any more!\"",
+    "translation": "\"这里有太多的巢穴了,所以你不能在建造巢穴了!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_have_made_too_many_nests",
+    "original": "\"You've already created enough nests. Demolish one and try again.\"",
+    "translation": "\"你已经建造了足够多的巢穴.拆除一个并重试.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.no_free_channel",
+    "original": "\"Radio interference from too many already being placed!\"",
+    "translation": "\"已经放置了太多的无线电干扰!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.tier_x_items_unlock_at_wave_y",
+    "original": "\"Tier %d items unlock at wave %d\"",
+    "translation": "\"第 %d 阶物品在第 %d 波解锁\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.tier_x_items",
+    "original": "\"Tier %d items\"",
+    "translation": "\"第 %d 阶物品",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.humans_furthest_from_sigils_are_zombies",
+    "original": "\"The humans furthest from a Sanity Sigil will start as zombies.\"",
+    "translation": "\"距离理智水晶最远的人将成为初始僵尸.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.out_of_stock",
+    "original": "\"That item is out of stock!\"",
+    "translation": "\"那件商品缺货!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.obtained_x_y_ammo",
+    "original": "\"Obtained %d %s ammo\"",
+    "translation": "\"获得 %d %s 弹药\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.gave_x_y_ammo_to_z",
+    "original": "\"Gave %d %s ammo to %s\"",
+    "translation": "\"将 %d %s 弹药 给予 %s\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.obtained_x_y_ammo_from_z",
+    "original": "\"Obtained %d %s ammo from %s\"",
+    "translation": "\"获得 %d %s 弹药, 来源为%s\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.healed_x_by_y",
+    "original": "\"%s healed you for %d HP\"",
+    "translation": "\" %s 治疗你 %d 血量\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.healed_x_for_y",
+    "original": "\"Healed %s for %d HP\"",
+    "translation": "\"治疗 %s %d 血量\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.buffed_x_with_y",
+    "original": "\"%s buffed you with a %s\"",
+    "translation": "\" %s 对你使用 %s 增益效果\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.buffed_x_with_a_y",
+    "original": "\"Buffed %s with a %s\"",
+    "translation": "\"对 %s 使用 %s 增益效果\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.removed_your_nail",
+    "original": "\"%s removed one of your nails\"",
+    "translation": "\" %s 拆除了你的一根钉子\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.giving_items_to",
+    "original": "\"Giving items to %s\"",
+    "translation": "\"把道具给了 %s \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.weapon_remantler",
+    "original": "\"Weapon Remantler\"",
+    "translation": "\"武器重组机\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.remantle_success",
+    "original": "\"Weapon Remantled:\"",
+    "translation": "\"武器已重组\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.remantle_used",
+    "original": "\"%d scrap has been created in your remantler.\"",
+    "translation": "\" %s 个零件从你的重组机中取出.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.remantle_cannot",
+    "original": "\"You already have an upgraded weapon of this type.\"",
+    "translation": "\"你已经有了这种类型的升级武器.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.teleporting_to_sigil",
+    "original": "\"Teleporting to Sigil %s\"",
+    "translation": "\"传送至水晶 %s \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.press_shift_to_cancel",
+    "original": "\"Press SHIFT to cancel\"",
+    "translation": "\"按下 SHIFT 取消传送\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.point_at_a_sigil_to_choose_destination",
+    "original": "\"Point at another sigil to choose destination.\"",
+    "translation": "\"指向另一个水晶选择目的地.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.frail_healdart_warning",
+    "original": "\"Healing blocked because %s has DEBUFF: FRAIL!\"",
+    "translation": "\"治疗终止,因为 %s 有负面增益:脆弱!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.obtained_a_inv",
+    "original": "\"%s added to inventory\"",
+    "translation": "\" %s 已添加到个人仓库\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_already_have_this_trinket",
+    "original": "\"You already have this trinket in your inventory.\"",
+    "translation": "\"你的个人仓库里已经有这个饰品了.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.they_already_have_this_trinket",
+    "original": "\"They already have this trinket in their inventory.\"",
+    "translation": "“他们的仓库里已经有这个饰品了.”",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_cannot_carry_more_comps",
+    "original": "\"You cannot carry more crafting components.\"",
+    "translation": "\"你不能携带更多的制作组件.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.they_cannot_carry_more_comps",
+    "original": "\"They cannot carry more crafting components.\"",
+    "translation": "\"他们不能携带更多的制作组件.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.obtained_inv_item_from_z",
+    "original": "\"Obtained %s from %s added to inventory\"",
+    "translation": "\"获得了 %s ,来源为 %s并加入到库存 \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.deployable_lost",
+    "original": "\"Your %s was lost.\"",
+    "translation": "“你失去了 %s \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.deployable_claimed",
+    "original": "\"You've claimed a %s.\"",
+    "translation": "",
+    "stage": 2
+  },
+  {
+    "key": "LANGUAGE.trinket_consumed",
+    "original": "\"Your %s has been consumed and activated.\"",
+    "translation": "‘你的 %s 已被消耗并激活.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.ran_out_of_ammo",
+    "original": "\"Your %s has run out of ammo.\"",
+    "translation": "\"你的 %s 弹药用完了.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.trinket_recharged",
+    "original": "\"Your %s has recharged and is ready to use again.\"",
+    "translation": "\"你的 %s 已充能完毕,可以再次使用.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.evolves_in_to_x_on_wave_y",
+    "original": "\"Evolves in to %s on wave %d.\"",
+    "translation": "\"将会进化到 %s (于%d 波) \"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.sigil",
+    "original": "\"Sanity Sigil\"",
+    "translation": "\"理智水晶\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.sigil_corrupted",
+    "original": "\"A Sanity Sigil has been corrupted. The Undead grow more resilient.\"",
+    "translation": "\"一个理智水晶被腐化了.不死者变的更强了.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.sigil_corrupted_last",
+    "original": "\"The last Sanity Sigil has been corrupted! The Undead grow very resilient!\"",
+    "translation": "\"最后一个理智水晶被腐化了!不死者变得非常强大!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.sigil_uncorrupted",
+    "original": "\"A Sanity Sigil has been uncorrupted, the Undead have weakened!\"",
+    "translation": "\"一个理智水晶已被恢复,不死者已经被削弱!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.sigil_destroyed_only_one_remain_z",
+    "original": "\"Only one Sanity Sigil remains!\"",
+    "translation": "notran",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.sigil_destroyed_x_remain",
+    "original": "\"%d remaining.\"]]",
+    "translation": "notran",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.sigil_corrupted_x_remain",
+    "original": "\"%d remain uncorrupted.\"",
+    "translation": "\"%d 个水晶未腐化.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.last_sigil_destroyed_all_is_lost2",
+    "original": "\"Time to die!\"]]",
+    "translation": "notran",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.prop_obj_exit_h",
+    "original": "\"Escape!\"",
+    "translation": "\"逃脱!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.prop_obj_exit_z",
+    "original": "\"Stop them!\"",
+    "translation": "\"阻止他们!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_sigils_appeared",
+    "original": "\"%d Sanity Sigils have appeared. Humans may teleport between them.\"",
+    "translation": "\" %d 理智水晶已经显现.人类可以在它们之间传送.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.has_survived",
+    "original": "\"has survived!\"",
+    "translation": "\"活下来了!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.unspent_skill_points_press_x",
+    "original": "\"You have unspent skill points. Press %q to unlock new skills.\"",
+    "translation": "\"你有未使用的技能点.按 %q 解锁新技能.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_requires_a_skill_you_dont_have",
+    "original": "\"%s requires a skill you don't have!\"",
+    "translation": "\" %s 需要一种你没有的技能!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_ascended_to_level_x",
+    "original": "\"You have ascended to level %d!\"",
+    "translation": "\"你已提升到 %d 级!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_have_remorted_now_rl_x",
+    "original": "\"You have remorted and ascended to remort level %d!\"",
+    "translation": "\"你已转生! 转生等级是 %d !\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_now_have_x_extra_sp",
+    "original": "\"You now have %d extra skill points!\"",
+    "translation": "\"你现在有 %d 个额外技能点!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.x_has_remorted_to_rl_y",
+    "original": "\"%s has remorted to remort level %d!!\"",
+    "translation": "\"%s 已转生,转生等级是 %d !!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.you_have_reset_all",
+    "original": "\"All of your skills, XP, and skill points have been reset.\"",
+    "translation": "\"你的所有技能,经验值,.和技能点都已重置.\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_1",
+    "original": "\"Meet up here\"",
+    "translation": "\"在此处集合\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_2",
+    "original": "\"Need defense here\"",
+    "translation": "\"此处需要防御\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_3",
+    "original": "\"Need turrets here\"",
+    "translation": "\"此处需要哨戒机枪\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_4",
+    "original": "\"Need arsenal crates here\"",
+    "translation": "\"此处需要军火箱\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_5",
+    "original": "\"Need medics here\"",
+    "translation": "\"此处需要治疗\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_6",
+    "original": "\"Resupply box here\"",
+    "translation": "\"此处有补给箱\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_7",
+    "original": "\"Arsenal crate here\"",
+    "translation": "\"此处有军火箱\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_8",
+    "original": "\"Need force fields here\"",
+    "translation": "\"此处需要力场\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_9",
+    "original": "\"Need explosives here\"",
+    "translation": "\"此处需要爆炸物\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_10",
+    "original": "\"Zombies come from here\"",
+    "translation": "\"僵尸在此处出现”",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_11",
+    "original": "\"Do not enter!!\"",
+    "translation": "“请勿进入!!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_12",
+    "original": "\"Don't go out\"",
+    "translation": "\"请勿出去\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_13",
+    "original": "\"Defend this area\"",
+    "translation": "\"防守此区域\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_14",
+    "original": "\"Defend this spot\"",
+    "translation": "\"防守此点位\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_15",
+    "original": "\"Medics here\"",
+    "translation": "\"此处有医疗\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_16",
+    "original": "\"Buy from my crate\"",
+    "translation": "\"从这购买军火\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_17",
+    "original": "\"Barricade here\"",
+    "translation": "\"在此处建造防线”",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_18",
+    "original": "\"Don't barricade here\"",
+    "translation": "\"此处无需建造防线\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_19",
+    "original": "\"Don't let zombies in here\"",
+    "translation": "\"别让僵尸突破这里\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_20",
+    "original": "\"This will break\"",
+    "translation": "\"这里将要被破坏了\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_21",
+    "original": "\"This place is dangerous!\"",
+    "translation": "\"这里很危险\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_22",
+    "original": "\"Beware of poison!\"",
+    "translation": "\"小心毒液!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_23",
+    "original": "\"Zombies are breaking through here!\"",
+    "translation": "\"僵尸正在突破此处\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_24",
+    "original": "\"Zombies are coming. Build a barricade!\"",
+    "translation": "\"僵尸来了，迅速建造防线!\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.message_beacon_25",
+    "original": "\"Plan B here\"",
+    "translation": "\"这里是替代计划\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.class_zombie",
+    "original": "\"Zombie\"",
+    "translation": "\"丧尸\"",
+    "stage": 5
+  },
+  {
+    "key": "LANGUAGE.class_zombie_gore_blaster",
+    "original": "\"Gore Blaster Zombie\"",
+    "translation": "血爆丧尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_poison_zombie",
+    "original": "\"Poison Zombie\"",
+    "translation": "剧毒丧尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_wild_poison_zombie",
+    "original": "\"Wild Poison Zombie\"",
+    "translation": "野生剧毒丧尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_fast_zombie",
+    "original": "\"Fast Zombie\"",
+    "translation": "快速丧尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_fast_zombie_slingshot",
+    "original": "\"Slingshot Zombie\"",
+    "translation": "弹射丧尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_bloated_zombie",
+    "original": "\"Bloated Zombie\"",
+    "translation": "臃肿丧尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_vile_bloated_zombie",
+    "original": "\"Vile Bloated Zombie\"",
+    "translation": "剧毒臃肿丧尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_classic_zombie",
+    "original": "\"Classic Zombie\"",
+    "translation": "经典丧尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_super_zombie",
+    "original": "\"Super Zombie\"",
+    "translation": "超级丧尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_fresh_dead",
+    "original": "\"Fresh Dead\"",
+    "translation": "新感染者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_recent_dead",
+    "original": "\"Recent Dead\"",
+    "translation": "变异感染者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_agile_dead",
+    "original": "\"Agile Dead\"",
+    "translation": "迅捷感染者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_ghoul",
+    "original": "\"Ghoul\"",
+    "translation": "食尸鬼",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_chilled_ghoul",
+    "original": "\"Frigid Ghoul\"",
+    "translation": "寒冷食尸鬼",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_elderghoul",
+    "original": "\"Elder Ghoul\"",
+    "translation": "长老食尸鬼",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_noxiousghoul",
+    "original": "\"Noxious Ghoul\"",
+    "translation": "剧毒食尸鬼",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_headcrab",
+    "original": "\"Headcrab\"",
+    "translation": "猎头蟹",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_fast_headcrab",
+    "original": "\"Fast Headcrab\"",
+    "translation": "快速猎头蟹",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_bloodsucker_headcrab",
+    "original": "\"Bloodsucker Headcrab\"",
+    "translation": "嗜血猎头蟹",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_poison_headcrab",
+    "original": "\"Poison Headcrab\"",
+    "translation": "剧毒猎头蟹",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_barbed_headcrab",
+    "original": "\"Barbed Headcrab\"",
+    "translation": "刺甲猎头蟹",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_the_tickle_monster",
+    "original": "\"The Tickle Monster\"",
+    "translation": "长手怪",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_nightmare",
+    "original": "\"Nightmare\"",
+    "translation": "梦魇",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_ancient_nightmare",
+    "original": "\"Ancient Nightmare\"",
+    "translation": "远古梦魇",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_devourer",
+    "original": "\"Devourer\"",
+    "translation": "吞噬魔",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_pukepus",
+    "original": "\"Pukepus\"",
+    "translation": "剧毒君王",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_bonemesh",
+    "original": "\"Bonemesh\"",
+    "translation": "投骨者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_crow",
+    "original": "\"Crow\"",
+    "translation": "乌鸦",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_wilowisp",
+    "original": "\"Wil O' Wisp\"",
+    "translation": "闪光精灵",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_coolwisp",
+    "original": "\"Cool Wisp\"",
+    "translation": "寒冰精灵",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_zombie_torso",
+    "original": "\"Zombie Torso\"",
+    "translation": "半尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_zombie_legs",
+    "original": "\"Zombie Legs\"",
+    "translation": "腿尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_wraith",
+    "original": "\"Wraith\"",
+    "translation": "怨灵",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_tormented_wraith",
+    "original": "\"Tormented Wraith\"",
+    "translation": "痛苦恶灵",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_fast_zombie_legs",
+    "original": "\"Fast Zombie Legs\"",
+    "translation": "快速腿尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_fast_zombie_torso",
+    "original": "\"Fast Zombie Torso\"",
+    "translation": "快速半尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_fast_zombie_torso_slingshot",
+    "original": "\"Slingshot Zombie Torso\"",
+    "translation": "弹射半尸",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_chem_burster",
+    "original": "\"Chem Burster\"",
+    "translation": "生化破坏者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_shade",
+    "original": "\"Shade\"",
+    "translation": "万磁王",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_frostshade",
+    "original": "\"Frost Shade\"",
+    "translation": "寒霜万磁王",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_butcher",
+    "original": "\"The Butcher\"",
+    "translation": "屠夫",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_gravedigger",
+    "original": "\"The Grave Digger\"",
+    "translation": "掘墓人",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_flesh_creeper",
+    "original": "\"Flesh Creeper\"",
+    "translation": "血肉爬行者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_gore_child",
+    "original": "\"Gore Child\"",
+    "translation": "血婴",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_giga_gore_child",
+    "original": "\"Giga Gore Child\"",
+    "translation": "残暴血婴",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_shadow_gore_child",
+    "original": "\"Shadow Child\"",
+    "translation": "暗影血婴",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_giga_shadow_child",
+    "original": "\"Giga Shadow Child\"",
+    "translation": "暗影残暴血婴",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_asskicker",
+    "original": "\"Ass Kicker\"",
+    "translation": "爆菊大腿",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_shitslapper",
+    "original": "\"Shit Slapper\"",
+    "translation": "大巴掌",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_doomcrab",
+    "original": "\"Doom Crab\"",
+    "translation": "灭世王蟹",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_red_marrow",
+    "original": "\"Red Marrow\"",
+    "translation": "红骨",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_skeletal_walker",
+    "original": "\"Skeletal Walker\"",
+    "translation": "枯骨行者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_skeletal_shambler",
+    "original": "\"Skeletal Shambler\"",
+    "translation": "枯骨",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_skeletal_lurker",
+    "original": "\"Skeletal Crawler\"",
+    "translation": "枯骨爬行者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_shadow_lurker",
+    "original": "\"Shadow Lurker\"",
+    "translation": "暗影爬行者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_shadow_walker",
+    "original": "\"Shadow Walker\"",
+    "translation": "暗影行者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_frigid_revenant",
+    "original": "\"Frigid Revenant\"",
+    "translation": "寒冷亡魂",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_initial_dead",
+    "original": "\"Initial Dead\"",
+    "translation": "零号感染体",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_lacerator",
+    "original": "\"Lacerator\"",
+    "translation": "致残者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_lacerator_charging",
+    "original": "\"Charger\"",
+    "translation": "冲撞者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_eradicator",
+    "original": "\"Eradicator\"",
+    "translation": "铲除者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_howler",
+    "original": "\"Howler\"",
+    "translation": "尖啸者",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.class_extinctioncrab",
+    "original": "\"Extinction Crab\"",
+    "translation": "灭绝猎头蟹",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_zombie",
+    "original": "\"The basic zombie is very durable and has powerful claws.\\nIt's hard to keep down, especially if not shot in the head.\"",
+    "translation": "基础丧尸，耐打且爪利。\\n很难被击倒，尤其是没有瞄准头部的话。",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_zombie_gore_blaster",
+    "original": "\"Gore Blaster Zombies send viscera in all direction when killed which can cause minor harm.\\nTheir claws can also inflict bleeding.\"",
+    "translation": "血爆丧尸在被击杀时会向四面八方爆出脓液，会造成较小的伤害。\\n他们的爪子能够造成流血。",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_poison_zombie",
+    "original": "\"This mutated zombie is not only extremely durable but has abnormal strength.\\nIts body is extremely toxic and will even tear out and toss its own flesh at things too far away to hit.\"",
+    "translation": "这种丧尸突变体不仅极度耐打，而且有着强大的力量。\\n它的身体具有极高的毒性，如果目标太远它甚至会撕扯自己的血肉并丢向他们。",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_wild_poison_zombie",
+    "original": "\"An erratic mutation of the poison zombie, making it stronger and tankier.\\nIts flesh toss is much more sporadic and deadly.\"",
+    "translation": "剧毒僵尸的不规则变种,因此它们更强壮,血也更厚.\\n它们投掷的血肉更加致命且范围更广.",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_fast_zombie",
+    "original": "\"This boney cadaver is much faster than other zombies.\\nThey aren't much of a threat by themselves but can reach nearly any area by climbing with their razor sharp claws\\nThey also have no problem hunting down weak or hurt humans.\"",
+    "translation": "全身几乎没有血肉的僵尸,拥有比其他僵尸更快的速度.\\n它们能构成的威胁不大,但是它们的利爪能让自己攀爬到几乎任何地方\\n它们能轻易拿下受伤的人类.",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_fast_zombie_slingshot",
+    "original": "\"An abnormal Fast Zombie with a powerful lunge.\\nThe force applied is so great that it destroys their lower body, sending what's left at incredible speed.\\nThe impact it causes will leave humans crippled for a while.\"",
+    "translation": "一个异常的快速僵尸,会进行强烈的猛冲.\\n其猛冲的力量过于强大以至于它的下肢会直接被摧毁,并将自己的上身以极快的速度发射出去.\\n其造成的冲击会让人类暂时减速.",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_bloated_zombie",
+    "original": "\"Their body is comprised of volatile, toxic chemicals.\\nAlthough they move slower, they can take slightly more of a beating.\"",
+    "translation": "\"它们的身体由有挥发性的剧毒化学物质组成.\\n虽然他们的移动速度较慢,但他们可以承受更多的打击.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_vile_bloated_zombie",
+    "original": "\"Their body is comprised of volatile, toxic chemicals which they can vomit a fair distance away.\\nThey're a little faster than regular bloated zombies at the cost of being not as hardy.\"",
+    "translation": "它们的身体是由不稳定的剧毒化学物质组成，这些化学物质能够被喷射出较远的距离.\\n比起普通的臃肿丧尸它们移动的更快一些，这牺牲了它们一定的身体强度。",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_fresh_dead",
+    "original": "\"These are zombies who have come back from the dead recently.\\nThey have less durability and power than those who have rotted but make up for it in speed.\"",
+    "translation": "\"这些僵尸最近起死回生.\\n它们的身体强度和力量不如已经腐烂的僵尸,但在速度上有所弥补.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_agile_dead",
+    "original": "\"These are zombies who have come back from the dead recently.\\nThis mutation allows the fresh dead to climb at the cost of being extremely flimsy.\"",
+    "translation": "\"这些僵尸最近起死回生.\\n变异使得它们能以变得极其脆弱的代价进行攀爬\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_ghoul",
+    "original": "\"This zombie has highly toxic flesh.\\nIt's slightly weaker than other zombies but makes up for it with its debilitating attacks.\\nIts claws can debuff a human for a short time, causing increased damage from other attacks and it can throw goop which slows them.\"",
+    "translation": "\"这种僵尸的肉体有剧毒.\\n它比其他僵尸略微弱一些,但它有易伤攻击来弥补.\\n它的爪子可以在短时间内对人类施加debuff,导致人类受到更高的伤害,它可以扔出粘液球,使人类减速.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_chilled_ghoul",
+    "original": "\"This zombie has extremely cold flesh.\\nIt's slightly weaker than other zombies but makes up for it with its debilitating attacks.\"",
+    "translation": "\"这种僵尸有极寒的肉体.\\n它比其他僵尸稍弱,但它有易伤攻击来弥补.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_frigid_revenant",
+    "original": "\"A dark skeleton with a cold heart.\\nDerived from the Frigid Ghoul, and has the Shadow Walker's resistance to melee attacks.\\nCan chill and blind with its attacks.\"",
+    "translation": "\"一个拥有冰心的暗黑骷髅.\\n从寒冷食尸鬼衍生而来,拥有和暗影行者一样对近战攻击的抗性.\\n它的攻击能施加寒冷、致盲并消耗人类体力.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_elderghoul",
+    "original": "\"An aged Ghoul with a highly poisonous body which they throw pieces of at distant victims.\\nTheir frail body will discharge poison towards attackers when harmed.\"",
+    "translation": "\"一个拥有剧毒身体的陈年食尸鬼,他们会向远处的受害者投掷有毒的碎片.\\n他们虚弱的身体会在受到伤害时向攻击者释放毒物.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_noxiousghoul",
+    "original": "\"A deeply aged ghoul with highly virulent goop merged with their body.\\nTheir projectiles will slow and enfeeble unlucky victims, and their body will discharge poison towards attackers when harmed.\"",
+    "translation": "\"一个极度老化的食尸鬼,其身体与高毒性的粘液融合在一起.\\n他们的投射物会使不幸的受害者变得缓慢和虚弱,他们的身体会在受到伤害时向攻击者释放毒物.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_headcrab",
+    "original": "\"Headcrabs are what caused the initial infection.\\nNo one knows where they truely came from.\\nTheir method of attack is lunging with the sharp beaks on their belly.\"",
+    "translation": "\"最初的感染是由猎头蟹引起的.\\n没有人知道它们到底从哪来.\\n它们的攻击方式是用腹部的尖喙跃击.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_fast_headcrab",
+    "original": "\"The male headcrab is considerably faster but less beefy than the female.\\nEither way, it's equally as annoying and deadly in groups.\"",
+    "translation": "\"雄性猎头蟹的速度相当快,但没有雌性头蟹那么强壮.\\n不管是哪种头蟹,它们群起而攻的时候既烦人又致命.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_bloodsucker_headcrab",
+    "original": "\"Bloodsuckers are stockier fast headcrabs with bleed inflicting bites.\\nEach successful bite will heal a small amount of health.\"",
+    "translation": "\"嗜血猎头蟹是更加强壮的敏捷猎头蟹,咬人时出血量大.\\n每成功咬人一次,就会恢复少量的血量.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_poison_headcrab",
+    "original": "\"This Headcrab is full of deadly neurotoxins.\\nOne bite is usually enough to kill an adult human.\\nIt also has the ability to spit a less potent version of its poisons.\\nThe spit is just as deadly if its victim is hit in the face.\"",
+    "translation": "\"这种猎头蟹充满了致命的神经毒素.\\n咬一口通常就足以杀死一个成年人类.\\n它还能吐出效力较弱的毒药.\\n吐出的毒液也和脸上被咬同样致命\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_barbed_headcrab",
+    "original": "\"This Headcrab bristles with sharp quills.\\nIt can project a bristle at high speed inflicting bleeding upon unlucky humans.\"",
+    "translation": "\"这种猎头蟹长着锋利的毒刺.它能以高速投射出刚毛,对不幸的人类造成出血和中毒.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_the_tickle_monster",
+    "original": "\"Said to be the monster that hides in your closet at night to drag you from your bed.\\nThe Tickle Monster's almost elastic arms make it extremely hard to outrun and they also make it an ideal barricade destroyer.\"",
+    "translation": "\"据说它是晚上躲在衣柜里把你从床上拖下来的怪物.长手梦魇的弹性手臂让人类极难逃脱,同时还使它成为理想的防线破坏者.\\n攻击小物件时有伤害加成.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_nightmare",
+    "original": "\"An extremely rare mutation gives the Nightmare its abnormal abilities.\\nStronger than the every day zombie in almost every way, the Nightmare is a force to be reckoned with.\\nOne swipe of its claws is enough to put down almost any person.\"",
+    "translation": "\"一种极其罕见的变异赋予了梦魇异常的能力.\\n梦魇在几乎所有方面都碾压了普通僵尸,拥有不容小视的力量.\\n它的爪子一挥,就足以放倒几乎任何人.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_ancient_nightmare",
+    "original": "\"An elderly Nightmare that has been roaming the land for ages.\\nIts body has been tempered by the years, making it sturdier and less mobile but still formidable up close.\"",
+    "translation": "\"一个已经在这片大地上漫游许久的陈年梦魇.\\n它的身体经过岁月的洗礼,变得更结实,机动性更弱,但在近距离遇敌时仍然很强大.\\n在第4波以后会变得更加强大.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_devourer",
+    "original": "\"A horrific malformation of bone and flesh, with a throwable rib that pierces into victims to reel them in.\\nNot very fast on its own but incredibly dangerous to deal with alone.\"",
+    "translation": "\"一种可怕的骨肉畸变体,有一根可投掷的肋骨,可刺入受害者体内将其卷走.\\n它本身的速度并不快,但单独对付起来却非常危险.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_pukepus",
+    "original": "\"The rotting body of the Puke Pus is comprised entirely of organs used for the generation of poison.\\nIt's capable of vomiting gallons of poison puke at a time making it extremely dangerous.\"",
+    "translation": "\"毒性气体充满了剧毒君王那溃烂的身躯.\\n当心,它能够一次吐出几加仑的致命毒素\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_bonemesh",
+    "original": "\"Disfigured and mangled, the Bonemesh is capable of tossing blood bombs.\\nEach bomb is comprised of bones and flesh that damages humans while giving precious food to other zombies.\"",
+    "translation": "\"面目全非的投骨者能够投掷血肉炸弹.\\n每个炸弹都是由它身上的残骨烂肉组成,不仅可以伤害人类,同时也是其他丧尸宝贵的食物.\\n投骨者还可以制造出和筑巢怪一样的巢穴来提高推进速度.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_crow",
+    "original": "\"Carrion Crows are more of a pest than they were before the infection.\\nThey feed on infected flesh and become 'carriers' for the undead.\\nWhy would you ever make this class not hidden?\\nWhat is wrong with you?\"",
+    "translation": "\"与感染前相比,现在的乌鸦更像是一种害虫.\\n它们以感染者的腐肉为食,成为僵尸病毒的'携带者'\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_wilowisp",
+    "original": "\"Sometimes referred to as spirits of the dead.\\nDoes minimal damage but is capable of blinding humans and explodes when killed.\\nInduces almost no fear.\"",
+    "translation": "\"死者的灵魂.\\n虽然威力不大,但能够致盲人类并在被杀死时产生致盲爆炸.\\n不过微乎其微,几乎不会引起什么恐慌.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_coolwisp",
+    "original": "\"An arctic Wisp with the ability to impede humans with frost.\\nFrost reduces the fire rate and reload speed of firearms.\"",
+    "translation": "\"来自北极的小精灵,能够用寒霜爆炸来干扰人类.\\n寒霜会降低武器的射速和装弹速度\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_zombie_torso",
+    "original": "\"You shouldn't even be seeing this.\"",
+    "translation": "\"一具还在爬行的僵尸躯干\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_zombie_legs",
+    "original": "\"You shouldn't even be seeing this.\"",
+    "translation": "\"一双还在奔跑的僵尸大腿\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_wraith",
+    "original": "\"A zombie or an apparition?\\nNot much is known about it besides the fact that it uses its\\nunique stealth ability and sharp claws to cut things to ribbons.\"",
+    "translation": "\"这是僵尸还是幽灵?\\n除了它独特的隐身能力和将眼前的一切切成丝儿的锋利的爪子之外,人类还知之甚少\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_tormented_wraith",
+    "original": "\"A more twisted kin of the Wraith.\\nThis variant is capable of becoming crazed after taking damage, speeding up their attacks and movement.\\nThey attack much faster at the cost of less damage per hit overall.\\n\"",
+    "translation": "\"幽灵的一个更扭曲的变体.\\n这种个体能够在受到伤害后变得疯狂,加快他们的攻击和移动.\\n同时他们还能使用快速攻击.\\n\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_fast_zombie_torso",
+    "original": "\"You shouldn't even be seeing this.\"",
+    "translation": "\"一具还在爬行的奔跑僵尸躯干\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_fast_zombie_torso_slingshot",
+    "original": "\"You shouldn't even be seeing this.\"",
+    "translation": "\"一具弹射僵尸的躯干\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_fast_zombie_legs",
+    "original": "\"You shouldn't even be seeing this.\"",
+    "translation": "\"一双还在奔跑的奔跑僵尸大腿\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_chem_burster",
+    "original": "\"The Chem Burster body is comprised of volatile, toxic chemicals.\\nIt has no other means of attack besides being killed in hopes of blowing up next to any nearby humans.\"",
+    "translation": "\"生化破坏者的身体由具有挥发性的化学物质组成.\\n每一次攻击都会将化学物质散布在防线上,当防线密集时效果拔群.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_shade",
+    "original": "\"By creating a strong magnetic field around itself with a channeled shield, all bullets and projectiles are rendered useless against it until the shield is destroyed.\\nThey can hurl any unnailed object at high velocity towards humans for devastating effect.\"",
+    "translation": "\"通过在自己周围创造一个强大的磁场来制造盾牌,直到盾牌被摧毁前,所有的子弹和投掷物都将对它无效.\\n它们可以将任何没有钉住的物体以高速投向人类,以达到破坏性的效果.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_frostshade",
+    "original": "\"Frost Shades create weaker shields and projectiles than their normal counterpart, but can afflict humans with frost once shattered.\\nThe cold will slow down their actions and jam their weapons, making them fire slower.\"",
+    "translation": "\"寒霜万磁王制造的盾牌和投掷物比一般情况要弱,但一旦被击碎,它就能将人类冻伤.\\n寒冷会减慢人类的行动并使他们的武器故障,射击速度变慢.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_butcher",
+    "original": "\"A crazed, undead butcher. It isn't very tough but anyone unlucky enough to be near it will most likely be torn to shreds.\"",
+    "translation": "\"一个疯狂的、不死的屠夫.它的身体强度并不高,但任何靠近它的\\\"幸运儿\\\"都很可能被撕成碎片.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_gravedigger",
+    "original": "\"A deranged, undead grave keeper. It wields a shovel made from bones found in a cemetery.\"",
+    "translation": "\"一个疯狂的、不死的守墓人.它挥舞着一把由墓地中发现的骨头制成的铲子.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_flesh_creeper",
+    "original": "\"Flesh Creepers possess the ability to create nests.\\nFrom these nests, other zombified creatures emerge.\\nThe way this works is unknown but it is imperative to destroy any nests or creepers.\"",
+    "translation": "\"筑巢怪拥有创造巢穴的能力.\\n其他僵尸会从这些巢穴中出现.巢穴的运行机制尚不清楚,但人类必须摧毁任何巢穴或筑巢怪.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_gore_child",
+    "original": "\"Once zombified, an unborn child becomes infected as well.\\nPossessing no special abilities, their strength comes from their numbers.\"",
+    "translation": "\"一旦僵尸化,未出生的孩子也会被感染.\\n他们没有特殊的能力,他们的力量来自于他们的数量.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_giga_gore_child",
+    "original": "\"The result of a Gore Child which has been left unchecked for too long.\\nA horror to behold, their massive body is the result of zombified stem cells.\\nThey also become a host for Gore Children which can always be found in tow with it.\"",
+    "translation": "\"血婴被放任太久的产物.\\n恐怖的巨大身躯由僵化干细胞的作用下产生.\\n它们还会成为血婴的宿主,血婴总是和它如影随形.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_giga_shadow_child",
+    "original": "\"A corrupted Gore Child with the ability to obscure a human's vision.\\nLess sturdy than the Giga Gore Child but with a high resistance to melee weapons.\\nThe spawns it creates are equally resistant and capable of vision obscuration.\"",
+    "translation": "\"一个腐化的血婴,具有遮蔽人类视线的能力.\\n身体强度不如残暴血婴,但对近战武器有很高的抵抗力.\\n它所生产的小血婴同样具有抗性,并且能够遮蔽视线.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_shadow_gore_child",
+    "original": "\"A Gore Child that has been corrupted by the darkness.\"",
+    "translation": "\"被黑暗腐化的血婴\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_asskicker",
+    "original": "\"It's time to kick humans and chew ass, and I'm all out of ass.\"",
+    "translation": "\"是时候踢爆人类并咬碎他们的屁股. \\n我要将这世界上的屁股,一个不留的驱逐出去!\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_shitslapper",
+    "original": "\"How about I slap your shit?\"",
+    "translation": "\"把你揍出屎来如何?\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_doomcrab",
+    "original": "\"A massive headcrab that leaps on its victims to crush them.\\nAlso has the ability to throw doom balls which debilitate humans.\"",
+    "translation": "\"这个巨大的猎头蟹会跳到它的受害者身上,把他们压碎.\\n同时有投掷厄运之球的能力,使人类变得虚弱.\\n恐惧炸弹可以使附近的不死生物获得力量,并在一定延迟后爆炸.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_red_marrow",
+    "original": "\"Mutated polycythemia gives the Red Marrow its color and ability to prfusely expel blood.\\nAfter taking some damage a blood shield is created, rendering the Red Marrow impervious to attacks.\"",
+    "translation": "\"红细胞的异常增多是红骨身体颜色和大量喷洒血液的诱因.\\n红骨在受到一定量伤害后身体表面会覆盖一层血盾,大幅减少受到的伤害.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_skeletal_walker",
+    "original": "\"Animated skeletons don't have a lot of health but they take minimal damage from bullets.\"",
+    "translation": "\"一具会动的骷髅,血量较少但对远距离伤害有更高抗性\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_skeletal_shambler",
+    "original": "\"A behemoth of a skeleton that is moderately durable but also take minimal damage from bullets.\\nThey also have the capacity to make a second wind.\"",
+    "translation": "\"一具巨大坚固的骨骼, 对远距离伤害有更高抗性.\\n他们可以使用second wind.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_skeletal_lurker",
+    "original": "\"A Skeletal Walker that lost the use of its legs.\\nAnimated skeletons don't have a lot of health but they take minimal damage from bullets.\"",
+    "translation": "\"失去腿的枯骨行者.\\n一具会动的骷髅,血量较少但对远距离伤害有更高抗性.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_shadow_lurker",
+    "original": "\"Extremely hard to see in the dark and resistant against melee attacks. Their hits inflict a vision dimming debuff.\"",
+    "translation": "\"它很难在黑暗中被发现, 而且对近战攻击有更高抗性. 被击中的人类会获得exhaust和vision dimming debuff.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_shadow_walker",
+    "original": "\"An evolved form of the Shadow Lurker with less mobility.\\nExtremely hard to see in the dark and resistant against melee attacks. Their hits inflict a vision dimming debuff.\"",
+    "translation": "\"一种机动性较差的暗影潜伏者.\\n它很难在黑暗中被发现, 而且对近战攻击有更高抗性. 被击中的人类会获得exhaust和vision dimming debuff.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_lacerator",
+    "original": "\"Lacerators are identical to Fast Zombies in almost every way.\\nDespite their similarities, they are even deadlier and do not share their counterpart's fragility\"",
+    "translation": "\"致残者那锋利的爪子可以给人类附加bleed和wound.\\n通过弹射攻击它可以轻松追上猎物.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_lacerator_charging",
+    "original": "\"These brutes can run deceptively fast while charging despite their burly demeanor.\\nThe force behind their charge can knock anyone off their feet.\"",
+    "translation": "\"它有熊一样的身躯,冲撞起来却像狡兔一样灵敏.\\n冲撞的力度之大,足以击倒任何人.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_eradicator",
+    "original": "\"Bringers of death and destruction. The Eradicators sport a durable body that require a lot of fire power to take down.\\nUnless shot in the head, they are almost garanteed to rise again.\"",
+    "translation": "\"死亡和破坏的先锋. 铲除者强壮的身躯需要很强火力才能击垮.\\n如果没有被爆头就很难被放倒.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_howler",
+    "original": "\"A terrifying flesh titan with a piercing shriek.\\nIts howl inspires the undead and instills fear in the living.\"",
+    "translation": "\"可以发出尖锐咆哮的血肉泰坦.\\n它的咆哮可以激化丧尸, 同时令周围人类陷入恐慌.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.description_extinctioncrab",
+    "original": "\"Vile diseases churn within this giant headcrab.\\nThe spores it spits will afflict those near it, reducing the effectiveness of healing.\"",
+    "translation": "邪恶的疾病在这个巨大的头蟹内翻腾。\\n它喷射的孢子会影响附近的人，降低治疗效果",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_zombie",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Scream\\n> RELOAD: Moan\\n> SPRINT: Feign death\\n> ON FATAL HIT IN LEGS: Revive / Transform\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 快速攻击\\n> RELOAD: 嚎叫\\n> SPRINT: 装死\\n> 致命一击位于腿部: 复活/转化为爬行尸或丧尸腿\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_zombie_gore_blaster",
+    "original": "\"> PRIMARY: Claws\\n> ON HIT HUMAN: Bleed\\n> SECONDARY: Scream\\n> SPRINT: Feign death\\n> ON DEATH: Gore Blast\"",
+    "translation": "\"> PRIMARY: 攻击\\n> ON HIT HUMAN: 流血\\n> SECONDARY: 嚎叫\\n> SPRINT: 装死\\n> ON DEATH: 血爆\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_poison_zombie",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Flesh toss\\n> RELOAD: Scream\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 投掷poison血肉\\n> RELOAD: 嚎叫\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_wild_poison_zombie",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Flesh toss\\n> RELOAD: Scream\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 投掷poison血肉\\n> RELOAD: 嚎叫\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_fast_zombie",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Lunge / Climb wall\\n> RELOAD: Scream\\n> ON FATAL HIT IN LEGS: Transform\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 跃击/ 攀爬\\n> RELOAD: 嚎叫\\n> 致命一击位于腿部: 转化为奔跑腿或奔跑爬行尸\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_fast_zombie_slingshot",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Slingshot / Climb wall\\n> RELOAD: Scream\\n> ON SLINGSHOT HUMAN: Slow\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 弹射/ 攀爬\\n> RELOAD: 嚎叫\\n> 弹射击中人类: 减速\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_bloated_zombie",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Moan\\n> SPRINT: Feign death\\n> ON DEATH: Poison Gibs\"",
+    "translation": "\"> PRIMARY: 吸血攻击\\n> SECONDARY:嚎叫n\\n> SPRINT: 装死\\n> 死亡时: 向四周溅射肉片,回复周围丧尸血量\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_vile_bloated_zombie",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Poison Vomit\\n> SPRINT: Feign death\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 毒液喷射\\n> SPRINT: 装死\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_fresh_dead",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Scream\\n> SPRINT: Feign death\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 嚎叫\\n> SPRINT: 装死\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_agile_dead",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Climb wall\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 攀爬\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_ghoul",
+    "original": "\"> PRIMARY: Poison claws\\n> SECONDARY: Throw slowing goop\\n> SPRINT: Feign death\\n> RELOAD: Scream\\n> ON HIT HUMAN: Ghoul Touch\"",
+    "translation": "\"> PRIMARY: Poison 攻击\\n> SECONDARY: 投掷减速黏着物\\n> SPRINT: 装死\\n> RELOAD: 嚎叫\\n> 击中人类时: enfeeble\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_chilled_ghoul",
+    "original": "\"> PRIMARY: Frost claws\\n> SECONDARY: Throw frozen goop\\n> SPRINT: Feign death\\n> RELOAD: Scream\\n> ON HIT HUMAN: Frost\"",
+    "translation": "\"> PRIMARY: Frost 攻击\\n> SECONDARY: 投掷霜冻黏着物\\n> SPRINT: 装死\\n> RELOAD: 装死\\n> 击中人类时: Frost\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_frigid_revenant",
+    "original": "\"> PRIMARY: Frost and blind claws\\n> SECONDARY: Throw dark ice goop\\n> ON HIT HUMAN: Frost and dim vision\"",
+    "translation": "\"> PRIMARY: Frost and blind 攻击\\n> SECONDARY: 投掷霜冻致盲黏着物\\n> 击中人类时: Frost, dim vision, and exhaustion\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_elderghoul",
+    "original": "\"> PRIMARY: Poison claws\\n> SECONDARY: Flesh toss\\n> RELOAD: Scream\\n> ON DAMAGE TAKEN: Poison spray\"",
+    "translation": "\"> PRIMARY: Poison 攻击\\n> SECONDARY: 投掷poison血肉\\n> RELOAD: 嚎叫\\n> 受到伤害时: 向四周喷射poison\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_noxiousghoul",
+    "original": "\"> PRIMARY: Poison claws\\n> SECONDARY: Throw disabling goop\\n> RELOAD: Scream\\n> ON DAMAGE TAKEN: Poison spray\\n> ON HIT HUMAN: Ghoul Touch\"",
+    "translation": "\"> PRIMARY: Poison 攻击\\n> SECONDARY: 投掷poison,slow,sickness血肉\\n> RELOAD: 嚎叫\\n> 受到伤害时: 向四周喷射poison\\n> 击中人类时: enfeeble\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_headcrab",
+    "original": "\"> PRIMARY: Lunge attack\\n> RELOAD: Burrow\"",
+    "translation": "\"> PRIMARY: 跃击\\n> RELOAD: 潜地\\n> SPRINT: 冲刺\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_fast_headcrab",
+    "original": "\"> PRIMARY: Lunge attack\"",
+    "translation": "\"> PRIMARY: 跃击\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_bloodsucker_headcrab",
+    "original": "\"> PRIMARY: Lunge attack\\n> ON HIT HUMAN: Bleed and heal for a small amount of health\"",
+    "translation": "\"> PRIMARY: 跃击\\n> 击中人类时: Bleed 并恢复自身少量血量\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_poison_headcrab",
+    "original": "\"> PRIMARY: Lunge attack\\n> SECONDARY: Spit poison\\n> ON HIT HUMAN: Deadly poison\\n> ON HIT POISON IN EYES: Blind\\n> RELOAD: Scream\"",
+    "translation": "\"> PRIMARY: 跃击\\n> SECONDARY: 投射毒针\\n> 毒针击中人类时: Increased Poison DOT\\n> 跃击击中人类时: Poison\\n> 跃击击中人类头部时: Blind\\n> RELOAD: 嚎叫\\n> SPRINT: 冲刺\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_barbed_headcrab",
+    "original": "\"> PRIMARY: Lunge attack\\n> SECONDARY: Spit bristle\\n> ON HIT HUMAN: Strong bleed\\n> RELOAD: Scream\"",
+    "translation": "\"> PRIMARY: 跃击\\n> SECONDARY: 投射毒针\\n> 毒针击中人类时: Increased Poison DOT\\n> 跃击击中人类时: Poison\\n> 跃击击中人类头部时: Blind\\n> RELOAD: 毒针扫射\\n> SPRINT: 冲刺\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_the_tickle_monster",
+    "original": "\"> PRIMARY: Elastic claws\\n> SECONDARY: Moan\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 嚎叫\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_nightmare",
+    "original": "\"> PRIMARY: Death touch\\n> SECONDARY: Moan\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 快速攻击\\n> SPRINT: 暗影步\\n> SPRINT WHILE SHADOW RUN: 梦魇爆破\\n> 击中人类时: 下一次攻击同一目标时伤害+4.5\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_ancient_nightmare",
+    "original": "\"> PRIMARY: Death claw\\n> SECONDARY: Moan\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 冲刺\\n> 击中人类时: 赋予梦魇状态,减少梦魇迷雾冷却时间\\n> 击中防线时: 下一次击中防线时造成的伤害提高, 减少梦魇迷雾冷却时间\\n> RELOAD: 释放梦魇迷雾\\n> 处于梦魇迷雾中时: 变得难以看清且无声\\n> SPRINT: 标记\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_devourer",
+    "original": "\"> PRIMARY: Claw\\n> SECONDARY: Reel target in with projectile\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 释放勾爪\\n> RELOAD: 酸液喷吐\\n> SPRINT: 放置陷阱\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_pukepus",
+    "original": "\"> PRIMARY: Puke\\n> ON DAMAGE TAKEN: Poison spray\\n> ON DEATH: Poison explosion\"",
+    "translation": "\"> PRIMARY: 呕吐\\n> SECONDARY: 投掷毒球\\n> 受到伤害时: 向四周喷射poison\\n> 死亡时: Poison 爆炸\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_bonemesh",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Toss blood bomb\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 投掷医疗肉球\\n> RELOAD: 投掷大医疗肉球\\n> SPRINT: 建造巢穴\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_wraith",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Scream\\n> INVISIBILITY BASED ON MOVEMENT AND VIEW DISTANCE\"",
+    "translation": "\"> PRIMARY: 攻击\\n> RELOAD: 嚎叫\\n> 隐身程度取决于移速和观察距离\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_tormented_wraith",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Scream\\n> INVISIBILITY BASED ON MOVEMENT AND VIEW DISTANCE\\n> MADDENED WHEN TAKING DAMAGE BELOW 70 HP\"",
+    "translation": "\"> PRIMARY: 攻击\\n> RELOAD: 嚎叫\\n> SECONDARY: 快速攻击\\n> 隐身程度取决于移速和观察距离\\n> 低于70HP时狂暴\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_chem_burster",
+    "original": "\"> PRIMARY: Death Charge\\n> ON DEATH: Poison Bomb (power based on charge time)\"",
+    "translation": "\"> PRIMARY: AoE 攻击\\n> SECONDARY: 嚎叫\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_shade",
+    "original": "\"> PRIMARY: Throw\\n> SECONDARY: Lift\\n> RELOAD: Pull rock from ground\\n> SPRINT: Channel shield\"",
+    "translation": "\"> PRIMARY: 投掷物体\\n> SECONDARY: 举起物体\\n> RELOAD: 召唤岩石\\n> ZOOM: 万磁脉冲\\n> SPRINT: 举盾\\n> 盾破坏时: 周围丧尸获得shield\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_frostshade",
+    "original": "\"> PRIMARY: Throw\\n> SECONDARY: Lift\\n> RELOAD: Create ice missile\\n> SPRINT: Channel frost shield\"",
+    "translation": "\"> PRIMARY: 投掷物体\\n> SECONDARY: 举起物体\\n> RELOAD: 召唤冰块\\n> ZOOM: 万磁脉冲\\n> SPRINT: 举冰盾\\n> 盾破坏时: 周围丧尸获得shield\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_butcher",
+    "original": "\"> PRIMARY: Chop\"",
+    "translation": "\"> PRIMARY: 吸血攻击\\n> 击中人类时: 累积rage槽,增快攻速\\n> SECONDARY: 投掷厨刀\\n> 被厨刀击中时: Maim, Prey debuff and build Rage\\n> RELOAD: Enrage\\n> ENRAGE状态时: 提高自身和周围丧尸的攻速和移速\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_gravedigger",
+    "original": "\"> PRIMARY: Smack\"",
+    "translation": "\"> PRIMARY: 攻击\\n> HOLD PRIMARY: 蓄力攻击\\n> 攻击爆头时: 更高伤害\\n> SECONDARY: 投掷铲子\\n> RELOAD: 挖墓碑\\n> 墓碑: 经过墓碑的丧尸增加攻速和移速.\\n> 墓碑被摧毁时: 周围丧尸获得Enrage, 周围人类获得prey和dim vision.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_flesh_creeper",
+    "original": "\"> PRIMARY: Head Smash\\n> SECONDARY: Nest\\n> RELOAD: Leap\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 建巢\\n> RELOAD: 飞跃\\n> SPRINT: 喷射肉汁,喷射速度和精准度逐渐提高\\n> 被肉汁击中: Anchor\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_gore_child",
+    "original": "\"> PRIMARY: Claws\"",
+    "translation": "\"> PRIMARY: 攻击\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_giga_gore_child",
+    "original": "\"> PRIMARY: Smash\\n> SECONDARY: Throw Gore Child\\n> RELOAD: Knockdown Cry\"",
+    "translation": "\"> PRIMARY: Smash\\n> SECONDARY: Throw Gore Child bomb\\n> RELOAD: Cry\\n> ON CRY: Greatly increased movement speed. Slow & Prey humans. Teleport all children to self\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_giga_shadow_child",
+    "original": "\"> PRIMARY: Smash\\n> SECONDARY: Throw Shadow Child\\n> RELOAD: Obscuring Knockdown Cry\\n> ON HIT: Dim Vision\\n> ON HIT BY MELEE: Resist damage\"",
+    "translation": "\"> PRIMARY: Smash\\n> SECONDARY: Throw Shadow Child bomb\\n> RELOAD: Obscuring Knockdown Cry\\n> ON HIT: Dim Vision\\n> ON HIT BY MELEE: Resist damage> PRIMARY: Smash\\n> SECONDARY: Throw Shadow Child bomb\\n> RELOAD: Obscuring Knockdown Cry\\n> ON HIT: Dim Vision\\n> ON HIT BY MELEE: Resist damage\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_shadow_gore_child",
+    "original": "\"> PRIMARY: Claws\\n> ON HIT: Dim Vision\\n> ON HIT BY MELEE: Resist damage\"",
+    "translation": "\"> PRIMARY: 攻击\\n> ON HIT: 视觉减弱\\n> ON HIT BY MELEE: 减少受到的伤害\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_asskicker",
+    "original": "\"> PRIMARY: Left kick\\n> SECONDARY: Right kick\"",
+    "translation": "\"> PRIMARY: 左鞭腿\\n> SECONDARY: 右鞭腿\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_shitslapper",
+    "original": "\"> PRIMARY: Slap\"",
+    "translation": "\"> PRIMARY: 掌击\\n> RELOAD: 崛地而起\\n> SPRINT: 蓄力\\n> 崛地而起时: 造成小型地震并将你自己和周围人类震至空中.\\n> 蓄力时: 下一次攻击击倒人类3秒.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_doomcrab",
+    "original": "\"> PRIMARY: Leap attack\\n> SECONDARY: Doom ball\"",
+    "translation": "\"> PRIMARY: Leap attack\\n> SECONDARY: Doom ball\\n> RELOAD: Dark nova on self\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_red_marrow",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Scream\\n> ON EVERY 200 DAMAGE TAKEN: Create blood shield\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 血盾\\n> 血盾状态下: 减少伤害, 增加移速, 周围僵尸回复血量并免疫debuff  \\n> 血盾周围的人类: 被吸收血甲的同时获得boiling blood和bleed. 自身根据吸收血甲的量获得battlecry. \\n> ON HIT BARRICADE: Life Leech Curse\\n> RELOAD: 标记\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_skeletal_walker",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Scream\\n> RELOAD: Moan\\n> SPRINT: Feign death\\n> ON HIT BY BULLET: Resist damage\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 嚎叫\\n> RELOAD: 嚎叫\\n> SPRINT: 装死\\n> 受到远距离攻击: 大幅减少受到的伤害\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_skeletal_shambler",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Scream\\n> RELOAD: Moan\\n> SPRINT: Feign death\\n> ON HIT BY BULLET: Resist damage\\n> ON FATAL HIT IN LEGS: Revive\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 嚎叫\\n> RELOAD: 嚎叫\\n> SPRINT: 装死\\n> 受到远距离攻击: 大幅减少受到的伤害\\n> 致命一击位于腿部: 复活\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_skeletal_lurker",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Moan\\n> ON HIT BY BULLET: Resist damage\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 嚎叫\\n> 受到远距离攻击: 大幅减少受到的伤害\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_wilowisp",
+    "original": "\"> PRIMARY: Blinding Light\\n> RELOAD: Moan\\n> ON DEATH: Blinding Explosion\"",
+    "translation": "\"> PRIMARY: 闪光致盲\\n> RELOAD: 嚎叫\\n> 死亡时: 闪光爆炸\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_coolwisp",
+    "original": "\"> PRIMARY: Freezing Pulse\\n> RELOAD: Moan\\n> ON DEATH: Arctic Explosion\"",
+    "translation": "\"PRIMARY: 寒霜脉冲\\n> RELOAD: 嚎叫\\n> ON DEATH: 寒霜爆炸\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_shadow_lurker",
+    "original": "\"> PRIMARY: Claws\\n> ON HIT: Dim Vision\\n> ON HIT BY MELEE: Resist damage\"",
+    "translation": "\"> PRIMARY: 攻击\\n> 人类受到攻击时: Dim Vision and Exhaustion\\n> 被近战武器击中时: 减少受到的伤害\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_lacerator",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Lunge / Climb wall\\n> RELOAD: Scream\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 跃击\\n> 攻击bleeding人类: 根据bleed数量赋予wound\\n> RELOAD: 嚎叫\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_lacerator_charging",
+    "original": "\"> PRIMARY: Bleeding Claws\\n> ON HIT HUMAN: Bleed\\n> SECONDARY: Charge\\n> RELOAD: Scream\"",
+    "translation": "\"> PRIMARY: 流血攻击\\n> 击中人类时: Bleed\\n> SECONDARY: 冲撞\\n> RELOAD: 嚎叫\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_eradicator",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Scream\\n> ON FATAL HIT: Revive\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 快速攻击\\n> RELOAD: 嚎叫\\n> 致命攻击不是爆头时: 复活\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_howler",
+    "original": "\"> PRIMARY: Claws\\n> SECONDARY: Howl\\n> RELOAD: Moan\"",
+    "translation": "\"> PRIMARY: 攻击\\n> SECONDARY: 咆哮\\n> RELOAD:嚎叫并标记\\n> BELLOW: 赋予周围僵尸护甲.\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.controls_extinctioncrab",
+    "original": "\"> PRIMARY: Leap Attack\\n> SECONDARY: Extinction Spore\"",
+    "translation": "\"> PRIMARY: 跳跃攻击\\n> SECONDARY: 灭绝孢子\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.help_cat_introduction",
+    "original": "\"Introduction\"",
+    "translation": "\"Introduction\" --\"介绍\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.help_cat_survival",
+    "original": "\"Survival\"",
+    "translation": "\"Survival\" --\"生存\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.help_cat_barricading",
+    "original": "\"Barricading\"",
+    "translation": "\"Barricading\" --\"盖防线\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.help_cat_upgrades",
+    "original": "\"Upgrades\"",
+    "translation": "\"Upgrades\" --\"升级\"",
+    "stage": 1
+  },
+  {
+    "key": "LANGUAGE.help_cat_being_a_zombie",
+    "original": "\"Being a Zombie\"",
+    "translation": "\"Being a Zombie\" --\"当个丧尸\"",
+    "stage": 1
+  }
+]

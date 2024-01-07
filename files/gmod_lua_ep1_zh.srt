@@ -1,0 +1,405 @@
+1
+00:00:10,610 --> 00:00:13,590
+hello everybody and welcome to part 1 in
+大家好，欢迎来到GMOD LUA教程的
+
+2
+00:00:13,590 --> 00:00:16,890
+the gmod lua tutorials now in this
+第一部分，在这期视频里
+
+3
+00:00:16,890 --> 00:00:17,910
+video we're not gonna be doing any
+我们不会进行任何
+
+4
+00:00:17,910 --> 00:00:19,740
+coding we're just gonna be going over
+代码操作。我们只是粗略地过一遍
+
+5
+00:00:19,740 --> 00:00:22,380
+the basics of what client and set-aside
+客户端和服务端的基础概念
+
+6
+00:00:22,380 --> 00:00:24,119
+is because they're two very important
+因为这些概念非常重要
+
+7
+00:00:24,119 --> 00:00:26,610
+things to know before you you actually
+你最好在实际为GMOD
+
+8
+00:00:26,610 --> 00:00:28,740
+start coding for Garry's Mod now even if
+编写代码之前就了解它们
+
+9
+00:00:28,740 --> 00:00:30,240
+you want a code in single-player it's
+哪怕你只是写单人模式的代码
+
+10
+00:00:30,240 --> 00:00:31,790
+still vital you know this information
+这对你来说也是很重要的
+
+11
+00:00:31,790 --> 00:00:33,870
+because believe it or not there is still
+因为，不管你信不信
+
+12
+00:00:33,870 --> 00:00:36,690
+a client and a server relationship when
+哪怕在单人模式下
+
+13
+00:00:36,690 --> 00:00:38,850
+you're in a single-player game so we'll
+仍然有一个客户端-服务端关系
+
+14
+00:00:38,850 --> 00:00:40,470
+go ahead and I'll open up Photoshop and
+所以让我们继续讲正题吧，等我一会儿打开Photoshop
+
+15
+00:00:40,470 --> 00:00:44,010
+try my best to explain this so imagine
+我会尽力解释
+
+16
+00:00:44,010 --> 00:00:46,890
+that this here so the way how server and
+现在发挥一下你的想象力
+
+17
+00:00:46,890 --> 00:00:48,899
+client are represented with orange and
+服务器和客户端分别用橙色
+
+18
+00:00:48,899 --> 00:00:51,899
+blue so this circle here this is the
+和蓝色表示，这个圈圈代表服务器
+
+19
+00:00:51,899 --> 00:00:55,340
+server ok now the server is what handles
+而服务器会处理
+
+20
+00:00:55,340 --> 00:00:58,289
+pretty much every every aspect of
+游戏运行的各方面的信息
+
+21
+00:00:58,289 --> 00:01:02,160
+gameplay in a server such as when a
+例如
+
+22
+00:01:02,160 --> 00:01:04,920
+player should die dealing damage to a
+一个玩家应当死亡、或者对其他玩家造成伤害
+
+23
+00:01:04,920 --> 00:01:07,650
+player update in all of the other
+更新其他客户端的
+
+24
+00:01:07,650 --> 00:01:09,960
+clients on changes and stuff along this
+有关信息的更改，这些都是在这条
+
+25
+00:01:09,960 --> 00:01:13,680
+line so this is us ok we are this circle
+连线上发生的。OK我们客户端就是下方的
+
+26
+00:01:13,680 --> 00:01:19,170
+down here and here is our link to the
+这个圆圈，这是我们与服务端的连接
+
+27
+00:01:19,170 --> 00:01:23,189
+server now us as the clients can't do
+此前已经提到，客户端并不能做太多
+
+28
+00:01:23,189 --> 00:01:28,020
+much in terms of controlling the game as
+控制整个游戏进程的事情
+
+29
+00:01:28,020 --> 00:01:30,540
+like I said it's already it's the server
+是服务器在控制
+
+30
+00:01:30,540 --> 00:01:34,710
+that controls now multiple clients can
+许多的客户端
+
+31
+00:01:34,710 --> 00:01:37,729
+be connected to the same server and
+连接在同一个服务端上
+
+32
+00:01:37,729 --> 00:01:40,640
+let's say
+好现在
+
+33
+00:01:40,640 --> 00:01:42,320
+you let's go ahead and just quickly
+这是你....哦还是让我先赶快
+
+34
+00:01:42,320 --> 00:01:46,640
+finish my amazing drawing now this is me
+把我这美妙的绘画完成，现在这个圈就是我
+
+35
+00:01:46,640 --> 00:01:49,610
+okay this one here now I move slightly
+对就是这里这个圈，现在我开始慢慢
+
+36
+00:01:49,610 --> 00:01:52,460
+left so on my screen I move a little
+向左移动，我的屏幕上显示我向左移动了一点点
+
+37
+00:01:52,460 --> 00:01:54,890
+left then information is carried across
+然后我移动的这个信息通过连接
+
+38
+00:01:54,890 --> 00:01:57,259
+this connection to the server the server
+传输到服务端。接着服务端
+
+39
+00:01:57,259 --> 00:01:59,720
+handles this information moves my player
+处理信息，然后在服务端的世界里
+
+40
+00:01:59,720 --> 00:02:01,940
+in the service world and then the server
+移动玩家，然后服务器
+
+41
+00:02:01,940 --> 00:02:04,070
+then goes and updates everybody else on
+向其他玩家更新
+
+42
+00:02:04,070 --> 00:02:08,840
+my new position where I move to now with
+我移向的新位置的信息
+
+43
+00:02:08,840 --> 00:02:10,399
+certain things that can only be done on
+某些事件只能在
+
+44
+00:02:10,399 --> 00:02:13,190
+the server and there are certain things
+服务端处理，还有些事件只需要
+
+45
+00:02:13,190 --> 00:02:15,350
+that can only be done on the client okay
+在客户端处理即可
+
+46
+00:02:15,350 --> 00:02:17,510
+now there is a little bit in the middle
+剩下的那些中间部分
+
+47
+00:02:17,510 --> 00:02:20,120
+called shared which is where things can
+叫做"共享事件" 这些事件
+
+48
+00:02:20,120 --> 00:02:22,820
+be done on both client and server but
+需要同时在客户端和服务端处理
+
+49
+00:02:22,820 --> 00:02:25,130
+mainly you're going to be working in
+不过你的程序的主要工作
+
+50
+00:02:25,130 --> 00:02:27,920
+server to do the majority of the logic
+是在服务端处理这些逻辑问题
+
+51
+00:02:27,920 --> 00:02:29,840
+of your programs now when we first up
+接下来我们将进行起步的工作
+
+52
+00:02:29,840 --> 00:02:31,040
+we're going to be starting in the client
+我们现在先从客户端开始
+
+53
+00:02:31,040 --> 00:02:32,780
+and writing some basic client-side
+并编写一些简单的客户端脚本
+
+54
+00:02:32,780 --> 00:02:34,459
+scripts and once we start to get the
+一旦我们掌握了
+
+55
+00:02:34,459 --> 00:02:36,080
+gist of that but I'm going to move over
+客户端的内容，我们就将进一步学习
+
+56
+00:02:36,080 --> 00:02:38,360
+into the server and once we start to
+有关服务端的内容。接着
+
+57
+00:02:38,360 --> 00:02:40,280
+understand how the server works we're
+如果我们理解了服务端的运行机制
+
+58
+00:02:40,280 --> 00:02:41,720
+then going to go ahead and we are going
+我们就会继续学习
+
+59
+00:02:41,720 --> 00:02:44,810
+to work on both of them so we'll find
+客户端和服务端同时处理的工作
+
+60
+00:02:44,810 --> 00:02:46,280
+out how to communicate between those
+最终我们通过你的脚本实现
+
+61
+00:02:46,280 --> 00:02:47,060
+with your scripts
+服务端与客户端的交互
+
+62
+00:02:47,060 --> 00:02:49,340
+and how to make something that works
+以及做出一些功能来实现
+
+63
+00:02:49,340 --> 00:02:52,340
+with both people such as say you wanted
+与玩家间的交互，例如你想
+
+64
+00:02:52,340 --> 00:02:53,989
+to send a message from this player over
+从某一名玩家处发送一条消息
+
+65
+00:02:53,989 --> 00:02:56,000
+to this player how could we do that in lua
+发往另一位玩家处。我们如何在LUA内实现呢？
+
+66
+00:02:56,000 --> 00:02:57,950
+and things along that line so I
+以及沿着玩家间这条线的其他功能
+
+67
+00:02:57,950 --> 00:03:00,410
+know this video was short it's just the
+我知道这条视频很简略，这只是
+
+68
+00:03:00,410 --> 00:03:03,019
+basic introductory of you know we're
+一个基础的导入环节，目的是让你知道
+
+69
+00:03:03,019 --> 00:03:04,250
+going to be going now I do want to also
+我们将要做什么。我现在还想提醒一下
+
+70
+00:03:04,250 --> 00:03:06,380
+say that if you have not already seen my
+如果你还没有看过我的
+
+71
+00:03:06,380 --> 00:03:08,120
+Lua tutorial series and you're not
+LUA教程并且你也
+
+72
+00:03:08,120 --> 00:03:10,820
+familiar with Lua at all I recommend you
+完全不熟悉LUA的话，我推荐你
+
+73
+00:03:10,820 --> 00:03:12,170
+watch that series there will be a link
+去收看那个系列，链接会附在
+
+74
+00:03:12,170 --> 00:03:13,850
+in the description if you have finished
+简介中。如果你已经了解这些了得慌
+
+75
+00:03:13,850 --> 00:03:15,290
+a series and you're moving on in the
+你可以继续看接下来的视频了
+
+76
+00:03:15,290 --> 00:03:17,720
+next video we'll be getting into some
+下个视频我们将会进行
+
+77
+00:03:17,720 --> 00:03:21,049
+coding hopefully some basic scripts but
+一些代码编写，可能只是一些基础的脚本
+
+78
+00:03:21,049 --> 00:03:23,780
+yeah I hope you understand what I've got
+但我希望你能理解我之前所说的内容
+
+79
+00:03:23,780 --> 00:03:25,640
+if you don't feel free to leave a
+如果你还没理解，请尽情留言询问
+
+80
+00:03:25,640 --> 00:03:27,400
+comment and I will get back to you and
+我会尽快给你解答(译者注:我也会的!)
+
+81
+00:03:27,400 --> 00:03:29,360
+thanks for watching see you in the next video
+感谢你收看这个视频，下个视频见
+

@@ -1,0 +1,965 @@
+1
+00:00:09,770 --> 00:00:12,920
+hello everybody and welcome to part five
+大家好，欢迎收看
+
+2
+00:00:12,920 --> 00:00:14,780
+in this GMOD LUA a tutorial series
+GMOD LUA系列教程第五期
+
+3
+00:00:14,780 --> 00:00:17,330
+now before we get started I do want to
+在开始之前先向各位
+
+4
+00:00:17,330 --> 00:00:19,340
+apologize for the lack of videos I have
+诚恳道歉，最近更新的并不勤快
+
+5
+00:00:19,340 --> 00:00:21,860
+not been feeling too well my mixer broke
+我感觉很不好，因为我的混音器坏了
+
+6
+00:00:21,860 --> 00:00:23,630
+meaning of my mic quality was just
+这意味着我的麦克风音质
+
+7
+00:00:23,630 --> 00:00:26,570
+appalling and again I really really
+会非常差，我非常非常
+
+8
+00:00:26,570 --> 00:00:28,849
+apologize for it but nevertheless let's
+抱歉，不过还是
+
+9
+00:00:28,849 --> 00:00:30,500
+get started so in this video we're gonna
+让我们开始吧。在这期视频里
+
+10
+00:00:30,500 --> 00:00:32,659
+be taking a look at running functions on
+我们要在玩家身上
+
+11
+00:00:32,659 --> 00:00:34,310
+the player which is important for two
+运行一些函数，有两个原因使得这件事很重要
+
+12
+00:00:34,310 --> 00:00:35,840
+reasons one is because we need to
+其中之一是我们需要
+
+13
+00:00:35,840 --> 00:00:38,300
+understand how we can execute Meta
+去理解怎样在不同的数据类型上
+
+14
+00:00:38,300 --> 00:00:41,149
+functions on different data types but on
+执行meta函数
+
+15
+00:00:41,149 --> 00:00:42,829
+top of that we also need to understand
+除此以外我们也需要理解
+
+16
+00:00:42,829 --> 00:00:44,899
+how we can get references to players in
+怎样在不同的情况下获得对玩家的引用
+
+17
+00:00:44,899 --> 00:00:47,179
+different situations so what we're gonna
+我们要做的是
+
+18
+00:00:47,179 --> 00:00:49,699
+do we're gonna stop a single player
+开启单人游戏
+
+19
+00:00:49,699 --> 00:00:51,410
+world if you have not done so already I
+如果你还没打开的话
+
+20
+00:00:51,410 --> 00:00:53,570
+recommend you do so now then what we're
+我建议你赶紧跟上，然后
+
+21
+00:00:53,570 --> 00:00:55,160
+gonna do is we're gonna open up sublime
+我们打开sublime（你自己的编辑器也可以）
+
+22
+00:00:55,160 --> 00:00:57,260
+and that Lua file that is in our Garry's
+然后打开之前那期视频的lua文件，它保存在
+
+23
+00:00:57,260 --> 00:00:59,210
+Mod directory if you guys remember it
+我们GMOD主目录的lua文件夹下
+
+24
+00:00:59,210 --> 00:01:02,210
+from the previous video I think so
+如果你们还记得的话
+
+25
+00:01:02,210 --> 00:01:03,140
+anyway we're gonna go ahead we're gonna
+总之让我们继续
+
+26
+00:01:03,140 --> 00:01:04,670
+get rid of that and we're gonna get
+不谈前面的了，我们现在就开始
+
+27
+00:01:04,670 --> 00:01:08,210
+started so if you remember before well
+(又是一段废话)
+
+28
+00:01:08,210 --> 00:01:09,620
+actually we're get started first how do
+首先，我们怎样
+
+29
+00:01:09,620 --> 00:01:11,750
+we get a reference to the player so I'm
+去获取一个玩家的引用呢
+
+30
+00:01:11,750 --> 00:01:13,970
+gonna open up the gmod wiki and I'm
+首先我会打开GMOD WIKI
+
+31
+00:01:13,970 --> 00:01:16,220
+gonna go ahead and search local whoops
+然后搜索local，哦
+
+32
+00:01:16,220 --> 00:01:19,040
+Localplayer and as you can see on the
+Localplayer，然后你可以看到
+
+33
+00:01:19,040 --> 00:01:20,240
+global there's a function here called
+在global底下有个函数
+
+34
+00:01:20,240 --> 00:01:21,710
+Localplayer now you know it's it's
+叫LocalPlayer()，注意到
+
+35
+00:01:21,710 --> 00:01:23,210
+orange which means you can only run on
+这个函数是橙色的，意味着你只能在
+
+36
+00:01:23,210 --> 00:01:25,490
+the client and the description says that
+客户端执行这个函数，描述中说这个函数
+
+37
+00:01:25,490 --> 00:01:27,200
+it returns to place object of the
+它会返回执行函数的当前客户端对应的
+
+38
+00:01:27,200 --> 00:01:29,030
+current client localplayer will return
+玩家对象，并且这个函数在
+
+39
+00:01:29,030 --> 00:01:30,560
+null until all entities have been
+所有实体都被初始化以前，只会返回空(NULL)
+
+40
+00:01:30,560 --> 00:01:32,570
+initialized so this part we don't need
+在这一期里我们倒是不用
+
+41
+00:01:32,570 --> 00:01:34,430
+to worry about for now but this part is
+担心这个，上面这句话更重要的
+
+42
+00:01:34,430 --> 00:01:36,729
+important it returns to players object
+这个函数能返回玩家对象
+
+43
+00:01:36,729 --> 00:01:39,020
+yet the player object of the current
+yes,执行函数的客户端对应的玩家对象
+
+44
+00:01:39,020 --> 00:01:41,450
+client so what that means is it will
+这意味着
+
+45
+00:01:41,450 --> 00:01:44,570
+return the player object itself in the
+它能够返回游戏世界里的
+
+46
+00:01:44,570 --> 00:01:45,950
+physical world and then we can do
+玩家本体，我们可以借此
+
+47
+00:01:45,950 --> 00:01:47,149
+whatever we want to it so what we're
+对玩家做出一系列我们想做的操作，我们现在
+
+48
+00:01:47,149 --> 00:01:48,890
+gonna do is I'm gonna make a local
+创建一个本地变量
+
+49
+00:01:48,890 --> 00:01:50,750
+variable call it ply and I'm gonna set
+叫做ply，令它等于
+
+50
+00:01:50,750 --> 00:01:53,180
+it equal to Localplayer() and I'm gonna
+LocalPlayer()
+
+51
+00:01:53,180 --> 00:01:54,740
+call that and I do have to call it as a
+注意后面要加上()，因为这是唤起一个函数
+
+52
+00:01:54,740 --> 00:01:56,390
+function let me go ahead and change this
+注意把GMOD
+
+53
+00:01:56,390 --> 00:01:58,850
+to GMOD there we go I do have to set
+语法高亮打开
+
+54
+00:01:58,850 --> 00:02:00,770
+as a function because that's what it is
+(再次废话一下这个是函数，要加())
+
+55
+00:02:00,770 --> 00:02:03,439
+and now the variable PR y then source of
+现在ply就成了
+
+56
+00:02:03,439 --> 00:02:05,780
+reference to this so just a just a
+对玩家的一个引用
+
+57
+00:02:05,780 --> 00:02:07,490
+double check I'm gonna do lua_
+然后我们再检测一下，打开控制台输入lua_
+
+58
+00:02:07,490 --> 00:02:10,220
+whoops lua_openscript_cl
+哦,lua_openscript_cl
+
+59
+00:02:10,220 --> 00:02:12,530
+now you're gonna want to make
+注意了请确保你
+
+60
+00:02:12,530 --> 00:02:14,960
+sure that you run this on the client
+是在客户端运行的(要加_cl)
+
+61
+00:02:14,960 --> 00:02:16,820
+because local player will not work on
+因为localplayer()这个函数
+
+62
+00:02:16,820 --> 00:02:18,290
+the server as we've seen it's a client
+不能再服务端执行，我们之前看到了它是个
+
+63
+00:02:18,290 --> 00:02:20,060
+only function so when we run this as you
+只能在客户端运行的函数，接着我们运行
+
+64
+00:02:20,060 --> 00:02:22,580
+can see we've got no errors so things
+你会发现没有任何错误
+
+65
+00:02:22,580 --> 00:02:23,370
+are good
+这很好
+
+66
+00:02:23,370 --> 00:02:25,019
+what can we do with this well let's go
+然后我们能用它来做什么呢？
+
+67
+00:02:25,019 --> 00:02:26,760
+ahead and go back to the gmod wiki and
+让我们回到GMOD WIKI，然后
+
+68
+00:02:26,760 --> 00:02:31,379
+search player if you search whoopsie
+搜索player:,哦，是player
+
+69
+00:02:31,379 --> 00:02:33,659
+player right and then we're gonna go
+然后我们可以
+
+70
+00:02:33,659 --> 00:02:38,069
+into the classes section here and you'll
+点击到classuanxiangka1，然后你能看到
+
+71
+00:02:38,069 --> 00:02:40,560
+see all of these player : and then a ton
+这一系列以Player:(注意冒号)开头的
+
+72
+00:02:40,560 --> 00:02:42,810
+of these functions right so let's go
+一大堆函数(译者注:或者说Player类的方法)，让我们
+
+73
+00:02:42,810 --> 00:02:46,230
+have a look at alive now this is blue
+看一个这个Player:Alive函数函数，这个函数被
+
+74
+00:02:46,230 --> 00:02:48,540
+and orange which means it can be used on
+标记为蓝色和橙色，意味着
+
+75
+00:02:48,540 --> 00:02:51,150
+both client and server now it checks if
+服务端和客户端都能执行它，它的作用是检测
+
+76
+00:02:51,150 --> 00:02:52,650
+the player is alive and will return a
+一个玩家是否还活着，并返回一个
+
+77
+00:02:52,650 --> 00:02:54,239
+boolean which is true or false of
+Boolean类型的结果，值为true(真)或false(假)
+
+78
+00:02:54,239 --> 00:02:55,829
+whether the player is alive or not so
+表示对应的玩家是活着或似了
+
+79
+00:02:55,829 --> 00:02:57,569
+now let's say we go back in here we're
+让我们回到我们的脚本，我们
+
+80
+00:02:57,569 --> 00:03:00,209
+gonna go ahead and print well first of
+继续另起一行，写下print，哦我们首先
+
+81
+00:03:00,209 --> 00:03:01,440
+all we're gonna make available I'm gonna
+还是新建一个变量，我给它命名为
+
+82
+00:03:01,440 --> 00:03:04,799
+call it isPlayerAlive now the way
+isPlayerAlive，我们唤起
+
+83
+00:03:04,799 --> 00:03:06,959
+how we call these functions is kind of
+这个函数的方式
+
+84
+00:03:06,959 --> 00:03:08,519
+exactly what they look like here player
+就像wiki上写的那样，把冒号前的
+
+85
+00:03:08,519 --> 00:03:09,930
+would be our reference to the player
+Player，换成你想要检测的玩家的引用
+
+86
+00:03:09,930 --> 00:03:12,239
+then we do : and we call the function on
+然后写下冒号，再写下函数名Alive()对玩家
+
+87
+00:03:12,239 --> 00:03:14,579
+the player so in this case we can do
+执行函数，在我们这个脚本里，我们要写
+
+88
+00:03:14,579 --> 00:03:18,569
+ply:Alive() now remember that PR y is our
+ply:Alive()，请记住，ply是我们获取到的
+
+89
+00:03:18,569 --> 00:03:21,870
+reference to our local player and what
+对客户端本地玩家的一个引用
+
+90
+00:03:21,870 --> 00:03:22,920
+we're gonna do is we're gonna check if
+我们要做的是检测
+
+91
+00:03:22,920 --> 00:03:24,390
+it's alive we're gonna store the value
+他是否还活着，并把返回的结果
+
+92
+00:03:24,390 --> 00:03:26,250
+that it returns inside of this is player
+存储到isPlayerAlive变量里
+
+93
+00:03:26,250 --> 00:03:26,790
+alive
+----------
+
+94
+00:03:26,790 --> 00:03:27,989
+and we're simply gonna go ahead and
+我们就这样继续
+
+95
+00:03:27,989 --> 00:03:30,930
+we're gonna print out isPlayerAlive I
+然后把isPlayerAlive这个变量
+
+96
+00:03:30,930 --> 00:03:32,880
+do apologize for that couch in let me
+打印出来，哦不好意思手滑了
+
+97
+00:03:32,880 --> 00:03:34,769
+zoom out a bit hey guys so now if I go
+我把界面缩小一下，好现在
+
+98
+00:03:34,769 --> 00:03:37,160
+back into my game and I run the script
+我调回游戏界面，再次执行这个脚本
+
+99
+00:03:37,160 --> 00:03:39,870
+as you can see it prints out true but if
+你可以看到控制台打印了true
+
+100
+00:03:39,870 --> 00:03:41,730
+I go ahead and kill myself and I rerun
+但是如果我把自己处似之后再次执行脚本
+
+101
+00:03:41,730 --> 00:03:43,349
+that's good it now prints out false
+对了，打印出来的是false
+
+102
+00:03:43,349 --> 00:03:45,900
+because I am no longer alive so I hope
+因为我现在挂了，我希望你理解
+
+103
+00:03:45,900 --> 00:03:48,840
+you understand that but on top of that
+不过除此以外
+
+104
+00:03:48,840 --> 00:03:51,419
+there is many many many things we can do
+我们还可以做很多很多很多事情
+
+105
+00:03:51,419 --> 00:03:53,250
+and in case you didn't notice at the
+别忘了wiki上
+
+106
+00:03:53,250 --> 00:03:56,819
+wiki there is a lot of things here so
+还有好多东西呢
+
+107
+00:03:56,819 --> 00:03:59,459
+let's go ahead and look at a few other
+我们继续去看一看其他的函数吧
+
+108
+00:03:59,459 --> 00:04:01,410
+one so now the one set of blue for
+比如这个蓝色的
+
+109
+00:04:01,410 --> 00:04:05,040
+example kill kill can only be called as
+kill函数，kill函数只能被
+
+110
+00:04:05,040 --> 00:04:07,769
+it says here can only be called because
+就像这蓝色表明的，它只能
+
+111
+00:04:07,769 --> 00:04:09,720
+it's blue on the server which means that
+被服务端唤起，这意味着
+
+112
+00:04:09,720 --> 00:04:12,930
+on the client you cannot kill anybody
+在客户端，你不能强制处似任何人
+
+113
+00:04:12,930 --> 00:04:14,549
+from the client you can ask the server
+从客户端你只能去向服务端发送请求
+
+114
+00:04:14,549 --> 00:04:16,949
+to kill people but we'll get into that
+去处似某人，不过这个机制我们会在
+
+115
+00:04:16,949 --> 00:04:19,199
+on another date so let's go ahead and
+之后的节目里讲到，现在我们要做的是
+
+116
+00:04:19,199 --> 00:04:21,539
+take a look at some more some of these
+让我们继续看看其他的
+
+117
+00:04:21,539 --> 00:04:24,690
+being like the orange one we can take a
+带橙色的函数，比如
+
+118
+00:04:24,690 --> 00:04:27,010
+look at is speaking
+这个IsSpeaking函数
+
+119
+00:04:27,010 --> 00:04:30,040
+and that is gonna return true or false of
+它会返回一个true或false的boolean
+
+120
+00:04:30,040 --> 00:04:33,910
+whether the play was speaking we got set
+表示这个玩家是否在开麦克风
+
+121
+00:04:33,910 --> 00:04:38,350
+muted which would mute a never player on
+我们再看看这个setmuted函数，这个函数能在服务端上
+
+122
+00:04:38,350 --> 00:04:41,710
+the server so as long as you had this
+让特定玩家封麦，只要你有...
+
+123
+00:04:41,710 --> 00:04:43,240
+would be the the other play on the
+呃，也可以让其他玩家封麦，只要你有
+
+124
+00:04:43,240 --> 00:04:45,340
+server then you could have a reference
+那个玩家对象的引用就行
+
+125
+00:04:45,340 --> 00:04:47,110
+to them set them to meet it and set to
+然后你就可以对他执行setmute函数，并
+
+126
+00:04:47,110 --> 00:04:49,930
+meet it to true but yeah we're gonna go
+传递一个true参数，我们接着看看
+
+127
+00:04:49,930 --> 00:04:51,610
+ahead and take a look at frags
+Frags这个函数
+
+128
+00:04:51,610 --> 00:04:54,160
+so basically frags is kills and as you
+基本上来说frags就是打敌数，正如你看到的
+
+129
+00:04:54,160 --> 00:04:56,950
+can see my frags right now is going to
+我的frags应该是
+
+130
+00:04:56,950 --> 00:04:58,870
+be zero because on the scoreboard wait
+0，因为计分板上。。。等等
+
+131
+00:04:58,870 --> 00:05:00,790
+my frag is negative one actually because
+我的frag是-1，因为我
+
+132
+00:05:00,790 --> 00:05:02,890
+I killed myself but we'll go ahead and
+刚刚击败自己了一次，我们继续
+
+133
+00:05:02,890 --> 00:05:05,440
+we'll store frags in there instead of
+我们把frags存储在这里，然后
+
+134
+00:05:05,440 --> 00:05:11,530
+we'll just name this two kills and let's
+把变量命名为kills,然后
+
+135
+00:05:11,530 --> 00:05:13,810
+go ahead and simply print that out now
+继续把这个变量打印出来
+
+136
+00:05:13,810 --> 00:05:16,030
+let's go ahead and run our script and as
+然后我们执行这个脚本
+
+137
+00:05:16,030 --> 00:05:17,440
+you can see it prints out negative one
+你可以看到打印的结果是-1
+
+138
+00:05:17,440 --> 00:05:20,470
+but let's say I go to the NPC section
+我们打开NPC选项卡
+
+139
+00:05:20,470 --> 00:05:24,160
+here and I just couldn't go to a weapon
+然后我们切到武器选项卡
+
+140
+00:05:24,160 --> 00:05:28,930
+and grab something now all of these are
+拿一把武器，然后我们把这些
+
+141
+00:05:28,930 --> 00:05:31,510
+obviously account if it kills and as you
+NPC都图了，然后你可以看到
+
+142
+00:05:31,510 --> 00:05:34,510
+can see oops on the scoreboard I oh I
+计分板上，哦不
+
+143
+00:05:34,510 --> 00:05:35,380
+guess not
+我想的不对
+
+144
+00:05:35,380 --> 00:05:37,750
+I thought that the NPC's Count as kills
+我以为击打NPC能够增加击打数
+
+145
+00:05:37,750 --> 00:05:40,510
+but clearly not so I'm still gonna be on
+但显然不是这样，所以我还是
+
+146
+00:05:40,510 --> 00:05:42,490
+negative one but what we can do is we
+\-1分，不过我们还可以
+
+147
+00:05:42,490 --> 00:05:45,190
+can also get my deaths now I know this
+获取我的似亡数，我知道这看起来
+
+148
+00:05:45,190 --> 00:05:46,630
+may seem a bit repetitive but I'm just
+有点无聊，但我还是
+
+149
+00:05:46,630 --> 00:05:47,980
+trying to make sure that you understand
+想要确保你能理解
+
+150
+00:05:47,980 --> 00:05:49,300
+the point of this now as you can see
+这一期视频的主旨
+
+151
+00:05:49,300 --> 00:05:50,980
+I've died once I do it again I've died
+我之前似了一次，让我们再似一次
+
+152
+00:05:50,980 --> 00:05:53,830
+two times and I couldn't die again for
+现在我似了两次，然后我还可以……
+
+153
+00:05:53,830 --> 00:05:57,280
+whoops I can die no I've got it there we
+哦，我还可以，哦不
+
+154
+00:05:57,280 --> 00:05:57,550
+go
+继续
+
+155
+00:05:57,550 --> 00:06:00,570
+I can die again for the third time now I
+我现在似了三次(你可以看到脚本输出的也是3)
+
+156
+00:06:00,570 --> 00:06:04,540
+hope this makes sense but yeah and the
+希望这些对你有用
+
+157
+00:06:04,540 --> 00:06:06,910
+actually will do it this video you guys
+这期视频大概就到这里了
+
+158
+00:06:06,910 --> 00:06:08,440
+seem to like longer videos so we'll do
+似乎你们更喜欢长一点的视频
+
+159
+00:06:08,440 --> 00:06:11,800
+this one so now we can do that actually
+所以我就做的稍微长了些，还有一些内容
+
+160
+00:06:11,800 --> 00:06:13,510
+nest now I do I do apologize I will
+我们下期再说吧，我很抱歉
+
+161
+00:06:13,510 --> 00:06:14,800
+leave that to the next video because it
+把这些内容留到下期，否则
+
+162
+00:06:14,800 --> 00:06:17,170
+is gonna be a little longer but yeah I
+这个视频就太长了
+
+163
+00:06:17,170 --> 00:06:19,060
+hope you guys learn something I hope you
+希望你们能学到
+
+164
+00:06:19,060 --> 00:06:21,280
+understood some some stuff but yeah
+并且理解这些内容
+
+165
+00:06:21,280 --> 00:06:23,320
+that's how we can execute information on
+让我们复习一下，本期我们学习了处理
+
+166
+00:06:23,320 --> 00:06:26,620
+the player now retrieving a specific
+玩家信息的方法，不过在服务端
+
+167
+00:06:26,620 --> 00:06:28,210
+player on the server is different which
+检测玩家是不太一样的
+
+168
+00:06:28,210 --> 00:06:29,890
+is why we haven't gone into the server
+这就是为什么这期没有做服务端的脚本
+
+169
+00:06:29,890 --> 00:06:32,710
+side yet but for the client you can get
+不过在客户端你就能轻松
+
+170
+00:06:32,710 --> 00:06:35,170
+the the client player which is the the
+获取客户端对应的玩家
+
+171
+00:06:35,170 --> 00:06:36,670
+person's game who it is you can get
+谁开着游戏执行了这个脚本，谁就是
+
+172
+00:06:36,670 --> 00:06:38,380
+their client their player
+客户端对应的玩家
+
+173
+00:06:38,380 --> 00:06:40,210
+and we store it in the variable player
+然后我们把它存储在玩家变量(ply)里
+
+174
+00:06:40,210 --> 00:06:42,250
+which is our reference to it and then we
+这就建立了一个对该玩家的应用，接着
+
+175
+00:06:42,250 --> 00:06:44,950
+call on that variable the function depth
+我们用这个变量呼叫函数Death()
+
+176
+00:06:44,950 --> 00:06:46,450
+which will return the number of deaths
+它将会返回玩家的
+
+177
+00:06:46,450 --> 00:06:48,670
+that players had then we simply go ahead
+似亡次数，获取到之后
+
+178
+00:06:48,670 --> 00:06:50,080
+and we print that out so I hope that
+我们就直接答应出来
+
+179
+00:06:50,080 --> 00:06:52,450
+makes sense to you in the next video
+希望这些对你有所帮助，下一期视频
+
+180
+00:06:52,450 --> 00:06:54,850
+we'll go ahead and we'll do a little bit
+我们将会做一些
+
+181
+00:06:54,850 --> 00:06:56,290
+more complicated again and I do
+更复杂的脚本
+
+182
+00:06:56,290 --> 00:06:58,210
+apologize for those of you who find this
+我再次对觉得这个系列视频太简单的观众
+
+183
+00:06:58,210 --> 00:07:01,300
+series very simple it will grow very
+说一声抱歉，因为视频内容
+
+184
+00:07:01,300 --> 00:07:04,300
+fine complexity but to begin with for
+会逐渐变复杂，但对于新人来说
+
+185
+00:07:04,300 --> 00:07:05,470
+people who are new they've got to
+在视频的开头，最好还是
+
+186
+00:07:05,470 --> 00:07:07,120
+understand these basics and and even
+讲清楚最基础的内容
+
+187
+00:07:07,120 --> 00:07:08,650
+though you may think I'm never gonna use
+尽管你可能觉得这些内容我永远都不会用到
+
+188
+00:07:08,650 --> 00:07:11,020
+this in my script you will they are the
+但这些内容是
+
+189
+00:07:11,020 --> 00:07:13,420
+fundamentals of coding for gmod so again
+GMOD编程的重要基础，所以
+
+190
+00:07:13,420 --> 00:07:16,120
+I hope you learned something and I will
+我希望你能从中学到一些东西
+
+191
+00:07:16,120 --> 00:07:18,100
+see you all in the next video hope you
+我们下期视频再见，希望
+
+192
+00:07:18,100 --> 00:07:20,460
+enjoyed it
+你看的愉快
+
+193
+00:07:25,210 --> 00:07:27,270
+you
+1
+

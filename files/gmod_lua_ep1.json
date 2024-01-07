@@ -1,85 +1,500 @@
-{
-    "1_00:00:10,610_00:00:13,590": "hello everybody and welcome to part 1 in",
-    "2_00:00:13,590_00:00:16,890": "the gmod Lewis fluorosis now in this",
-    "3_00:00:16,890_00:00:17,910": "video we're not gonna be doing any",
-    "4_00:00:17,910_00:00:19,740": "coding we're just gonna be going over",
-    "5_00:00:19,740_00:00:22,380": "the basics of what client and set-aside",
-    "6_00:00:22,380_00:00:24,119": "is because they're two very important",
-    "7_00:00:24,119_00:00:26,610": "things to know before you you actually",
-    "8_00:00:26,610_00:00:28,740": "start coding for Garry's Mod now even if",
-    "9_00:00:28,740_00:00:30,240": "you want a code in single-player it's",
-    "10_00:00:30,240_00:00:31,790": "still vital you know this information",
-    "11_00:00:31,790_00:00:33,870": "because believe it or not there is still",
-    "12_00:00:33,870_00:00:36,690": "a client and a server relationship when",
-    "13_00:00:36,690_00:00:38,850": "you're in a single-player game so we'll",
-    "14_00:00:38,850_00:00:40,470": "go ahead and I'll open up Photoshop and",
-    "15_00:00:40,470_00:00:44,010": "try my best to explain this so imagine",
-    "16_00:00:44,010_00:00:46,890": "that this here so the way how server and",
-    "17_00:00:46,890_00:00:48,899": "client are represented with orange and",
-    "18_00:00:48,899_00:00:51,899": "blue so this circle here this is the",
-    "19_00:00:51,899_00:00:55,340": "server ok now the server is what handles",
-    "20_00:00:55,340_00:00:58,289": "pretty much every every aspect of",
-    "21_00:00:58,289_00:01:02,160": "gameplay in a server such as when a",
-    "22_00:01:02,160_00:01:04,920": "player should die dealing damage to a",
-    "23_00:01:04,920_00:01:07,650": "player update in all of the other",
-    "24_00:01:07,650_00:01:09,960": "clients on changes and stuff along this",
-    "25_00:01:09,960_00:01:13,680": "line so this is us ok we are this circle",
-    "26_00:01:13,680_00:01:19,170": "down here and here is our link to the",
-    "27_00:01:19,170_00:01:23,189": "server now us as the clients can't do",
-    "28_00:01:23,189_00:01:28,020": "much in terms of controlling the game as",
-    "29_00:01:28,020_00:01:30,540": "like I said it's already it's the server",
-    "30_00:01:30,540_00:01:34,710": "that controls now multiple clients can",
-    "31_00:01:34,710_00:01:37,729": "be connected to the same server and",
-    "32_00:01:37,729_00:01:40,640": "let's say",
-    "33_00:01:40,640_00:01:42,320": "you let's go ahead and just quickly",
-    "34_00:01:42,320_00:01:46,640": "finish my amazing drawing now this is me",
-    "35_00:01:46,640_00:01:49,610": "okay this one here now I move slightly",
-    "36_00:01:49,610_00:01:52,460": "left so on my screen I move a little",
-    "37_00:01:52,460_00:01:54,890": "left then information is carried across",
-    "38_00:01:54,890_00:01:57,259": "this connection to the server the server",
-    "39_00:01:57,259_00:01:59,720": "handles this information moves my player",
-    "40_00:01:59,720_00:02:01,940": "in the service world and then the server",
-    "41_00:02:01,940_00:02:04,070": "then goes and updates everybody else on",
-    "42_00:02:04,070_00:02:08,840": "my new position where I move to now with",
-    "43_00:02:08,840_00:02:10,399": "certain things that can only be done on",
-    "44_00:02:10,399_00:02:13,190": "the server and there are certain things",
-    "45_00:02:13,190_00:02:15,350": "that can only be done on the client okay",
-    "46_00:02:15,350_00:02:17,510": "now there is a little bit in the middle",
-    "47_00:02:17,510_00:02:20,120": "called shared which is where things can",
-    "48_00:02:20,120_00:02:22,820": "be done on both client and server but",
-    "49_00:02:22,820_00:02:25,130": "mainly you're going to be working in",
-    "50_00:02:25,130_00:02:27,920": "server to do the majority of the logic",
-    "51_00:02:27,920_00:02:29,840": "of your programs now when we first up",
-    "52_00:02:29,840_00:02:31,040": "we're going to be starting in the client",
-    "53_00:02:31,040_00:02:32,780": "and writing some basic client-side",
-    "54_00:02:32,780_00:02:34,459": "scripts and once we start to get the",
-    "55_00:02:34,459_00:02:36,080": "gist of that but I'm going to move over",
-    "56_00:02:36,080_00:02:38,360": "into the server and once we start to",
-    "57_00:02:38,360_00:02:40,280": "understand how the server works we're",
-    "58_00:02:40,280_00:02:41,720": "then going to go ahead and we are going",
-    "59_00:02:41,720_00:02:44,810": "to work on both of them so we'll find",
-    "60_00:02:44,810_00:02:46,280": "out how to communicate between those",
-    "61_00:02:46,280_00:02:47,060": "with your scripts",
-    "62_00:02:47,060_00:02:49,340": "and how to make something that works",
-    "63_00:02:49,340_00:02:52,340": "with both people such as say you wanted",
-    "64_00:02:52,340_00:02:53,989": "to send a message from this player over",
-    "65_00:02:53,989_00:02:56,000": "to this player how could we do that in",
-    "66_00:02:56,000_00:02:57,950": "doer and things along that line so I",
-    "67_00:02:57,950_00:03:00,410": "know this video was short it's just the",
-    "68_00:03:00,410_00:03:03,019": "basic introductory of you know we're",
-    "69_00:03:03,019_00:03:04,250": "going to be going now I do want to also",
-    "70_00:03:04,250_00:03:06,380": "say that if you have not already seen my",
-    "71_00:03:06,380_00:03:08,120": "Lua tutorial series and you're not",
-    "72_00:03:08,120_00:03:10,820": "familiar with Lua at all I recommend you",
-    "73_00:03:10,820_00:03:12,170": "watch that series there will be a link",
-    "74_00:03:12,170_00:03:13,850": "in the description if you have finished",
-    "75_00:03:13,850_00:03:15,290": "a series and you're moving on in the",
-    "76_00:03:15,290_00:03:17,720": "next video we'll be getting into some",
-    "77_00:03:17,720_00:03:21,049": "coding hopefully some basic scripts but",
-    "78_00:03:21,049_00:03:23,780": "yeah I hope you understand what I've got",
-    "79_00:03:23,780_00:03:25,640": "if you don't feel free to leave a",
-    "80_00:03:25,640_00:03:27,400": "comment and I will get back to you and",
-    "81_00:03:27,400_00:03:29,360": "thanks for watching see you in the next",
-    "82_00:03:29,360_00:03:31,540": "video",
-    "83_00:03:35,260_00:03:37,319": "you"
-}
+[
+  {
+    "key": "1_00:00:10,610_00:00:13,590",
+    "original": "hello everybody and welcome to part 1 in",
+    "translation": "大家好，欢迎来到GMOD LUA教程的",
+    "stage": 1
+  },
+  {
+    "key": "2_00:00:13,590_00:00:16,890",
+    "original": "the gmod Lewis fluorosis now in this",
+    "translation": "第一部分，在这期视频里",
+    "stage": 1
+  },
+  {
+    "key": "3_00:00:16,890_00:00:17,910",
+    "original": "video we're not gonna be doing any",
+    "translation": "我们不会进行任何",
+    "stage": 1
+  },
+  {
+    "key": "4_00:00:17,910_00:00:19,740",
+    "original": "coding we're just gonna be going over",
+    "translation": "代码操作。我们只是粗略地过一遍",
+    "stage": 1
+  },
+  {
+    "key": "5_00:00:19,740_00:00:22,380",
+    "original": "the basics of what client and set-aside",
+    "translation": "客户端和服务端的基础概念",
+    "stage": 1
+  },
+  {
+    "key": "6_00:00:22,380_00:00:24,119",
+    "original": "is because they're two very important",
+    "translation": "因为这些概念非常重要",
+    "stage": 1
+  },
+  {
+    "key": "7_00:00:24,119_00:00:26,610",
+    "original": "things to know before you you actually",
+    "translation": "你最好在实际为GMOD",
+    "stage": 1
+  },
+  {
+    "key": "8_00:00:26,610_00:00:28,740",
+    "original": "start coding for Garry's Mod now even if",
+    "translation": "编写代码之前就了解它们",
+    "stage": 1
+  },
+  {
+    "key": "9_00:00:28,740_00:00:30,240",
+    "original": "you want a code in single-player it's",
+    "translation": "哪怕你只是写单人模式的代码",
+    "stage": 1
+  },
+  {
+    "key": "10_00:00:30,240_00:00:31,790",
+    "original": "still vital you know this information",
+    "translation": "这对你来说也是很重要的",
+    "stage": 1
+  },
+  {
+    "key": "11_00:00:31,790_00:00:33,870",
+    "original": "because believe it or not there is still",
+    "translation": "因为，不管你信不信",
+    "stage": 1
+  },
+  {
+    "key": "12_00:00:33,870_00:00:36,690",
+    "original": "a client and a server relationship when",
+    "translation": "哪怕在单人模式下",
+    "stage": 1
+  },
+  {
+    "key": "13_00:00:36,690_00:00:38,850",
+    "original": "you're in a single-player game so we'll",
+    "translation": "仍然有一个客户端-服务端关系",
+    "stage": 1
+  },
+  {
+    "key": "14_00:00:38,850_00:00:40,470",
+    "original": "go ahead and I'll open up Photoshop and",
+    "translation": "所以让我们继续讲正题吧，等我一会儿打开Photoshop",
+    "stage": 1
+  },
+  {
+    "key": "15_00:00:40,470_00:00:44,010",
+    "original": "try my best to explain this so imagine",
+    "translation": "我会尽力解释",
+    "stage": 1
+  },
+  {
+    "key": "16_00:00:44,010_00:00:46,890",
+    "original": "that this here so the way how server and",
+    "translation": "现在发挥一下你的想象力",
+    "stage": 1
+  },
+  {
+    "key": "17_00:00:46,890_00:00:48,899",
+    "original": "client are represented with orange and",
+    "translation": "服务器和客户端分别用橙色",
+    "stage": 1
+  },
+  {
+    "key": "18_00:00:48,899_00:00:51,899",
+    "original": "blue so this circle here this is the",
+    "translation": "和蓝色表示，这个圈圈代表服务器",
+    "stage": 1
+  },
+  {
+    "key": "19_00:00:51,899_00:00:55,340",
+    "original": "server ok now the server is what handles",
+    "translation": "而服务器会处理",
+    "stage": 1
+  },
+  {
+    "key": "20_00:00:55,340_00:00:58,289",
+    "original": "pretty much every every aspect of",
+    "translation": "游戏运行的各方面的信息",
+    "stage": 1
+  },
+  {
+    "key": "21_00:00:58,289_00:01:02,160",
+    "original": "gameplay in a server such as when a",
+    "translation": "例如",
+    "stage": 1
+  },
+  {
+    "key": "22_00:01:02,160_00:01:04,920",
+    "original": "player should die dealing damage to a",
+    "translation": "一个玩家应当死亡、或者对其他玩家造成伤害",
+    "stage": 1
+  },
+  {
+    "key": "23_00:01:04,920_00:01:07,650",
+    "original": "player update in all of the other",
+    "translation": "更新其他客户端的",
+    "stage": 1
+  },
+  {
+    "key": "24_00:01:07,650_00:01:09,960",
+    "original": "clients on changes and stuff along this",
+    "translation": "有关信息的更改，这些都是在这条",
+    "stage": 1
+  },
+  {
+    "key": "25_00:01:09,960_00:01:13,680",
+    "original": "line so this is us ok we are this circle",
+    "translation": "连线上发生的。OK我们客户端就是下方的",
+    "stage": 1
+  },
+  {
+    "key": "26_00:01:13,680_00:01:19,170",
+    "original": "down here and here is our link to the",
+    "translation": "这个圆圈，这是我们与服务端的连接",
+    "stage": 1
+  },
+  {
+    "key": "27_00:01:19,170_00:01:23,189",
+    "original": "server now us as the clients can't do",
+    "translation": "此前已经提到，客户端并不能做太多",
+    "stage": 1
+  },
+  {
+    "key": "28_00:01:23,189_00:01:28,020",
+    "original": "much in terms of controlling the game as",
+    "translation": "控制整个游戏进程的事情",
+    "stage": 1
+  },
+  {
+    "key": "29_00:01:28,020_00:01:30,540",
+    "original": "like I said it's already it's the server",
+    "translation": "是服务器在控制",
+    "stage": 1
+  },
+  {
+    "key": "30_00:01:30,540_00:01:34,710",
+    "original": "that controls now multiple clients can",
+    "translation": "许多的客户端",
+    "stage": 1
+  },
+  {
+    "key": "31_00:01:34,710_00:01:37,729",
+    "original": "be connected to the same server and",
+    "translation": "连接在同一个服务端上",
+    "stage": 1
+  },
+  {
+    "key": "32_00:01:37,729_00:01:40,640",
+    "original": "let's say",
+    "translation": "好现在",
+    "stage": 1
+  },
+  {
+    "key": "33_00:01:40,640_00:01:42,320",
+    "original": "you let's go ahead and just quickly",
+    "translation": "这是你....哦还是让我先赶快",
+    "stage": 1
+  },
+  {
+    "key": "34_00:01:42,320_00:01:46,640",
+    "original": "finish my amazing drawing now this is me",
+    "translation": "把我这美妙的绘画完成，现在这个圈就是我",
+    "stage": 1
+  },
+  {
+    "key": "35_00:01:46,640_00:01:49,610",
+    "original": "okay this one here now I move slightly",
+    "translation": "对就是这里这个圈，现在我开始慢慢",
+    "stage": 1
+  },
+  {
+    "key": "36_00:01:49,610_00:01:52,460",
+    "original": "left so on my screen I move a little",
+    "translation": "向左移动，我的屏幕上显示我向左移动了一点点",
+    "stage": 1
+  },
+  {
+    "key": "37_00:01:52,460_00:01:54,890",
+    "original": "left then information is carried across",
+    "translation": "然后我移动的这个信息通过连接",
+    "stage": 1
+  },
+  {
+    "key": "38_00:01:54,890_00:01:57,259",
+    "original": "this connection to the server the server",
+    "translation": "传输到服务端。接着服务端",
+    "stage": 1
+  },
+  {
+    "key": "39_00:01:57,259_00:01:59,720",
+    "original": "handles this information moves my player",
+    "translation": "处理信息，然后在服务端的世界里",
+    "stage": 1
+  },
+  {
+    "key": "40_00:01:59,720_00:02:01,940",
+    "original": "in the service world and then the server",
+    "translation": "移动玩家，然后服务器",
+    "stage": 1
+  },
+  {
+    "key": "41_00:02:01,940_00:02:04,070",
+    "original": "then goes and updates everybody else on",
+    "translation": "向其他玩家更新",
+    "stage": 1
+  },
+  {
+    "key": "42_00:02:04,070_00:02:08,840",
+    "original": "my new position where I move to now with",
+    "translation": "我移向的新位置的信息",
+    "stage": 1
+  },
+  {
+    "key": "43_00:02:08,840_00:02:10,399",
+    "original": "certain things that can only be done on",
+    "translation": "某些事件只能在",
+    "stage": 1
+  },
+  {
+    "key": "44_00:02:10,399_00:02:13,190",
+    "original": "the server and there are certain things",
+    "translation": "服务端处理，还有些事件只需要",
+    "stage": 1
+  },
+  {
+    "key": "45_00:02:13,190_00:02:15,350",
+    "original": "that can only be done on the client okay",
+    "translation": "在客户端处理即可",
+    "stage": 1
+  },
+  {
+    "key": "46_00:02:15,350_00:02:17,510",
+    "original": "now there is a little bit in the middle",
+    "translation": "剩下的那些中间部分",
+    "stage": 1
+  },
+  {
+    "key": "47_00:02:17,510_00:02:20,120",
+    "original": "called shared which is where things can",
+    "translation": "叫做\"共享事件\" 这些事件",
+    "stage": 1
+  },
+  {
+    "key": "48_00:02:20,120_00:02:22,820",
+    "original": "be done on both client and server but",
+    "translation": "需要同时在客户端和服务端处理",
+    "stage": 1
+  },
+  {
+    "key": "49_00:02:22,820_00:02:25,130",
+    "original": "mainly you're going to be working in",
+    "translation": "不过你的程序的主要工作",
+    "stage": 1
+  },
+  {
+    "key": "50_00:02:25,130_00:02:27,920",
+    "original": "server to do the majority of the logic",
+    "translation": "是在服务端处理这些逻辑问题",
+    "stage": 1
+  },
+  {
+    "key": "51_00:02:27,920_00:02:29,840",
+    "original": "of your programs now when we first up",
+    "translation": "接下来我们将进行起步的工作",
+    "stage": 1
+  },
+  {
+    "key": "52_00:02:29,840_00:02:31,040",
+    "original": "we're going to be starting in the client",
+    "translation": "我们现在先从客户端开始",
+    "stage": 1
+  },
+  {
+    "key": "53_00:02:31,040_00:02:32,780",
+    "original": "and writing some basic client-side",
+    "translation": "并编写一些简单的客户端脚本",
+    "stage": 1
+  },
+  {
+    "key": "54_00:02:32,780_00:02:34,459",
+    "original": "scripts and once we start to get the",
+    "translation": "一旦我们掌握了",
+    "stage": 1
+  },
+  {
+    "key": "55_00:02:34,459_00:02:36,080",
+    "original": "gist of that but I'm going to move over",
+    "translation": "客户端的内容，我们就将进一步学习",
+    "stage": 1
+  },
+  {
+    "key": "56_00:02:36,080_00:02:38,360",
+    "original": "into the server and once we start to",
+    "translation": "有关服务端的内容。接着",
+    "stage": 1
+  },
+  {
+    "key": "57_00:02:38,360_00:02:40,280",
+    "original": "understand how the server works we're",
+    "translation": "如果我们理解了服务端的运行机制",
+    "stage": 1
+  },
+  {
+    "key": "58_00:02:40,280_00:02:41,720",
+    "original": "then going to go ahead and we are going",
+    "translation": "我们就会继续学习",
+    "stage": 1
+  },
+  {
+    "key": "59_00:02:41,720_00:02:44,810",
+    "original": "to work on both of them so we'll find",
+    "translation": "客户端和服务端同时处理的工作",
+    "stage": 1
+  },
+  {
+    "key": "60_00:02:44,810_00:02:46,280",
+    "original": "out how to communicate between those",
+    "translation": "最终我们通过你的脚本实现",
+    "stage": 1
+  },
+  {
+    "key": "61_00:02:46,280_00:02:47,060",
+    "original": "with your scripts",
+    "translation": "服务端与客户端的交互",
+    "stage": 1
+  },
+  {
+    "key": "62_00:02:47,060_00:02:49,340",
+    "original": "and how to make something that works",
+    "translation": "以及做出一些功能来实现",
+    "stage": 1
+  },
+  {
+    "key": "63_00:02:49,340_00:02:52,340",
+    "original": "with both people such as say you wanted",
+    "translation": "与玩家间的交互，例如你想",
+    "stage": 1
+  },
+  {
+    "key": "64_00:02:52,340_00:02:53,989",
+    "original": "to send a message from this player over",
+    "translation": "从某一名玩家处发送一条消息",
+    "stage": 1
+  },
+  {
+    "key": "65_00:02:53,989_00:02:56,000",
+    "original": "to this player how could we do that in",
+    "translation": "发往另一位玩家处。我们如何在LUA内实现呢？",
+    "stage": 1
+  },
+  {
+    "key": "66_00:02:56,000_00:02:57,950",
+    "original": "doer and things along that line so I",
+    "translation": "以及沿着玩家间这条线的其他功能",
+    "stage": 1
+  },
+  {
+    "key": "67_00:02:57,950_00:03:00,410",
+    "original": "know this video was short it's just the",
+    "translation": "我知道这条视频很简略，这只是",
+    "stage": 1
+  },
+  {
+    "key": "68_00:03:00,410_00:03:03,019",
+    "original": "basic introductory of you know we're",
+    "translation": "一个基础的导入环节，目的是让你知道",
+    "stage": 1
+  },
+  {
+    "key": "69_00:03:03,019_00:03:04,250",
+    "original": "going to be going now I do want to also",
+    "translation": "我们将要做什么。我现在还想提醒一下",
+    "stage": 1
+  },
+  {
+    "key": "70_00:03:04,250_00:03:06,380",
+    "original": "say that if you have not already seen my",
+    "translation": "如果你还没有看过我的",
+    "stage": 1
+  },
+  {
+    "key": "71_00:03:06,380_00:03:08,120",
+    "original": "Lua tutorial series and you're not",
+    "translation": "LUA教程并且你也",
+    "stage": 1
+  },
+  {
+    "key": "72_00:03:08,120_00:03:10,820",
+    "original": "familiar with Lua at all I recommend you",
+    "translation": "完全不熟悉LUA的话，我推荐你",
+    "stage": 1
+  },
+  {
+    "key": "73_00:03:10,820_00:03:12,170",
+    "original": "watch that series there will be a link",
+    "translation": "去收看那个系列，链接会附在",
+    "stage": 1
+  },
+  {
+    "key": "74_00:03:12,170_00:03:13,850",
+    "original": "in the description if you have finished",
+    "translation": "简介中。如果你已经了解这些了得慌",
+    "stage": 1
+  },
+  {
+    "key": "75_00:03:13,850_00:03:15,290",
+    "original": "a series and you're moving on in the",
+    "translation": "你可以继续看接下来的视频了",
+    "stage": 1
+  },
+  {
+    "key": "76_00:03:15,290_00:03:17,720",
+    "original": "next video we'll be getting into some",
+    "translation": "下个视频我们将会进行",
+    "stage": 1
+  },
+  {
+    "key": "77_00:03:17,720_00:03:21,049",
+    "original": "coding hopefully some basic scripts but",
+    "translation": "一些代码编写，可能只是一些基础的脚本",
+    "stage": 1
+  },
+  {
+    "key": "78_00:03:21,049_00:03:23,780",
+    "original": "yeah I hope you understand what I've got",
+    "translation": "但我希望你能理解我之前所说的内容",
+    "stage": 1
+  },
+  {
+    "key": "79_00:03:23,780_00:03:25,640",
+    "original": "if you don't feel free to leave a",
+    "translation": "如果你还没理解，请尽情留言询问",
+    "stage": 1
+  },
+  {
+    "key": "80_00:03:25,640_00:03:27,400",
+    "original": "comment and I will get back to you and",
+    "translation": "我会尽快给你解答(译者注:我也会的!)",
+    "stage": 1
+  },
+  {
+    "key": "81_00:03:27,400_00:03:29,360",
+    "original": "thanks for watching see you in the next",
+    "translation": "感谢你收看这个视频，下个视频见",
+    "stage": 1
+  },
+  {
+    "key": "82_00:03:29,360_00:03:31,540",
+    "original": "video",
+    "translation": "1",
+    "stage": 1
+  },
+  {
+    "key": "83_00:03:35,260_00:03:37,319",
+    "original": "you",
+    "translation": "1",
+    "stage": 1
+  }
+]
